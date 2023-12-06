@@ -110,8 +110,8 @@ namespace ChatBox
         {
             var client = new HttpClient();
             var baseUrl = "https://api.openai.com/v1/chat/completions";
-
-            var apiKey = "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";
+            //API key 
+            var apiKey = "YOUR_API_KEY";
             client.DefaultRequestHeaders.Authorization = new System.Net.Http.Headers.AuthenticationHeaderValue("Bearer", apiKey);
 
             while (true)
