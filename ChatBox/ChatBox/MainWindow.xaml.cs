@@ -110,7 +110,7 @@ namespace ChatBox
         {
             var client = new HttpClient();
             var baseUrl = "https://api.openai.com/v1/chat/completions";
-            //API key 
+            //API key tạm thời bị khoá rồi, nào xong hết gỡ khỏi github mới thêm key được
             var apiKey = "YOUR_API_KEY";
             client.DefaultRequestHeaders.Authorization = new System.Net.Http.Headers.AuthenticationHeaderValue("Bearer", apiKey);
 
