@@ -4,17 +4,17 @@
 winexe
 C#
 .cs
-C:\Users\Admin\Downloads\ChatBox\ChatBox\ChatBox\ChatBox\obj\Debug\net7.0-windows\
+D:\Github\Lap_Trinh_Truc_Quan\ChatBox\ChatBox\obj\Debug\net7.0-windows\
 ChatBox
 none
 false
 TRACE;DEBUG;NET;NET7_0;NETCOREAPP
-C:\Users\Admin\Downloads\ChatBox\ChatBox\ChatBox\ChatBox\App.xaml
-13107264570
+D:\Github\Lap_Trinh_Truc_Quan\ChatBox\ChatBox\App.xaml
+15-1963928140
 
-17-275483526
+19-702226417
 254-1848325006
-Login.xaml;MainWindow.xaml;SignUp.xaml;UserControls\AccountMenuBotton.xaml;UserControls\Chat_Seprator.xaml;UserControls\DashboardControl.xaml;UserControls\HistoryControl.xaml;UserControls\Item.xaml;UserControls\MenuButton.xaml;UserControls\Messagechat.xaml;UserControls\MyMessageChat.xaml;UserControls\UserChat.xaml;UserControls\UserImage.xaml;
+Login.xaml;MainWindow.xaml;SignUp.xaml;UserControls\AccountMenuBotton.xaml;UserControls\Chat_Seprator.xaml;UserControls\DashboardControl.xaml;UserControls\HistoryControl.xaml;UserControls\Input.xaml;UserControls\Item.xaml;UserControls\MenuButton.xaml;UserControls\Messagechat.xaml;UserControls\MyMessageChat.xaml;UserControls\Output.xaml;UserControls\UserChat.xaml;UserControls\UserImage.xaml;
 
 False
 
