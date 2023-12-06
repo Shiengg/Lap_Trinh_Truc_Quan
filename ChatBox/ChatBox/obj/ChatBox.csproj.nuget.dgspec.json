@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Admin\\Downloads\\ChatBox\\ChatBox\\ChatBox\\ChatBox\\ChatBox.csproj": {}
+    "D:\\Github\\Lap_Trinh_Truc_Quan\\ChatBox\\ChatBox\\ChatBox.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Admin\\Downloads\\ChatBox\\ChatBox\\ChatBox\\ChatBox\\ChatBox.csproj": {
+    "D:\\Github\\Lap_Trinh_Truc_Quan\\ChatBox\\ChatBox\\ChatBox.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Admin\\Downloads\\ChatBox\\ChatBox\\ChatBox\\ChatBox\\ChatBox.csproj",
+        "projectUniqueName": "D:\\Github\\Lap_Trinh_Truc_Quan\\ChatBox\\ChatBox\\ChatBox.csproj",
         "projectName": "ChatBox",
-        "projectPath": "C:\\Users\\Admin\\Downloads\\ChatBox\\ChatBox\\ChatBox\\ChatBox\\ChatBox.csproj",
+        "projectPath": "D:\\Github\\Lap_Trinh_Truc_Quan\\ChatBox\\ChatBox\\ChatBox.csproj",
         "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Admin\\Downloads\\ChatBox\\ChatBox\\ChatBox\\ChatBox\\obj\\",
+        "outputPath": "D:\\Github\\Lap_Trinh_Truc_Quan\\ChatBox\\ChatBox\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

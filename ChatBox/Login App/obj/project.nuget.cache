@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "gvxrAyf7b2EYBHnS++m/Fcm/QLcSXxVL1l5rw7FLjNtiJjxisDVOVEIF8cbKxZ64h/4/X3YxhFFtRkXJXr0a3g==",
+  "dgSpecHash": "dqmMsjI3XhWaw5nLsIz2DcHwCIrvxqCfL61IRPItLsaLyqo9BECxErq7zvFdnFp9AGb3zRQU1beeC62UAQFeqQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Admin\\Downloads\\ChatBox\\ChatBox\\ChatBox\\Login App\\Login App.csproj",
+  "projectFilePath": "D:\\Github\\Lap_Trinh_Truc_Quan\\ChatBox\\Login App\\Login App.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Admin\\.nuget\\packages\\azure.core\\1.25.0\\azure.core.1.25.0.nupkg.sha512",
     "C:\\Users\\Admin\\.nuget\\packages\\azure.identity\\1.7.0\\azure.identity.1.7.0.nupkg.sha512",

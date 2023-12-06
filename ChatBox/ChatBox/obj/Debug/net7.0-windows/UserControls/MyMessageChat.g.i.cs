@@ -60,7 +60,7 @@ namespace ChatBox.UserControls {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/ChatBox;component/usercontrols/mymessagechat.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/ChatBox;V1.0.0.0;component/usercontrols/mymessagechat.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\..\UserControls\MyMessageChat.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);
