@@ -1,9 +1,11 @@
 ﻿using ChatBox.UserControls;
 using ChatGPT;
+using Newtonsoft.Json;
 using System;
 using System.Collections.Generic;
 using System.Collections.ObjectModel;
 using System.Linq;
+using System.Net.Http;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows;
@@ -72,32 +74,69 @@ namespace ChatBox
             Application.Current.Shutdown();
         }
 
-        private void AddMessageToChat(string sender, string message)
-        {
-            // Tạo một đối tượng ChatMessage
-            MyMessageChat chatMessage = new MyMessageChat
-            {
- 
-                Message = message
-            };
-
-            // Thêm vào ObservableCollection
-            chatMessages.Add(chatMessage);
-
-            
-        }
-
         private async void SendButton_Click(object sender, RoutedEventArgs e)
         {
             string userMessage = txtMessage.Text;
-            
 
-            // Thêm tin nhắn người dùng và phản hồi từ GPT vào ListView
-            AddMessageToChat("User", userMessage);
-            // Xóa nội dung TextBox sau khi gửi
-            txtMessage.Text = string.Empty;
+            if (userMessage.Length == 0 || userMessage == " ")
+            {
+
+            }
+            else
+            {
+                Input newInput = new Input
+                {
+                    Message = userMessage,
+                };
+                ChatPanel.Children.Add(newInput);
+
+                //string generatedText = await GetGeneratedTextFromAI(userMessage);
+
+                Output newOutput = new Output
+                {
+                    Message = "Test, đang thử giao diện",
+                };
+
+                ChatPanel.Children.Add(newOutput);
+
+                // Xóa nội dung TextBox sau khi gửi
+                txtMessage.Text = string.Empty;
+            }
+
         }
 
+
+        private async Task<string> GetGeneratedTextFromAI(string userInput)
+        {
+            var client = new HttpClient();
+            var baseUrl = "https://api.openai.com/v1/chat/completions";
+
+            var apiKey = "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";
+            client.DefaultRequestHeaders.Authorization = new System.Net.Http.Headers.AuthenticationHeaderValue("Bearer", apiKey);
+
+            while (true)
+            {
+
+                var parameters = new
+                {
+                    model = "gpt-3.5-turbo",
+                    messages = new[] { new { role = "user", content = userInput }, },
+                    max_tokens = 1024,
+                    temperature = 0.2f,
+                };
+
+                var response = await client.PostAsync(baseUrl, new StringContent(JsonConvert.SerializeObject(parameters), Encoding.UTF8, "application/json"));// new StringContent(json));
+
+                // Read the response
+                var responseContent = await response.Content.ReadAsStringAsync();
+
+                // Extract the completed text from the response
+                dynamic responseObject = JsonConvert.DeserializeObject(responseContent);
+                string generatedText = responseObject.choices[0].message.content;
+
+                return generatedText;
+            }
+        }
 
         private void MenuButton_MouseDoubleClick(object sender, MouseButtonEventArgs e)
         {

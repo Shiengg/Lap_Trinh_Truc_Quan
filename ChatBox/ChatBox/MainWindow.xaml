@@ -157,27 +157,7 @@
                     <!--Item Group-->
 
                     <!--<ContentControl x:Name="MainContent">-->
-                    <StackPanel x:Name="contentStackPanel" Margin="30 0 15 0">
-                        <TextBlock x:Name="historyContent"/>
-                        <TextBlock Text="Today" Margin="25 0 0 5" Style="{StaticResource titleText}"/>
-
-                        <uc:Item Title="What is the weather today?" Color="#73afff" TagName="PV"/>
-                        <uc:Item Title="Fix code" Color="#73afff" TagName="PV" />
-                        <uc:Item Title="XAML" Color="#73afff" TagName="PV"/>
-                        <uc:Item Title="Web" Color="#73afff" TagName="PV"/>
-
-
-                        <TextBlock Text="Yesterday" Margin="25 0 0 5" Style="{StaticResource titleText}"/>
-
-                        <uc:Item Title="Fix code" Color="#73afff" TagName="PV"/>
-                        <uc:Item Title="XAML" Color="#73afff" TagName="PV"/>
-                        <uc:Item Title="XAML" Color="#73afff" TagName="PV"/>
-
-                        <TextBlock Text="Previous 7 Days" Margin="25 0 0 5" Style="{StaticResource titleText}"/>
-                        <uc:Item Title="XAML" Color="#73afff" TagName="PV"/>
-                        <TextBlock Text="Previous 30 Days" Margin="25 0 0 5" Style="{StaticResource titleText}"/>
-                        <uc:Item Title="XAML" Color="#73afff" TagName="PV"/>
-                    </StackPanel>
+                   
                     <!--<uc:HistoryControl/>-->
                     <!--</ContentControl>-->
                     <!--<StackPanel Margin="30 0 15 0">
@@ -204,73 +184,14 @@
                         <uc:Item Title="XAML" Color="#73afff" TagName="PV" Loaded="Item_Loaded"/>
                     </StackPanel>-->
                 </ScrollViewer>
-                <!--<ScrollViewer VerticalScrollBarVisibility="Auto" HorizontalScrollBarVisibility="Disabled" Margin="0,0,36,0" Grid.RowSpan="2">
-
-                    -->
-                <!--Item Group-->
-                <!--
-                    
-                    <ContentControl>
-                        -->
-                <!--<StackPanel Margin="30 0 15 0">
-                            <TextBlock Text="Today" Margin="25 0 0 5" Style="{StaticResource titleText}"/>
-
-                            <uc:Item Title="What is the weather today?" Color="#73afff" TagName="PV" Loaded="Item_Loaded"/>
-                            <uc:Item Title="Fix code" Color="#73afff" TagName="PV" Loaded="Item_Loaded"/>
-                            <uc:Item Title="XAML" Color="#73afff" TagName="PV" Loaded="Item_Loaded"/>
-                            <uc:Item Title="Web" Color="#73afff" TagName="PV" Loaded="Item_Loaded"/>
-
-
-                            <TextBlock Text="Yesterday" Margin="25 0 0 5" Style="{StaticResource titleText}"/>
-
-                            <uc:Item Title="Fix code" Color="#73afff" TagName="PV" Loaded="Item_Loaded"/>
-                            <uc:Item Title="XAML" Color="#73afff" TagName="PV" Loaded="Item_Loaded"/>
-                            <uc:Item Title="XAML" Color="#73afff" TagName="PV" Loaded="Item_Loaded"/>
-
-
-
-
-                            <TextBlock Text="Previous 7 Days" Margin="25 0 0 5" Style="{StaticResource titleText}"/>
-                            <uc:Item Title="XAML" Color="#73afff" TagName="PV" Loaded="Item_Loaded"/>
-                            <TextBlock Text="Previous 30 Days" Margin="25 0 0 5" Style="{StaticResource titleText}"/>
-                            <uc:Item Title="XAML" Color="#73afff" TagName="PV" Loaded="Item_Loaded"/>
-                        </StackPanel>-->
-                <!--
-                        <uc:HistoryControl/>
-                    </ContentControl>
-                    -->
-                <!--<StackPanel Margin="30 0 15 0">
-                        <TextBlock Text="Today" Margin="25 0 0 5" Style="{StaticResource titleText}"/>
-
-                        <uc:Item Title="What is the weather today?" Color="#73afff" TagName="PV" Loaded="Item_Loaded"/>
-                        <uc:Item Title="Fix code" Color="#73afff" TagName="PV" Loaded="Item_Loaded"/>
-                        <uc:Item Title="XAML" Color="#73afff" TagName="PV" Loaded="Item_Loaded"/>
-                        <uc:Item Title="Web" Color="#73afff" TagName="PV" Loaded="Item_Loaded"/>
-                        
-
-                        <TextBlock Text="Yesterday" Margin="25 0 0 5" Style="{StaticResource titleText}"/>
-
-                        <uc:Item Title="Fix code" Color="#73afff" TagName="PV" Loaded="Item_Loaded"/>
-                        <uc:Item Title="XAML" Color="#73afff" TagName="PV" Loaded="Item_Loaded"/>
-                        <uc:Item Title="XAML" Color="#73afff" TagName="PV" Loaded="Item_Loaded"/>
-
-
-
-
-                        <TextBlock Text="Previous 7 Days" Margin="25 0 0 5" Style="{StaticResource titleText}"/>
-                        <uc:Item Title="XAML" Color="#73afff" TagName="PV" Loaded="Item_Loaded"/>
-                        <TextBlock Text="Previous 30 Days" Margin="25 0 0 5" Style="{StaticResource titleText}"/>
-                        <uc:Item Title="XAML" Color="#73afff" TagName="PV" Loaded="Item_Loaded"/>
-                    </StackPanel>-->
-                <!--
-                </ScrollViewer>-->
+                
             </Grid>
         </Border>
 
 
 
         <!--Chat Section-->
-        <Border CornerRadius="15" Background="#ffffff" Grid.Column="2" Grid.Row="1" Margin="316,0,30,30" ClipToBounds="True" Grid.ColumnSpan="2">
+        <Border CornerRadius="15" Background="#ffffff" Grid.Column="2" Grid.Row="1" Margin="17,0,30,30" ClipToBounds="True" Grid.ColumnSpan="2">
             <Grid>
                 <Grid.RowDefinitions>
                     <RowDefinition Height="auto"/>
@@ -288,18 +209,7 @@
 
                     <TextBlock Text="AI" FontSize="16" Margin="20 15" HorizontalAlignment="Left"/>
 
-                    <!--<StackPanel Orientation="Horizontal" Margin="0 0 10 0" HorizontalAlignment="Right">
-
-                        <uc:UserImage Image="/Images/robot.jpg" Margin="0 0 -15 0"/>
-                        <uc:UserImage Image="/Images/robot.jpg" Margin="0 0 -15 0"/>
-                        <uc:UserImage Image="/Images/robot.jpg"/>
-
-                        <TextBlock Text="and 3 others" VerticalAlignment="Center" Margin="7 0" Foreground="#8b8a8f" FontSize="11"/>
-
-                        <Button Style="{StaticResource textBoxButton}">
-                            <Icon:PackIconMaterial Kind="DotsVertical" Width="14" Height="14" Foreground="#88878e"/>
-                        </Button>
-                    </StackPanel>-->
+                    
                 </Grid>
 
                 <!--Chats-->
@@ -317,7 +227,11 @@
                     </ListView.View>
                 </ListView>
 
+                <Grid Grid.Row="3" >
+                    <StackPanel x:Name="ChatPanel" Margin="20,20,20,50">
 
+                    </StackPanel>
+                </Grid>
 
                 <!--Bottom Message Section-->
                 <Grid Grid.Row="3" Margin="10,408,10,0">
