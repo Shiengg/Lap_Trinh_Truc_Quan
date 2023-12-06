@@ -1,0 +1,318 @@
+D:\VS\Lttq\ChatBox\ChatBox\obj\Debug\net7.0-windows\ChatBox.csproj.AssemblyReference.cache
+D:\VS\Lttq\ChatBox\ChatBox\obj\Debug\net7.0-windows\UserControls\AccountMenuBotton.baml
+D:\VS\Lttq\ChatBox\ChatBox\obj\Debug\net7.0-windows\UserControls\Chat_Seprator.baml
+D:\VS\Lttq\ChatBox\ChatBox\obj\Debug\net7.0-windows\UserControls\Item.baml
+D:\VS\Lttq\ChatBox\ChatBox\obj\Debug\net7.0-windows\UserControls\Messagechat.baml
+D:\VS\Lttq\ChatBox\ChatBox\obj\Debug\net7.0-windows\UserControls\MyMessageChat.baml
+D:\VS\Lttq\ChatBox\ChatBox\obj\Debug\net7.0-windows\UserControls\UserChat.baml
+D:\VS\Lttq\ChatBox\ChatBox\obj\Debug\net7.0-windows\UserControls\UserImage.baml
+D:\VS\Lttq\ChatBox\ChatBox\obj\Debug\net7.0-windows\MainWindow.g.cs
+D:\VS\Lttq\ChatBox\ChatBox\obj\Debug\net7.0-windows\UserControls\AccountMenuBotton.g.cs
+D:\VS\Lttq\ChatBox\ChatBox\obj\Debug\net7.0-windows\UserControls\Chat_Seprator.g.cs
+D:\VS\Lttq\ChatBox\ChatBox\obj\Debug\net7.0-windows\UserControls\DashboardControl.g.cs
+D:\VS\Lttq\ChatBox\ChatBox\obj\Debug\net7.0-windows\UserControls\HistoryControl.g.cs
+D:\VS\Lttq\ChatBox\ChatBox\obj\Debug\net7.0-windows\UserControls\Item.g.cs
+D:\VS\Lttq\ChatBox\ChatBox\obj\Debug\net7.0-windows\UserControls\Messagechat.g.cs
+D:\VS\Lttq\ChatBox\ChatBox\obj\Debug\net7.0-windows\UserControls\MyMessageChat.g.cs
+D:\VS\Lttq\ChatBox\ChatBox\obj\Debug\net7.0-windows\UserControls\UserChat.g.cs
+D:\VS\Lttq\ChatBox\ChatBox\obj\Debug\net7.0-windows\UserControls\UserImage.g.cs
+D:\VS\Lttq\ChatBox\ChatBox\obj\Debug\net7.0-windows\App.g.cs
+D:\VS\Lttq\ChatBox\ChatBox\obj\Debug\net7.0-windows\GeneratedInternalTypeHelper.g.cs
+D:\VS\Lttq\ChatBox\ChatBox\obj\Debug\net7.0-windows\ChatBox_MarkupCompile.cache
+D:\VS\Lttq\ChatBox\ChatBox\obj\Debug\net7.0-windows\ChatBox_MarkupCompile.lref
+D:\VS\Lttq\ChatBox\ChatBox\bin\Debug\net7.0-windows\ChatBox.exe
+D:\VS\Lttq\ChatBox\ChatBox\bin\Debug\net7.0-windows\ChatBox.dll.config
+D:\VS\Lttq\ChatBox\ChatBox\bin\Debug\net7.0-windows\ChatBox.deps.json
+D:\VS\Lttq\ChatBox\ChatBox\bin\Debug\net7.0-windows\ChatBox.runtimeconfig.json
+D:\VS\Lttq\ChatBox\ChatBox\bin\Debug\net7.0-windows\ChatBox.dll
+D:\VS\Lttq\ChatBox\ChatBox\bin\Debug\net7.0-windows\ChatBox.pdb
+D:\VS\Lttq\ChatBox\ChatBox\bin\Debug\net7.0-windows\ChatGPT.Net.dll
+D:\VS\Lttq\ChatBox\ChatBox\bin\Debug\net7.0-windows\ControlzEx.dll
+D:\VS\Lttq\ChatBox\ChatBox\bin\Debug\net7.0-windows\MahApps.Metro.dll
+D:\VS\Lttq\ChatBox\ChatBox\bin\Debug\net7.0-windows\MahApps.Metro.IconPacks.BootstrapIcons.dll
+D:\VS\Lttq\ChatBox\ChatBox\bin\Debug\net7.0-windows\MahApps.Metro.IconPacks.BoxIcons.dll
+D:\VS\Lttq\ChatBox\ChatBox\bin\Debug\net7.0-windows\MahApps.Metro.IconPacks.Codicons.dll
+D:\VS\Lttq\ChatBox\ChatBox\bin\Debug\net7.0-windows\MahApps.Metro.IconPacks.Coolicons.dll
+D:\VS\Lttq\ChatBox\ChatBox\bin\Debug\net7.0-windows\MahApps.Metro.IconPacks.Core.dll
+D:\VS\Lttq\ChatBox\ChatBox\bin\Debug\net7.0-windows\MahApps.Metro.IconPacks.Entypo.dll
+D:\VS\Lttq\ChatBox\ChatBox\bin\Debug\net7.0-windows\MahApps.Metro.IconPacks.EvaIcons.dll
+D:\VS\Lttq\ChatBox\ChatBox\bin\Debug\net7.0-windows\MahApps.Metro.IconPacks.FeatherIcons.dll
+D:\VS\Lttq\ChatBox\ChatBox\bin\Debug\net7.0-windows\MahApps.Metro.IconPacks.FileIcons.dll
+D:\VS\Lttq\ChatBox\ChatBox\bin\Debug\net7.0-windows\MahApps.Metro.IconPacks.FontAwesome.dll
+D:\VS\Lttq\ChatBox\ChatBox\bin\Debug\net7.0-windows\MahApps.Metro.IconPacks.Fontaudio.dll
+D:\VS\Lttq\ChatBox\ChatBox\bin\Debug\net7.0-windows\MahApps.Metro.IconPacks.Fontisto.dll
+D:\VS\Lttq\ChatBox\ChatBox\bin\Debug\net7.0-windows\MahApps.Metro.IconPacks.ForkAwesome.dll
+D:\VS\Lttq\ChatBox\ChatBox\bin\Debug\net7.0-windows\MahApps.Metro.IconPacks.Ionicons.dll
+D:\VS\Lttq\ChatBox\ChatBox\bin\Debug\net7.0-windows\MahApps.Metro.IconPacks.JamIcons.dll
+D:\VS\Lttq\ChatBox\ChatBox\bin\Debug\net7.0-windows\MahApps.Metro.IconPacks.Material.dll
+D:\VS\Lttq\ChatBox\ChatBox\bin\Debug\net7.0-windows\MahApps.Metro.IconPacks.MaterialDesign.dll
+D:\VS\Lttq\ChatBox\ChatBox\bin\Debug\net7.0-windows\MahApps.Metro.IconPacks.MaterialLight.dll
+D:\VS\Lttq\ChatBox\ChatBox\bin\Debug\net7.0-windows\MahApps.Metro.IconPacks.Microns.dll
+D:\VS\Lttq\ChatBox\ChatBox\bin\Debug\net7.0-windows\MahApps.Metro.IconPacks.Modern.dll
+D:\VS\Lttq\ChatBox\ChatBox\bin\Debug\net7.0-windows\MahApps.Metro.IconPacks.Octicons.dll
+D:\VS\Lttq\ChatBox\ChatBox\bin\Debug\net7.0-windows\MahApps.Metro.IconPacks.PicolIcons.dll
+D:\VS\Lttq\ChatBox\ChatBox\bin\Debug\net7.0-windows\MahApps.Metro.IconPacks.PixelartIcons.dll
+D:\VS\Lttq\ChatBox\ChatBox\bin\Debug\net7.0-windows\MahApps.Metro.IconPacks.RPGAwesome.dll
+D:\VS\Lttq\ChatBox\ChatBox\bin\Debug\net7.0-windows\MahApps.Metro.IconPacks.RadixIcons.dll
+D:\VS\Lttq\ChatBox\ChatBox\bin\Debug\net7.0-windows\MahApps.Metro.IconPacks.RemixIcon.dll
+D:\VS\Lttq\ChatBox\ChatBox\bin\Debug\net7.0-windows\MahApps.Metro.IconPacks.SimpleIcons.dll
+D:\VS\Lttq\ChatBox\ChatBox\bin\Debug\net7.0-windows\MahApps.Metro.IconPacks.Typicons.dll
+D:\VS\Lttq\ChatBox\ChatBox\bin\Debug\net7.0-windows\MahApps.Metro.IconPacks.Unicons.dll
+D:\VS\Lttq\ChatBox\ChatBox\bin\Debug\net7.0-windows\MahApps.Metro.IconPacks.VaadinIcons.dll
+D:\VS\Lttq\ChatBox\ChatBox\bin\Debug\net7.0-windows\MahApps.Metro.IconPacks.WeatherIcons.dll
+D:\VS\Lttq\ChatBox\ChatBox\bin\Debug\net7.0-windows\MahApps.Metro.IconPacks.Zondicons.dll
+D:\VS\Lttq\ChatBox\ChatBox\bin\Debug\net7.0-windows\MahApps.Metro.IconPacks.dll
+D:\VS\Lttq\ChatBox\ChatBox\bin\Debug\net7.0-windows\MaterialDesignColors.dll
+D:\VS\Lttq\ChatBox\ChatBox\bin\Debug\net7.0-windows\MaterialDesignThemes.Wpf.dll
+D:\VS\Lttq\ChatBox\ChatBox\bin\Debug\net7.0-windows\Microsoft.Xaml.Behaviors.dll
+D:\VS\Lttq\ChatBox\ChatBox\bin\Debug\net7.0-windows\Newtonsoft.Json.dll
+D:\VS\Lttq\ChatBox\ChatBox\bin\Debug\net7.0-windows\de\MahApps.Metro.resources.dll
+D:\VS\Lttq\ChatBox\ChatBox\obj\Debug\net7.0-windows\UserControls\MenuButton.baml
+D:\VS\Lttq\ChatBox\ChatBox\obj\Debug\net7.0-windows\App.baml
+D:\VS\Lttq\ChatBox\ChatBox\obj\Debug\net7.0-windows\UserControls\MenuButton.g.cs
+D:\VS\Lttq\ChatBox\ChatBox\obj\Debug\net7.0-windows\MainWindow.baml
+D:\VS\Lttq\ChatBox\ChatBox\obj\Debug\net7.0-windows\UserControls\DashboardControl.baml
+D:\VS\Lttq\ChatBox\ChatBox\obj\Debug\net7.0-windows\UserControls\HistoryControl.baml
+D:\VS\Lttq\ChatBox\ChatBox\obj\Debug\net7.0-windows\ChatBox.g.resources
+D:\VS\Lttq\ChatBox\ChatBox\obj\Debug\net7.0-windows\ChatBox.GeneratedMSBuildEditorConfig.editorconfig
+D:\VS\Lttq\ChatBox\ChatBox\obj\Debug\net7.0-windows\ChatBox.AssemblyInfoInputs.cache
+D:\VS\Lttq\ChatBox\ChatBox\obj\Debug\net7.0-windows\ChatBox.AssemblyInfo.cs
+D:\VS\Lttq\ChatBox\ChatBox\obj\Debug\net7.0-windows\ChatBox.csproj.CoreCompileInputs.cache
+D:\VS\Lttq\ChatBox\ChatBox\obj\Debug\net7.0-windows\ChatBox.csproj.CopyComplete
+D:\VS\Lttq\ChatBox\ChatBox\obj\Debug\net7.0-windows\ChatBox.dll
+D:\VS\Lttq\ChatBox\ChatBox\obj\Debug\net7.0-windows\refint\ChatBox.dll
+D:\VS\Lttq\ChatBox\ChatBox\obj\Debug\net7.0-windows\ChatBox.pdb
+D:\VS\Lttq\ChatBox\ChatBox\obj\Debug\net7.0-windows\ChatBox.genruntimeconfig.cache
+D:\VS\Lttq\ChatBox\ChatBox\obj\Debug\net7.0-windows\ref\ChatBox.dll
+D:\VS\Lttq\ChatBox\ChatBox\bin\Debug\net7.0-windows\close.jpg
+D:\VS\Lttq\ChatBox\ChatBox\bin\Debug\net7.0-windows\OpenAI.ChatGpt.dll
+C:\Users\Admin\Documents\Zalo Received Files\ChatBox\ChatBox\ChatBox\bin\Debug\net7.0-windows\ChatBox.exe
+C:\Users\Admin\Documents\Zalo Received Files\ChatBox\ChatBox\ChatBox\bin\Debug\net7.0-windows\close.jpg
+C:\Users\Admin\Documents\Zalo Received Files\ChatBox\ChatBox\ChatBox\bin\Debug\net7.0-windows\ChatBox.dll.config
+C:\Users\Admin\Documents\Zalo Received Files\ChatBox\ChatBox\ChatBox\bin\Debug\net7.0-windows\ChatBox.deps.json
+C:\Users\Admin\Documents\Zalo Received Files\ChatBox\ChatBox\ChatBox\bin\Debug\net7.0-windows\ChatBox.runtimeconfig.json
+C:\Users\Admin\Documents\Zalo Received Files\ChatBox\ChatBox\ChatBox\bin\Debug\net7.0-windows\ChatBox.dll
+C:\Users\Admin\Documents\Zalo Received Files\ChatBox\ChatBox\ChatBox\bin\Debug\net7.0-windows\ChatBox.pdb
+C:\Users\Admin\Documents\Zalo Received Files\ChatBox\ChatBox\ChatBox\bin\Debug\net7.0-windows\ChatGPT.Net.dll
+C:\Users\Admin\Documents\Zalo Received Files\ChatBox\ChatBox\ChatBox\bin\Debug\net7.0-windows\ControlzEx.dll
+C:\Users\Admin\Documents\Zalo Received Files\ChatBox\ChatBox\ChatBox\bin\Debug\net7.0-windows\MahApps.Metro.dll
+C:\Users\Admin\Documents\Zalo Received Files\ChatBox\ChatBox\ChatBox\bin\Debug\net7.0-windows\MahApps.Metro.IconPacks.BootstrapIcons.dll
+C:\Users\Admin\Documents\Zalo Received Files\ChatBox\ChatBox\ChatBox\bin\Debug\net7.0-windows\MahApps.Metro.IconPacks.BoxIcons.dll
+C:\Users\Admin\Documents\Zalo Received Files\ChatBox\ChatBox\ChatBox\bin\Debug\net7.0-windows\MahApps.Metro.IconPacks.Codicons.dll
+C:\Users\Admin\Documents\Zalo Received Files\ChatBox\ChatBox\ChatBox\bin\Debug\net7.0-windows\MahApps.Metro.IconPacks.Coolicons.dll
+C:\Users\Admin\Documents\Zalo Received Files\ChatBox\ChatBox\ChatBox\bin\Debug\net7.0-windows\MahApps.Metro.IconPacks.Core.dll
+C:\Users\Admin\Documents\Zalo Received Files\ChatBox\ChatBox\ChatBox\bin\Debug\net7.0-windows\MahApps.Metro.IconPacks.Entypo.dll
+C:\Users\Admin\Documents\Zalo Received Files\ChatBox\ChatBox\ChatBox\bin\Debug\net7.0-windows\MahApps.Metro.IconPacks.EvaIcons.dll
+C:\Users\Admin\Documents\Zalo Received Files\ChatBox\ChatBox\ChatBox\bin\Debug\net7.0-windows\MahApps.Metro.IconPacks.FeatherIcons.dll
+C:\Users\Admin\Documents\Zalo Received Files\ChatBox\ChatBox\ChatBox\bin\Debug\net7.0-windows\MahApps.Metro.IconPacks.FileIcons.dll
+C:\Users\Admin\Documents\Zalo Received Files\ChatBox\ChatBox\ChatBox\bin\Debug\net7.0-windows\MahApps.Metro.IconPacks.FontAwesome.dll
+C:\Users\Admin\Documents\Zalo Received Files\ChatBox\ChatBox\ChatBox\bin\Debug\net7.0-windows\MahApps.Metro.IconPacks.Fontaudio.dll
+C:\Users\Admin\Documents\Zalo Received Files\ChatBox\ChatBox\ChatBox\bin\Debug\net7.0-windows\MahApps.Metro.IconPacks.Fontisto.dll
+C:\Users\Admin\Documents\Zalo Received Files\ChatBox\ChatBox\ChatBox\bin\Debug\net7.0-windows\MahApps.Metro.IconPacks.ForkAwesome.dll
+C:\Users\Admin\Documents\Zalo Received Files\ChatBox\ChatBox\ChatBox\bin\Debug\net7.0-windows\MahApps.Metro.IconPacks.Ionicons.dll
+C:\Users\Admin\Documents\Zalo Received Files\ChatBox\ChatBox\ChatBox\bin\Debug\net7.0-windows\MahApps.Metro.IconPacks.JamIcons.dll
+C:\Users\Admin\Documents\Zalo Received Files\ChatBox\ChatBox\ChatBox\bin\Debug\net7.0-windows\MahApps.Metro.IconPacks.Material.dll
+C:\Users\Admin\Documents\Zalo Received Files\ChatBox\ChatBox\ChatBox\bin\Debug\net7.0-windows\MahApps.Metro.IconPacks.MaterialDesign.dll
+C:\Users\Admin\Documents\Zalo Received Files\ChatBox\ChatBox\ChatBox\bin\Debug\net7.0-windows\MahApps.Metro.IconPacks.MaterialLight.dll
+C:\Users\Admin\Documents\Zalo Received Files\ChatBox\ChatBox\ChatBox\bin\Debug\net7.0-windows\MahApps.Metro.IconPacks.Microns.dll
+C:\Users\Admin\Documents\Zalo Received Files\ChatBox\ChatBox\ChatBox\bin\Debug\net7.0-windows\MahApps.Metro.IconPacks.Modern.dll
+C:\Users\Admin\Documents\Zalo Received Files\ChatBox\ChatBox\ChatBox\bin\Debug\net7.0-windows\MahApps.Metro.IconPacks.Octicons.dll
+C:\Users\Admin\Documents\Zalo Received Files\ChatBox\ChatBox\ChatBox\bin\Debug\net7.0-windows\MahApps.Metro.IconPacks.PicolIcons.dll
+C:\Users\Admin\Documents\Zalo Received Files\ChatBox\ChatBox\ChatBox\bin\Debug\net7.0-windows\MahApps.Metro.IconPacks.PixelartIcons.dll
+C:\Users\Admin\Documents\Zalo Received Files\ChatBox\ChatBox\ChatBox\bin\Debug\net7.0-windows\MahApps.Metro.IconPacks.RPGAwesome.dll
+C:\Users\Admin\Documents\Zalo Received Files\ChatBox\ChatBox\ChatBox\bin\Debug\net7.0-windows\MahApps.Metro.IconPacks.RadixIcons.dll
+C:\Users\Admin\Documents\Zalo Received Files\ChatBox\ChatBox\ChatBox\bin\Debug\net7.0-windows\MahApps.Metro.IconPacks.RemixIcon.dll
+C:\Users\Admin\Documents\Zalo Received Files\ChatBox\ChatBox\ChatBox\bin\Debug\net7.0-windows\MahApps.Metro.IconPacks.SimpleIcons.dll
+C:\Users\Admin\Documents\Zalo Received Files\ChatBox\ChatBox\ChatBox\bin\Debug\net7.0-windows\MahApps.Metro.IconPacks.Typicons.dll
+C:\Users\Admin\Documents\Zalo Received Files\ChatBox\ChatBox\ChatBox\bin\Debug\net7.0-windows\MahApps.Metro.IconPacks.Unicons.dll
+C:\Users\Admin\Documents\Zalo Received Files\ChatBox\ChatBox\ChatBox\bin\Debug\net7.0-windows\MahApps.Metro.IconPacks.VaadinIcons.dll
+C:\Users\Admin\Documents\Zalo Received Files\ChatBox\ChatBox\ChatBox\bin\Debug\net7.0-windows\MahApps.Metro.IconPacks.WeatherIcons.dll
+C:\Users\Admin\Documents\Zalo Received Files\ChatBox\ChatBox\ChatBox\bin\Debug\net7.0-windows\MahApps.Metro.IconPacks.Zondicons.dll
+C:\Users\Admin\Documents\Zalo Received Files\ChatBox\ChatBox\ChatBox\bin\Debug\net7.0-windows\MahApps.Metro.IconPacks.dll
+C:\Users\Admin\Documents\Zalo Received Files\ChatBox\ChatBox\ChatBox\bin\Debug\net7.0-windows\MaterialDesignColors.dll
+C:\Users\Admin\Documents\Zalo Received Files\ChatBox\ChatBox\ChatBox\bin\Debug\net7.0-windows\MaterialDesignThemes.Wpf.dll
+C:\Users\Admin\Documents\Zalo Received Files\ChatBox\ChatBox\ChatBox\bin\Debug\net7.0-windows\Microsoft.Xaml.Behaviors.dll
+C:\Users\Admin\Documents\Zalo Received Files\ChatBox\ChatBox\ChatBox\bin\Debug\net7.0-windows\Newtonsoft.Json.dll
+C:\Users\Admin\Documents\Zalo Received Files\ChatBox\ChatBox\ChatBox\bin\Debug\net7.0-windows\OpenAI.ChatGpt.dll
+C:\Users\Admin\Documents\Zalo Received Files\ChatBox\ChatBox\ChatBox\bin\Debug\net7.0-windows\de\MahApps.Metro.resources.dll
+C:\Users\Admin\Documents\Zalo Received Files\ChatBox\ChatBox\ChatBox\obj\Debug\net7.0-windows\ChatBox.csproj.AssemblyReference.cache
+C:\Users\Admin\Documents\Zalo Received Files\ChatBox\ChatBox\ChatBox\obj\Debug\net7.0-windows\UserControls\AccountMenuBotton.baml
+C:\Users\Admin\Documents\Zalo Received Files\ChatBox\ChatBox\ChatBox\obj\Debug\net7.0-windows\UserControls\Chat_Seprator.baml
+C:\Users\Admin\Documents\Zalo Received Files\ChatBox\ChatBox\ChatBox\obj\Debug\net7.0-windows\UserControls\Item.baml
+C:\Users\Admin\Documents\Zalo Received Files\ChatBox\ChatBox\ChatBox\obj\Debug\net7.0-windows\UserControls\MenuButton.baml
+C:\Users\Admin\Documents\Zalo Received Files\ChatBox\ChatBox\ChatBox\obj\Debug\net7.0-windows\UserControls\Messagechat.baml
+C:\Users\Admin\Documents\Zalo Received Files\ChatBox\ChatBox\ChatBox\obj\Debug\net7.0-windows\UserControls\MyMessageChat.baml
+C:\Users\Admin\Documents\Zalo Received Files\ChatBox\ChatBox\ChatBox\obj\Debug\net7.0-windows\UserControls\UserChat.baml
+C:\Users\Admin\Documents\Zalo Received Files\ChatBox\ChatBox\ChatBox\obj\Debug\net7.0-windows\UserControls\UserImage.baml
+C:\Users\Admin\Documents\Zalo Received Files\ChatBox\ChatBox\ChatBox\obj\Debug\net7.0-windows\App.baml
+C:\Users\Admin\Documents\Zalo Received Files\ChatBox\ChatBox\ChatBox\obj\Debug\net7.0-windows\MainWindow.g.cs
+C:\Users\Admin\Documents\Zalo Received Files\ChatBox\ChatBox\ChatBox\obj\Debug\net7.0-windows\UserControls\AccountMenuBotton.g.cs
+C:\Users\Admin\Documents\Zalo Received Files\ChatBox\ChatBox\ChatBox\obj\Debug\net7.0-windows\UserControls\Chat_Seprator.g.cs
+C:\Users\Admin\Documents\Zalo Received Files\ChatBox\ChatBox\ChatBox\obj\Debug\net7.0-windows\UserControls\DashboardControl.g.cs
+C:\Users\Admin\Documents\Zalo Received Files\ChatBox\ChatBox\ChatBox\obj\Debug\net7.0-windows\UserControls\HistoryControl.g.cs
+C:\Users\Admin\Documents\Zalo Received Files\ChatBox\ChatBox\ChatBox\obj\Debug\net7.0-windows\UserControls\Item.g.cs
+C:\Users\Admin\Documents\Zalo Received Files\ChatBox\ChatBox\ChatBox\obj\Debug\net7.0-windows\UserControls\MenuButton.g.cs
+C:\Users\Admin\Documents\Zalo Received Files\ChatBox\ChatBox\ChatBox\obj\Debug\net7.0-windows\UserControls\Messagechat.g.cs
+C:\Users\Admin\Documents\Zalo Received Files\ChatBox\ChatBox\ChatBox\obj\Debug\net7.0-windows\UserControls\MyMessageChat.g.cs
+C:\Users\Admin\Documents\Zalo Received Files\ChatBox\ChatBox\ChatBox\obj\Debug\net7.0-windows\UserControls\UserChat.g.cs
+C:\Users\Admin\Documents\Zalo Received Files\ChatBox\ChatBox\ChatBox\obj\Debug\net7.0-windows\UserControls\UserImage.g.cs
+C:\Users\Admin\Documents\Zalo Received Files\ChatBox\ChatBox\ChatBox\obj\Debug\net7.0-windows\App.g.cs
+C:\Users\Admin\Documents\Zalo Received Files\ChatBox\ChatBox\ChatBox\obj\Debug\net7.0-windows\GeneratedInternalTypeHelper.g.cs
+C:\Users\Admin\Documents\Zalo Received Files\ChatBox\ChatBox\ChatBox\obj\Debug\net7.0-windows\ChatBox_MarkupCompile.cache
+C:\Users\Admin\Documents\Zalo Received Files\ChatBox\ChatBox\ChatBox\obj\Debug\net7.0-windows\ChatBox_MarkupCompile.lref
+C:\Users\Admin\Documents\Zalo Received Files\ChatBox\ChatBox\ChatBox\obj\Debug\net7.0-windows\MainWindow.baml
+C:\Users\Admin\Documents\Zalo Received Files\ChatBox\ChatBox\ChatBox\obj\Debug\net7.0-windows\UserControls\DashboardControl.baml
+C:\Users\Admin\Documents\Zalo Received Files\ChatBox\ChatBox\ChatBox\obj\Debug\net7.0-windows\UserControls\HistoryControl.baml
+C:\Users\Admin\Documents\Zalo Received Files\ChatBox\ChatBox\ChatBox\obj\Debug\net7.0-windows\ChatBox.g.resources
+C:\Users\Admin\Documents\Zalo Received Files\ChatBox\ChatBox\ChatBox\obj\Debug\net7.0-windows\ChatBox.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Admin\Documents\Zalo Received Files\ChatBox\ChatBox\ChatBox\obj\Debug\net7.0-windows\ChatBox.AssemblyInfoInputs.cache
+C:\Users\Admin\Documents\Zalo Received Files\ChatBox\ChatBox\ChatBox\obj\Debug\net7.0-windows\ChatBox.AssemblyInfo.cs
+C:\Users\Admin\Documents\Zalo Received Files\ChatBox\ChatBox\ChatBox\obj\Debug\net7.0-windows\ChatBox.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Documents\Zalo Received Files\ChatBox\ChatBox\ChatBox\obj\Debug\net7.0-windows\ChatBox.csproj.CopyComplete
+C:\Users\Admin\Documents\Zalo Received Files\ChatBox\ChatBox\ChatBox\obj\Debug\net7.0-windows\ChatBox.dll
+C:\Users\Admin\Documents\Zalo Received Files\ChatBox\ChatBox\ChatBox\obj\Debug\net7.0-windows\refint\ChatBox.dll
+C:\Users\Admin\Documents\Zalo Received Files\ChatBox\ChatBox\ChatBox\obj\Debug\net7.0-windows\ChatBox.pdb
+C:\Users\Admin\Documents\Zalo Received Files\ChatBox\ChatBox\ChatBox\obj\Debug\net7.0-windows\ChatBox.genruntimeconfig.cache
+C:\Users\Admin\Documents\Zalo Received Files\ChatBox\ChatBox\ChatBox\obj\Debug\net7.0-windows\ref\ChatBox.dll
+C:\Users\Admin\Documents\Zalo Received Files\ChatBox\ChatBox\ChatBox\obj\Debug\net7.0-windows\Login.g.cs
+C:\Users\Admin\Documents\Zalo Received Files\ChatBox\ChatBox\ChatBox\obj\Debug\net7.0-windows\Login.baml
+C:\Users\Admin\Documents\Zalo Received Files\ChatBox\ChatBox\ChatBox\obj\Debug\net7.0-windows\SignUp.g.cs
+C:\Users\Admin\Documents\Zalo Received Files\ChatBox\ChatBox\ChatBox\bin\Debug\net7.0-windows\Azure.Core.dll
+C:\Users\Admin\Documents\Zalo Received Files\ChatBox\ChatBox\ChatBox\bin\Debug\net7.0-windows\Azure.Identity.dll
+C:\Users\Admin\Documents\Zalo Received Files\ChatBox\ChatBox\ChatBox\bin\Debug\net7.0-windows\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\Admin\Documents\Zalo Received Files\ChatBox\ChatBox\ChatBox\bin\Debug\net7.0-windows\Microsoft.Data.SqlClient.dll
+C:\Users\Admin\Documents\Zalo Received Files\ChatBox\ChatBox\ChatBox\bin\Debug\net7.0-windows\Microsoft.Identity.Client.dll
+C:\Users\Admin\Documents\Zalo Received Files\ChatBox\ChatBox\ChatBox\bin\Debug\net7.0-windows\Microsoft.Identity.Client.Extensions.Msal.dll
+C:\Users\Admin\Documents\Zalo Received Files\ChatBox\ChatBox\ChatBox\bin\Debug\net7.0-windows\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\Admin\Documents\Zalo Received Files\ChatBox\ChatBox\ChatBox\bin\Debug\net7.0-windows\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\Admin\Documents\Zalo Received Files\ChatBox\ChatBox\ChatBox\bin\Debug\net7.0-windows\Microsoft.IdentityModel.Logging.dll
+C:\Users\Admin\Documents\Zalo Received Files\ChatBox\ChatBox\ChatBox\bin\Debug\net7.0-windows\Microsoft.IdentityModel.Protocols.dll
+C:\Users\Admin\Documents\Zalo Received Files\ChatBox\ChatBox\ChatBox\bin\Debug\net7.0-windows\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\Admin\Documents\Zalo Received Files\ChatBox\ChatBox\ChatBox\bin\Debug\net7.0-windows\Microsoft.IdentityModel.Tokens.dll
+C:\Users\Admin\Documents\Zalo Received Files\ChatBox\ChatBox\ChatBox\bin\Debug\net7.0-windows\Microsoft.SqlServer.Server.dll
+C:\Users\Admin\Documents\Zalo Received Files\ChatBox\ChatBox\ChatBox\bin\Debug\net7.0-windows\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\Admin\Documents\Zalo Received Files\ChatBox\ChatBox\ChatBox\bin\Debug\net7.0-windows\System.Memory.Data.dll
+C:\Users\Admin\Documents\Zalo Received Files\ChatBox\ChatBox\ChatBox\bin\Debug\net7.0-windows\System.Runtime.Caching.dll
+C:\Users\Admin\Documents\Zalo Received Files\ChatBox\ChatBox\ChatBox\bin\Debug\net7.0-windows\runtimes\unix\lib\net6.0\Microsoft.Data.SqlClient.dll
+C:\Users\Admin\Documents\Zalo Received Files\ChatBox\ChatBox\ChatBox\bin\Debug\net7.0-windows\runtimes\win\lib\net6.0\Microsoft.Data.SqlClient.dll
+C:\Users\Admin\Documents\Zalo Received Files\ChatBox\ChatBox\ChatBox\bin\Debug\net7.0-windows\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Admin\Documents\Zalo Received Files\ChatBox\ChatBox\ChatBox\bin\Debug\net7.0-windows\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Admin\Documents\Zalo Received Files\ChatBox\ChatBox\ChatBox\bin\Debug\net7.0-windows\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Admin\Documents\Zalo Received Files\ChatBox\ChatBox\ChatBox\bin\Debug\net7.0-windows\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Admin\Documents\Zalo Received Files\ChatBox\ChatBox\ChatBox\bin\Debug\net7.0-windows\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
+C:\Users\Admin\Documents\Zalo Received Files\ChatBox\ChatBox\ChatBox\obj\Debug\net7.0-windows\SignUp.baml
+C:\Users\Admin\Downloads\ChatBox\ChatBox\ChatBox\ChatBox\bin\Debug\net7.0-windows\ChatBox.exe
+C:\Users\Admin\Downloads\ChatBox\ChatBox\ChatBox\ChatBox\bin\Debug\net7.0-windows\close.jpg
+C:\Users\Admin\Downloads\ChatBox\ChatBox\ChatBox\ChatBox\bin\Debug\net7.0-windows\ChatBox.dll.config
+C:\Users\Admin\Downloads\ChatBox\ChatBox\ChatBox\ChatBox\bin\Debug\net7.0-windows\ChatBox.deps.json
+C:\Users\Admin\Downloads\ChatBox\ChatBox\ChatBox\ChatBox\bin\Debug\net7.0-windows\ChatBox.runtimeconfig.json
+C:\Users\Admin\Downloads\ChatBox\ChatBox\ChatBox\ChatBox\bin\Debug\net7.0-windows\ChatBox.dll
+C:\Users\Admin\Downloads\ChatBox\ChatBox\ChatBox\ChatBox\bin\Debug\net7.0-windows\ChatBox.pdb
+C:\Users\Admin\Downloads\ChatBox\ChatBox\ChatBox\ChatBox\bin\Debug\net7.0-windows\Azure.Core.dll
+C:\Users\Admin\Downloads\ChatBox\ChatBox\ChatBox\ChatBox\bin\Debug\net7.0-windows\Azure.Identity.dll
+C:\Users\Admin\Downloads\ChatBox\ChatBox\ChatBox\ChatBox\bin\Debug\net7.0-windows\ChatGPT.Net.dll
+C:\Users\Admin\Downloads\ChatBox\ChatBox\ChatBox\ChatBox\bin\Debug\net7.0-windows\ControlzEx.dll
+C:\Users\Admin\Downloads\ChatBox\ChatBox\ChatBox\ChatBox\bin\Debug\net7.0-windows\MahApps.Metro.dll
+C:\Users\Admin\Downloads\ChatBox\ChatBox\ChatBox\ChatBox\bin\Debug\net7.0-windows\MahApps.Metro.IconPacks.BootstrapIcons.dll
+C:\Users\Admin\Downloads\ChatBox\ChatBox\ChatBox\ChatBox\bin\Debug\net7.0-windows\MahApps.Metro.IconPacks.BoxIcons.dll
+C:\Users\Admin\Downloads\ChatBox\ChatBox\ChatBox\ChatBox\bin\Debug\net7.0-windows\MahApps.Metro.IconPacks.Codicons.dll
+C:\Users\Admin\Downloads\ChatBox\ChatBox\ChatBox\ChatBox\bin\Debug\net7.0-windows\MahApps.Metro.IconPacks.Coolicons.dll
+C:\Users\Admin\Downloads\ChatBox\ChatBox\ChatBox\ChatBox\bin\Debug\net7.0-windows\MahApps.Metro.IconPacks.Core.dll
+C:\Users\Admin\Downloads\ChatBox\ChatBox\ChatBox\ChatBox\bin\Debug\net7.0-windows\MahApps.Metro.IconPacks.Entypo.dll
+C:\Users\Admin\Downloads\ChatBox\ChatBox\ChatBox\ChatBox\bin\Debug\net7.0-windows\MahApps.Metro.IconPacks.EvaIcons.dll
+C:\Users\Admin\Downloads\ChatBox\ChatBox\ChatBox\ChatBox\bin\Debug\net7.0-windows\MahApps.Metro.IconPacks.FeatherIcons.dll
+C:\Users\Admin\Downloads\ChatBox\ChatBox\ChatBox\ChatBox\bin\Debug\net7.0-windows\MahApps.Metro.IconPacks.FileIcons.dll
+C:\Users\Admin\Downloads\ChatBox\ChatBox\ChatBox\ChatBox\bin\Debug\net7.0-windows\MahApps.Metro.IconPacks.FontAwesome.dll
+C:\Users\Admin\Downloads\ChatBox\ChatBox\ChatBox\ChatBox\bin\Debug\net7.0-windows\MahApps.Metro.IconPacks.Fontaudio.dll
+C:\Users\Admin\Downloads\ChatBox\ChatBox\ChatBox\ChatBox\bin\Debug\net7.0-windows\MahApps.Metro.IconPacks.Fontisto.dll
+C:\Users\Admin\Downloads\ChatBox\ChatBox\ChatBox\ChatBox\bin\Debug\net7.0-windows\MahApps.Metro.IconPacks.ForkAwesome.dll
+C:\Users\Admin\Downloads\ChatBox\ChatBox\ChatBox\ChatBox\bin\Debug\net7.0-windows\MahApps.Metro.IconPacks.Ionicons.dll
+C:\Users\Admin\Downloads\ChatBox\ChatBox\ChatBox\ChatBox\bin\Debug\net7.0-windows\MahApps.Metro.IconPacks.JamIcons.dll
+C:\Users\Admin\Downloads\ChatBox\ChatBox\ChatBox\ChatBox\bin\Debug\net7.0-windows\MahApps.Metro.IconPacks.Material.dll
+C:\Users\Admin\Downloads\ChatBox\ChatBox\ChatBox\ChatBox\bin\Debug\net7.0-windows\MahApps.Metro.IconPacks.MaterialDesign.dll
+C:\Users\Admin\Downloads\ChatBox\ChatBox\ChatBox\ChatBox\bin\Debug\net7.0-windows\MahApps.Metro.IconPacks.MaterialLight.dll
+C:\Users\Admin\Downloads\ChatBox\ChatBox\ChatBox\ChatBox\bin\Debug\net7.0-windows\MahApps.Metro.IconPacks.Microns.dll
+C:\Users\Admin\Downloads\ChatBox\ChatBox\ChatBox\ChatBox\bin\Debug\net7.0-windows\MahApps.Metro.IconPacks.Modern.dll
+C:\Users\Admin\Downloads\ChatBox\ChatBox\ChatBox\ChatBox\bin\Debug\net7.0-windows\MahApps.Metro.IconPacks.Octicons.dll
+C:\Users\Admin\Downloads\ChatBox\ChatBox\ChatBox\ChatBox\bin\Debug\net7.0-windows\MahApps.Metro.IconPacks.PicolIcons.dll
+C:\Users\Admin\Downloads\ChatBox\ChatBox\ChatBox\ChatBox\bin\Debug\net7.0-windows\MahApps.Metro.IconPacks.PixelartIcons.dll
+C:\Users\Admin\Downloads\ChatBox\ChatBox\ChatBox\ChatBox\bin\Debug\net7.0-windows\MahApps.Metro.IconPacks.RPGAwesome.dll
+C:\Users\Admin\Downloads\ChatBox\ChatBox\ChatBox\ChatBox\bin\Debug\net7.0-windows\MahApps.Metro.IconPacks.RadixIcons.dll
+C:\Users\Admin\Downloads\ChatBox\ChatBox\ChatBox\ChatBox\bin\Debug\net7.0-windows\MahApps.Metro.IconPacks.RemixIcon.dll
+C:\Users\Admin\Downloads\ChatBox\ChatBox\ChatBox\ChatBox\bin\Debug\net7.0-windows\MahApps.Metro.IconPacks.SimpleIcons.dll
+C:\Users\Admin\Downloads\ChatBox\ChatBox\ChatBox\ChatBox\bin\Debug\net7.0-windows\MahApps.Metro.IconPacks.Typicons.dll
+C:\Users\Admin\Downloads\ChatBox\ChatBox\ChatBox\ChatBox\bin\Debug\net7.0-windows\MahApps.Metro.IconPacks.Unicons.dll
+C:\Users\Admin\Downloads\ChatBox\ChatBox\ChatBox\ChatBox\bin\Debug\net7.0-windows\MahApps.Metro.IconPacks.VaadinIcons.dll
+C:\Users\Admin\Downloads\ChatBox\ChatBox\ChatBox\ChatBox\bin\Debug\net7.0-windows\MahApps.Metro.IconPacks.WeatherIcons.dll
+C:\Users\Admin\Downloads\ChatBox\ChatBox\ChatBox\ChatBox\bin\Debug\net7.0-windows\MahApps.Metro.IconPacks.Zondicons.dll
+C:\Users\Admin\Downloads\ChatBox\ChatBox\ChatBox\ChatBox\bin\Debug\net7.0-windows\MahApps.Metro.IconPacks.dll
+C:\Users\Admin\Downloads\ChatBox\ChatBox\ChatBox\ChatBox\bin\Debug\net7.0-windows\MaterialDesignColors.dll
+C:\Users\Admin\Downloads\ChatBox\ChatBox\ChatBox\ChatBox\bin\Debug\net7.0-windows\MaterialDesignThemes.Wpf.dll
+C:\Users\Admin\Downloads\ChatBox\ChatBox\ChatBox\ChatBox\bin\Debug\net7.0-windows\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\Admin\Downloads\ChatBox\ChatBox\ChatBox\ChatBox\bin\Debug\net7.0-windows\Microsoft.Data.SqlClient.dll
+C:\Users\Admin\Downloads\ChatBox\ChatBox\ChatBox\ChatBox\bin\Debug\net7.0-windows\Microsoft.Identity.Client.dll
+C:\Users\Admin\Downloads\ChatBox\ChatBox\ChatBox\ChatBox\bin\Debug\net7.0-windows\Microsoft.Identity.Client.Extensions.Msal.dll
+C:\Users\Admin\Downloads\ChatBox\ChatBox\ChatBox\ChatBox\bin\Debug\net7.0-windows\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\Admin\Downloads\ChatBox\ChatBox\ChatBox\ChatBox\bin\Debug\net7.0-windows\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\Admin\Downloads\ChatBox\ChatBox\ChatBox\ChatBox\bin\Debug\net7.0-windows\Microsoft.IdentityModel.Logging.dll
+C:\Users\Admin\Downloads\ChatBox\ChatBox\ChatBox\ChatBox\bin\Debug\net7.0-windows\Microsoft.IdentityModel.Protocols.dll
+C:\Users\Admin\Downloads\ChatBox\ChatBox\ChatBox\ChatBox\bin\Debug\net7.0-windows\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\Admin\Downloads\ChatBox\ChatBox\ChatBox\ChatBox\bin\Debug\net7.0-windows\Microsoft.IdentityModel.Tokens.dll
+C:\Users\Admin\Downloads\ChatBox\ChatBox\ChatBox\ChatBox\bin\Debug\net7.0-windows\Microsoft.SqlServer.Server.dll
+C:\Users\Admin\Downloads\ChatBox\ChatBox\ChatBox\ChatBox\bin\Debug\net7.0-windows\Microsoft.Xaml.Behaviors.dll
+C:\Users\Admin\Downloads\ChatBox\ChatBox\ChatBox\ChatBox\bin\Debug\net7.0-windows\Newtonsoft.Json.dll
+C:\Users\Admin\Downloads\ChatBox\ChatBox\ChatBox\ChatBox\bin\Debug\net7.0-windows\OpenAI.ChatGpt.dll
+C:\Users\Admin\Downloads\ChatBox\ChatBox\ChatBox\ChatBox\bin\Debug\net7.0-windows\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\Admin\Downloads\ChatBox\ChatBox\ChatBox\ChatBox\bin\Debug\net7.0-windows\System.Memory.Data.dll
+C:\Users\Admin\Downloads\ChatBox\ChatBox\ChatBox\ChatBox\bin\Debug\net7.0-windows\System.Runtime.Caching.dll
+C:\Users\Admin\Downloads\ChatBox\ChatBox\ChatBox\ChatBox\bin\Debug\net7.0-windows\de\MahApps.Metro.resources.dll
+C:\Users\Admin\Downloads\ChatBox\ChatBox\ChatBox\ChatBox\bin\Debug\net7.0-windows\runtimes\unix\lib\net6.0\Microsoft.Data.SqlClient.dll
+C:\Users\Admin\Downloads\ChatBox\ChatBox\ChatBox\ChatBox\bin\Debug\net7.0-windows\runtimes\win\lib\net6.0\Microsoft.Data.SqlClient.dll
+C:\Users\Admin\Downloads\ChatBox\ChatBox\ChatBox\ChatBox\bin\Debug\net7.0-windows\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Admin\Downloads\ChatBox\ChatBox\ChatBox\ChatBox\bin\Debug\net7.0-windows\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Admin\Downloads\ChatBox\ChatBox\ChatBox\ChatBox\bin\Debug\net7.0-windows\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Admin\Downloads\ChatBox\ChatBox\ChatBox\ChatBox\bin\Debug\net7.0-windows\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Admin\Downloads\ChatBox\ChatBox\ChatBox\ChatBox\bin\Debug\net7.0-windows\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
+C:\Users\Admin\Downloads\ChatBox\ChatBox\ChatBox\ChatBox\obj\Debug\net7.0-windows\ChatBox.csproj.AssemblyReference.cache
+C:\Users\Admin\Downloads\ChatBox\ChatBox\ChatBox\ChatBox\obj\Debug\net7.0-windows\UserControls\AccountMenuBotton.baml
+C:\Users\Admin\Downloads\ChatBox\ChatBox\ChatBox\ChatBox\obj\Debug\net7.0-windows\UserControls\Chat_Seprator.baml
+C:\Users\Admin\Downloads\ChatBox\ChatBox\ChatBox\ChatBox\obj\Debug\net7.0-windows\UserControls\Item.baml
+C:\Users\Admin\Downloads\ChatBox\ChatBox\ChatBox\ChatBox\obj\Debug\net7.0-windows\UserControls\MenuButton.baml
+C:\Users\Admin\Downloads\ChatBox\ChatBox\ChatBox\ChatBox\obj\Debug\net7.0-windows\UserControls\Messagechat.baml
+C:\Users\Admin\Downloads\ChatBox\ChatBox\ChatBox\ChatBox\obj\Debug\net7.0-windows\UserControls\MyMessageChat.baml
+C:\Users\Admin\Downloads\ChatBox\ChatBox\ChatBox\ChatBox\obj\Debug\net7.0-windows\UserControls\UserChat.baml
+C:\Users\Admin\Downloads\ChatBox\ChatBox\ChatBox\ChatBox\obj\Debug\net7.0-windows\UserControls\UserImage.baml
+C:\Users\Admin\Downloads\ChatBox\ChatBox\ChatBox\ChatBox\obj\Debug\net7.0-windows\App.baml
+C:\Users\Admin\Downloads\ChatBox\ChatBox\ChatBox\ChatBox\obj\Debug\net7.0-windows\Login.g.cs
+C:\Users\Admin\Downloads\ChatBox\ChatBox\ChatBox\ChatBox\obj\Debug\net7.0-windows\MainWindow.g.cs
+C:\Users\Admin\Downloads\ChatBox\ChatBox\ChatBox\ChatBox\obj\Debug\net7.0-windows\SignUp.g.cs
+C:\Users\Admin\Downloads\ChatBox\ChatBox\ChatBox\ChatBox\obj\Debug\net7.0-windows\UserControls\AccountMenuBotton.g.cs
+C:\Users\Admin\Downloads\ChatBox\ChatBox\ChatBox\ChatBox\obj\Debug\net7.0-windows\UserControls\Chat_Seprator.g.cs
+C:\Users\Admin\Downloads\ChatBox\ChatBox\ChatBox\ChatBox\obj\Debug\net7.0-windows\UserControls\DashboardControl.g.cs
+C:\Users\Admin\Downloads\ChatBox\ChatBox\ChatBox\ChatBox\obj\Debug\net7.0-windows\UserControls\HistoryControl.g.cs
+C:\Users\Admin\Downloads\ChatBox\ChatBox\ChatBox\ChatBox\obj\Debug\net7.0-windows\UserControls\Item.g.cs
+C:\Users\Admin\Downloads\ChatBox\ChatBox\ChatBox\ChatBox\obj\Debug\net7.0-windows\UserControls\MenuButton.g.cs
+C:\Users\Admin\Downloads\ChatBox\ChatBox\ChatBox\ChatBox\obj\Debug\net7.0-windows\UserControls\Messagechat.g.cs
+C:\Users\Admin\Downloads\ChatBox\ChatBox\ChatBox\ChatBox\obj\Debug\net7.0-windows\UserControls\MyMessageChat.g.cs
+C:\Users\Admin\Downloads\ChatBox\ChatBox\ChatBox\ChatBox\obj\Debug\net7.0-windows\UserControls\UserChat.g.cs
+C:\Users\Admin\Downloads\ChatBox\ChatBox\ChatBox\ChatBox\obj\Debug\net7.0-windows\UserControls\UserImage.g.cs
+C:\Users\Admin\Downloads\ChatBox\ChatBox\ChatBox\ChatBox\obj\Debug\net7.0-windows\App.g.cs
+C:\Users\Admin\Downloads\ChatBox\ChatBox\ChatBox\ChatBox\obj\Debug\net7.0-windows\GeneratedInternalTypeHelper.g.cs
+C:\Users\Admin\Downloads\ChatBox\ChatBox\ChatBox\ChatBox\obj\Debug\net7.0-windows\ChatBox_MarkupCompile.cache
+C:\Users\Admin\Downloads\ChatBox\ChatBox\ChatBox\ChatBox\obj\Debug\net7.0-windows\ChatBox_MarkupCompile.lref
+C:\Users\Admin\Downloads\ChatBox\ChatBox\ChatBox\ChatBox\obj\Debug\net7.0-windows\Login.baml
+C:\Users\Admin\Downloads\ChatBox\ChatBox\ChatBox\ChatBox\obj\Debug\net7.0-windows\MainWindow.baml
+C:\Users\Admin\Downloads\ChatBox\ChatBox\ChatBox\ChatBox\obj\Debug\net7.0-windows\SignUp.baml
+C:\Users\Admin\Downloads\ChatBox\ChatBox\ChatBox\ChatBox\obj\Debug\net7.0-windows\UserControls\DashboardControl.baml
+C:\Users\Admin\Downloads\ChatBox\ChatBox\ChatBox\ChatBox\obj\Debug\net7.0-windows\UserControls\HistoryControl.baml
+C:\Users\Admin\Downloads\ChatBox\ChatBox\ChatBox\ChatBox\obj\Debug\net7.0-windows\ChatBox.g.resources
+C:\Users\Admin\Downloads\ChatBox\ChatBox\ChatBox\ChatBox\obj\Debug\net7.0-windows\ChatBox.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Admin\Downloads\ChatBox\ChatBox\ChatBox\ChatBox\obj\Debug\net7.0-windows\ChatBox.AssemblyInfoInputs.cache
+C:\Users\Admin\Downloads\ChatBox\ChatBox\ChatBox\ChatBox\obj\Debug\net7.0-windows\ChatBox.AssemblyInfo.cs
+C:\Users\Admin\Downloads\ChatBox\ChatBox\ChatBox\ChatBox\obj\Debug\net7.0-windows\ChatBox.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Downloads\ChatBox\ChatBox\ChatBox\ChatBox\obj\Debug\net7.0-windows\ChatBox.csproj.CopyComplete
+C:\Users\Admin\Downloads\ChatBox\ChatBox\ChatBox\ChatBox\obj\Debug\net7.0-windows\ChatBox.dll
+C:\Users\Admin\Downloads\ChatBox\ChatBox\ChatBox\ChatBox\obj\Debug\net7.0-windows\refint\ChatBox.dll
+C:\Users\Admin\Downloads\ChatBox\ChatBox\ChatBox\ChatBox\obj\Debug\net7.0-windows\ChatBox.pdb
+C:\Users\Admin\Downloads\ChatBox\ChatBox\ChatBox\ChatBox\obj\Debug\net7.0-windows\ChatBox.genruntimeconfig.cache
+C:\Users\Admin\Downloads\ChatBox\ChatBox\ChatBox\ChatBox\obj\Debug\net7.0-windows\ref\ChatBox.dll
