@@ -8,7 +8,7 @@
              d:DesignHeight="450" d:DesignWidth="800"
              FlowDirection="RightToLeft">
     <Grid>
-        <Border CornerRadius="10" BorderBrush="Black" BorderThickness="0" Padding="5" Background="Aqua" Height="auto" Width="auto" HorizontalAlignment="Left" VerticalAlignment="Top">
+        <Border CornerRadius="10" BorderBrush="Black" BorderThickness="0" Padding="5" Background="#FFB9A1FA" Height="auto" Width="auto" HorizontalAlignment="Left" VerticalAlignment="Top">
             <TextBlock FlowDirection="LeftToRight" HorizontalAlignment="Left" VerticalAlignment="Center" FontSize="14" Width="Auto" MaxWidth="265" Text="{Binding Message}" TextWrapping="Wrap" />
         </Border>
 
