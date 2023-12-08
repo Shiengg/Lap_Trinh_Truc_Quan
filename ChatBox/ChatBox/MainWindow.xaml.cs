@@ -158,6 +158,12 @@ namespace ChatBox
             }
         }
 
+        private void txtMessage_TextChanged(object sender, TextChangedEventArgs e)
+        {
+            var textBox = sender as TextBox;
+            textBox.Height = textBox.ExtentHeight;
+        }
+
         //private void MenuButton_Loaded(object sender, RoutedEventArgs e)
         //{
         //    this.Close();
