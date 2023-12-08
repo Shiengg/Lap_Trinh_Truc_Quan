@@ -213,7 +213,7 @@
                 </Grid>
 
                 <!--Chats-->
-                <ListView x:Name="messageListView" Margin="0,51,0,0" Height="0" VerticalAlignment="Top">
+                <!--<ListView x:Name="messageListView" Margin="0,51,0,0" Height="0" VerticalAlignment="Top">
                     <ListView.View>
                         <GridView>
                             <GridViewColumn Header="Message" Width="Auto">
@@ -225,7 +225,7 @@
                             </GridViewColumn>
                         </GridView>
                     </ListView.View>
-                </ListView>
+                </ListView>-->
 
                 <Grid Grid.Row="3" >
                     <ScrollViewer>
