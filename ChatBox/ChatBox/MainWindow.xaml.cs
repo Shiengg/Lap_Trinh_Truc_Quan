@@ -35,13 +35,6 @@ namespace ChatBox
             //messageListView.ItemsSource = chatMessages;
         }
 
-        public class ChatMessage
-        {
-            public string Time { get; set; }
-            public string Sender { get; set; }
-            public string Message { get; set; }
-        }
-
         bool IsMaximized = false;
         private void Border_MouseLeftButtonDown(object sender, MouseButtonEventArgs e)
         {
