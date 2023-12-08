@@ -228,7 +228,7 @@
                 </ListView>-->
 
                 <Grid Grid.Row="3" >
-                    <ScrollViewer>
+                    <ScrollViewer Margin="0,-53,0,56">
                         <StackPanel x:Name="ChatPanel" Margin="20,20,20,50">
 
                         </StackPanel>

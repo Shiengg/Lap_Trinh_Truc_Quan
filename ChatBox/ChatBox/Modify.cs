@@ -35,7 +35,7 @@ namespace ChatBox
         {
             List<Account> accounts = new List<Account>();
 
-            using (SqlConnection connection = new SqlConnection("Data Source=(LocalDB)\\MSSQLLocalDB;AttachDbFilename=\"C:\\Users\\Admin\\Documents\\Zalo Received Files\\ChatBox\\ChatBox\\ChatBox\\Database1.mdf\";Integrated Security=True"))
+            using (SqlConnection connection = new SqlConnection("Data Source=(LocalDB)\\MSSQLLocalDB;AttachDbFilename=\"D:\\Năm 2\\ChatBox\\Lap_Trinh_Truc_Quan\\ChatBox\\ChatBox\\Database1.mdf\";Integrated Security=True"))
             {
                 using (SqlCommand command = new SqlCommand(query, connection))
                 {
@@ -74,7 +74,7 @@ namespace ChatBox
         //    }
         //}
 
-        private string connectionString = "Data Source=(LocalDB)\\MSSQLLocalDB;AttachDbFilename=\"C:\\Users\\Admin\\Documents\\Zalo Received Files\\ChatBox\\ChatBox\\ChatBox\\Database1.mdf\";Integrated Security=True"; // Replace with your connection string
+        private string connectionString = "Data Source=(LocalDB)\\MSSQLLocalDB;AttachDbFilename=\"D:\\Năm 2\\ChatBox\\Lap_Trinh_Truc_Quan\\ChatBox\\ChatBox\\Database1.mdf\";Integrated Security=True"; // Replace with your connection string
 
         // Method to count existing accounts with a specific email
         public int CountAccounts(string query, string email)
