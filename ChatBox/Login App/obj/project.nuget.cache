@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "prNy7fgEVF5RyBXmhhxIaaCET/XzjKqG4kxG2RDAZAFvoQAriaHDkm0/wjda2Bewzz5xfEkcKCWP0/mQhPGS2Q==",
+  "dgSpecHash": "SwwiwTebJirdZPiItnoXiZvdv9w5vccnKjZg8Rm/WG/dPCLrQMWBxXKDgYUC8liDbKzKtZvo5lEN9r++PNtVHg==",
   "success": true,
-  "projectFilePath": "D:\\Năm 2\\ChatBox\\Lap_Trinh_Truc_Quan\\ChatBox\\Login App\\Login App.csproj",
+  "projectFilePath": "C:\\Users\\Admin\\OneDrive - Trường ĐH CNTT - University of Information Technology\\Tài liệu\\GitHub\\Lap_Trinh_Truc_Quan\\ChatBox\\Login App\\Login App.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Admin\\.nuget\\packages\\azure.core\\1.25.0\\azure.core.1.25.0.nupkg.sha512",
     "C:\\Users\\Admin\\.nuget\\packages\\azure.identity\\1.7.0\\azure.identity.1.7.0.nupkg.sha512",
