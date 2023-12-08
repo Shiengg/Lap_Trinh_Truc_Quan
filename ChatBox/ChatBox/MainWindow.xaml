@@ -118,9 +118,9 @@
                     </TextBlock.RenderTransform>
                 </TextBlock>
 
-                <TextBox x:Name="txtboxSearch" Style="{StaticResource searchTextbox}"/>
+                <TextBox x:Name="txtboxSearch" Style="{StaticResource searchTextbox}" TextChanged="txtboxSearch_TextChanged"/>
 
-                <Button HorizontalAlignment="Right" Margin="0 5 0 0" Style="{StaticResource textBoxButton}">
+                <Button Margin="465,13,0,8" Style="{StaticResource textBoxButton}" Width="NaN" Click="Button_Click">
                     <Icon:PackIconMaterial Kind="Magnify" Width="28" Foreground="#c7c7c7" VerticalAlignment="Center"/>
                 </Button>
             </Grid>
@@ -157,7 +157,7 @@
                     <!--Item Group-->
 
                     <!--<ContentControl x:Name="MainContent">-->
-                   
+
                     <!--<uc:HistoryControl/>-->
                     <!--</ContentControl>-->
                     <!--<StackPanel Margin="30 0 15 0">
@@ -184,7 +184,7 @@
                         <uc:Item Title="XAML" Color="#73afff" TagName="PV" Loaded="Item_Loaded"/>
                     </StackPanel>-->
                 </ScrollViewer>
-                
+
             </Grid>
         </Border>
 
@@ -209,7 +209,7 @@
 
                     <TextBlock Text="AI" FontSize="16" Margin="20 15" HorizontalAlignment="Left"/>
 
-                    
+
                 </Grid>
 
                 <!--Chats-->

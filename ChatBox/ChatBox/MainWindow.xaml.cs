@@ -164,6 +164,65 @@ namespace ChatBox
             textBox.Height = textBox.ExtentHeight;
         }
 
+        private void txtboxSearch_TextChanged(object sender, TextChangedEventArgs e)
+        {
+            string searchText = txtboxSearch.Text.ToLower(); // Lấy nội dung từ TextBox tìm kiếm và chuyển về chữ thường
+
+            foreach (var child in ChatPanel.Children)
+            {
+                if (child is UIElement uiElement)
+                {
+                    // Kiểm tra nội dung của mỗi phần tử trong StackPanel
+                    // Ví dụ: giả sử mỗi phần tử là TextBlock và bạn muốn tìm kiếm dựa trên Text của nó
+                    if (uiElement is TextBlock textBlock)
+                    {
+                        if (textBlock.Text.ToLower().Contains(searchText))
+                        {
+                            // Hiển thị hoặc ẩn phần tử tìm thấy dựa trên kết quả tìm kiếm
+                            uiElement.Visibility = Visibility.Visible;
+                        }
+                        else
+                        {
+                            uiElement.Visibility = Visibility.Collapsed;
+                        }
+                    }
+                }
+            }
+        }
+
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+            string searchText = txtboxSearch.Text;
+            HighlightSearchText(searchText);
+        }
+
+        private void HighlightSearchText(string searchText)
+        {
+            foreach (var child in ChatPanel.Children)
+            {
+                if (child is TextBlock textBlock)
+                {
+                    string originalText = textBlock.Text;
+                    string lowerOriginalText = originalText.ToLower();
+                    string lowerSearchText = searchText.ToLower();
+
+                    int index = lowerOriginalText.IndexOf(lowerSearchText);
+                    if (index >= 0)
+                    {
+                        var run = new Run(originalText);
+                        run.Foreground = Brushes.Black; // Màu chữ mặc định
+
+                        var highlight = new TextRange(run.ContentStart.GetPositionAtOffset(index), run.ContentStart.GetPositionAtOffset(index + searchText.Length));
+                        highlight.ApplyPropertyValue(TextElement.ForegroundProperty, Brushes.Yellow); // Bôi màu nền
+
+                        textBlock.Inlines.Clear();
+                        textBlock.Inlines.Add(run);
+                    }
+                }
+            }
+        }
+
+
         //private void MenuButton_Loaded(object sender, RoutedEventArgs e)
         //{
         //    this.Close();
