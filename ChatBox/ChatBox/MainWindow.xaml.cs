@@ -32,7 +32,7 @@ namespace ChatBox
         {
             InitializeComponent();
             DataContext = this;
-            messageListView.ItemsSource = chatMessages;
+            //messageListView.ItemsSource = chatMessages;
         }
 
         public class ChatMessage
