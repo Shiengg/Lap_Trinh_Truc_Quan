@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace ChatBox.ViewModel
 {
-    internal class HomeVM
+    public class HomeVM
     {
     }
 }

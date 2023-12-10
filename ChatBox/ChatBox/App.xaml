@@ -634,16 +634,13 @@
             </Style.Triggers>
         </Style>
 
-
-        <ResourceDictionary>
+        <ResourceDictionary x:Key="AllResources">
             <ResourceDictionary.MergedDictionaries>
-
-                <ResourceDictionary Source="Styles/Page.xaml" />
+                <ResourceDictionary Source="Styles/Page.xaml"/>
                 <ResourceDictionary Source="Styles/Image.xaml" />
                 <ResourceDictionary Source="Styles/Text.xaml" />
                 <ResourceDictionary Source="Styles/Button.xaml" />
                 <ResourceDictionary Source="Utilities/DataTemplate.xaml" />
-
             </ResourceDictionary.MergedDictionaries>
         </ResourceDictionary>
 
