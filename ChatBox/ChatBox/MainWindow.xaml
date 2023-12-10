@@ -87,7 +87,7 @@
                 <StackPanel Margin="25 160 0 0">
                     <uc:MenuButton Title="Dashboard" Icon="HomeOutline"/>
                     <uc:MenuButton Title="Users" Icon="AccountMinusOutline"/>
-                    <uc:MenuButton Title="History" Icon="ClipboardClockOutline"/>
+                    <!--<uc:MenuButton Title="History" Icon="ClipboardClockOutline"/>-->
                     <uc:MenuButton Title="Newchat" Icon="PenPlus"/>
                 </StackPanel>
 
@@ -102,6 +102,10 @@
 
         <!--Top Section-->
         <Grid Grid.Column="2" Grid.ColumnSpan="2" Margin="40 30">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="542*"/>
+                <ColumnDefinition Width="183*"/>
+            </Grid.ColumnDefinitions>
             <!--Search Textbox-->
             <Grid Width="500" HorizontalAlignment="Left">
 
@@ -125,7 +129,7 @@
                 </Button>
             </Grid>
             <!--Top Menu-->
-            <StackPanel Orientation="Horizontal" HorizontalAlignment="Right">
+            <StackPanel Orientation="Horizontal" HorizontalAlignment="Left" Grid.Column="1" Margin="107,0,0,0">
                 <!--<Button Style="{StaticResource textBoxButton}">
                     <Icon:PackIconMaterial Kind="AccountArrowLeftOutline" Foreground="#88878e"/>
                 </Button>-->

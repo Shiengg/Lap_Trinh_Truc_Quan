@@ -246,6 +246,11 @@ namespace ChatBox
             }
         }
 
+        private void MenuButton_Loaded(object sender, RoutedEventArgs e)
+        {
+
+        }
+
 
         //private void MenuButton_Loaded(object sender, RoutedEventArgs e)
         //{

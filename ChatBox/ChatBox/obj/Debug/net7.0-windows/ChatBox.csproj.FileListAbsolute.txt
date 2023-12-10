@@ -794,3 +794,10 @@ F:\Git\Lap_Trinh_Truc_Quan\ChatBox\ChatBox\obj\Debug\net7.0-windows\ChatBox.sour
 F:\Git\Lap_Trinh_Truc_Quan\ChatBox\ChatBox\obj\Debug\net7.0-windows\ChatBox.csproj.CopyComplete
 F:\Git\Lap_Trinh_Truc_Quan\ChatBox\ChatBox\obj\Debug\net7.0-windows\ChatBox.genruntimeconfig.cache
 F:\Git\Lap_Trinh_Truc_Quan\ChatBox\ChatBox\obj\Debug\net7.0-windows\ref\ChatBox.dll
+D:\Năm 2\ChatBox\Lap_Trinh_Truc_Quan\ChatBox\ChatBox\obj\Debug\net7.0-windows\Styles\Button.baml
+D:\Năm 2\ChatBox\Lap_Trinh_Truc_Quan\ChatBox\ChatBox\obj\Debug\net7.0-windows\Styles\Image.baml
+D:\Năm 2\ChatBox\Lap_Trinh_Truc_Quan\ChatBox\ChatBox\obj\Debug\net7.0-windows\Styles\Page.baml
+D:\Năm 2\ChatBox\Lap_Trinh_Truc_Quan\ChatBox\ChatBox\obj\Debug\net7.0-windows\Styles\Text.baml
+D:\Năm 2\ChatBox\Lap_Trinh_Truc_Quan\ChatBox\ChatBox\obj\Debug\net7.0-windows\Utilities\DataTemplate.baml
+D:\Năm 2\ChatBox\Lap_Trinh_Truc_Quan\ChatBox\ChatBox\obj\Debug\net7.0-windows\View\Home.g.cs
+D:\Năm 2\ChatBox\Lap_Trinh_Truc_Quan\ChatBox\ChatBox\obj\Debug\net7.0-windows\View\User.g.cs

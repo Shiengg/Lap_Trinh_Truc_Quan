@@ -13,6 +13,7 @@
     <None Remove="Images\fb.png" />
     <None Remove="Images\gmail.png" />
     <None Remove="Images\gmail2.png" />
+    <None Remove="Images\home.jpg" />
     <None Remove="Images\key2.png" />
     <None Remove="Images\robot.jpg" />
   </ItemGroup>
@@ -29,6 +30,9 @@
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Resource>
     <Resource Include="Images\gmail2.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Images\home.jpg">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Resource>
     <Resource Include="Images\key2.png">
