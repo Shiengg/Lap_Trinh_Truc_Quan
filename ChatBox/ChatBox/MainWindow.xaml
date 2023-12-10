@@ -107,7 +107,7 @@
 
                 <TextBlock VerticalAlignment="Center" Foreground="#868686" Panel.ZIndex="1"
                            IsHitTestVisible="False" Text="   Search here..." 
-                           Visibility="{Binding ElementName=txtboxSearch,Path=Text.IsEmpty,Converter={StaticResource BoolToVis}}" Height="20" Margin="10,0,0,0" RenderTransformOrigin="0.5,0.5">
+                           Visibility="{Binding ElementName=txtboxSearch,Path=Text.IsEmpty,Converter={StaticResource BoolToVis}}" Height="20" Margin="10,0,38,0" RenderTransformOrigin="0.5,0.5">
                     <TextBlock.RenderTransform>
                         <TransformGroup>
                             <ScaleTransform/>

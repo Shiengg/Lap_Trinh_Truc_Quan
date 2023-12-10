@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Admin\\OneDrive - Trường ĐH CNTT - University of Information Technology\\Tài liệu\\GitHub\\Lap_Trinh_Truc_Quan\\ChatBox\\Login App\\Login App.csproj": {}
+    "D:\\Năm 2\\ChatBox\\Lap_Trinh_Truc_Quan\\ChatBox\\Login App\\Login App.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Admin\\OneDrive - Trường ĐH CNTT - University of Information Technology\\Tài liệu\\GitHub\\Lap_Trinh_Truc_Quan\\ChatBox\\Login App\\Login App.csproj": {
+    "D:\\Năm 2\\ChatBox\\Lap_Trinh_Truc_Quan\\ChatBox\\Login App\\Login App.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Admin\\OneDrive - Trường ĐH CNTT - University of Information Technology\\Tài liệu\\GitHub\\Lap_Trinh_Truc_Quan\\ChatBox\\Login App\\Login App.csproj",
+        "projectUniqueName": "D:\\Năm 2\\ChatBox\\Lap_Trinh_Truc_Quan\\ChatBox\\Login App\\Login App.csproj",
         "projectName": "Login App",
-        "projectPath": "C:\\Users\\Admin\\OneDrive - Trường ĐH CNTT - University of Information Technology\\Tài liệu\\GitHub\\Lap_Trinh_Truc_Quan\\ChatBox\\Login App\\Login App.csproj",
+        "projectPath": "D:\\Năm 2\\ChatBox\\Lap_Trinh_Truc_Quan\\ChatBox\\Login App\\Login App.csproj",
         "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Admin\\OneDrive - Trường ĐH CNTT - University of Information Technology\\Tài liệu\\GitHub\\Lap_Trinh_Truc_Quan\\ChatBox\\Login App\\obj\\",
+        "outputPath": "D:\\Năm 2\\ChatBox\\Lap_Trinh_Truc_Quan\\ChatBox\\Login App\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -69,7 +69,7 @@
               "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.404\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     }
