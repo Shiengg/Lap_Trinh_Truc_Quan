@@ -5,7 +5,7 @@
 		xmlns:uc="clr-namespace:ChatBox.UserControls"
 		xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
 		xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-		Height="720" Width="1080" ResizeMode="NoResize" Background="Transparent"
+		Height="720" Width="1080"  Background="Transparent"
 		AllowsTransparency="True" WindowStyle="None" WindowStartupLocation="CenterScreen">
 
     <Window.Resources>

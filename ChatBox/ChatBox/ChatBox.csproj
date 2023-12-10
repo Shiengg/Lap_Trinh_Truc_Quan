@@ -10,12 +10,16 @@
   <ItemGroup>
     <None Remove="Images\account.png" />
     <None Remove="Images\close.jpg" />
+    <None Remove="Images\customer_page.png" />
     <None Remove="Images\fb.png" />
     <None Remove="Images\gmail.png" />
     <None Remove="Images\gmail2.png" />
-    <None Remove="Images\home.jpg" />
+    <None Remove="Images\home_page.png" />
     <None Remove="Images\key2.png" />
     <None Remove="Images\robot.jpg" />
+    <None Remove="Images\user.jpg" />
+    <None Remove="Images\User.png" />
+    <None Remove="Images\User2.png" />
   </ItemGroup>
 
   <ItemGroup>
@@ -23,6 +27,9 @@
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Resource>
     <Resource Include="Images\close.jpg" />
+    <Resource Include="Images\customer_page.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
     <Resource Include="Images\fb.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Resource>
@@ -32,13 +39,22 @@
     <Resource Include="Images\gmail2.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Resource>
-    <Resource Include="Images\home.jpg">
+    <Resource Include="Images\home_page.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Resource>
     <Resource Include="Images\key2.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Resource>
     <Resource Include="Images\robot.jpg" />
+    <Resource Include="Images\user.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Images\User.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Images\User2.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
   </ItemGroup>
 
   <ItemGroup>
