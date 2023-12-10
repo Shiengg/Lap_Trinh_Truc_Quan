@@ -33,6 +33,13 @@ namespace ChatBox
             InitializeComponent();
             DataContext = this;
             //messageListView.ItemsSource = chatMessages;
+            AttachTextBoxEvents();
+        }
+
+        private void AttachTextBoxEvents()
+        {
+            txtMessage.PreviewKeyDown += txtMessage_PreviewKeyDown;
+            txtMessage.PreviewKeyUp += txtMessage_PreviewKeyUp;
         }
 
         bool IsMaximized = false;
@@ -67,35 +74,59 @@ namespace ChatBox
             Application.Current.Shutdown();
         }
 
+        private bool isShiftKeyPressed = false;
+        //
+        private void txtMessage_PreviewKeyDown(object sender, KeyEventArgs e)
+        {
+            if (e.Key == Key.LeftShift || e.Key == Key.RightShift)
+            {
+                isShiftKeyPressed = true;
+            }
+            else if (e.Key == Key.Enter)
+            {
+                if (!isShiftKeyPressed)
+                {
+                    SendButton_Click(sender, e);
+                    e.Handled = true;
+                }
+            }
+        }
+
+        private void txtMessage_PreviewKeyUp(object sender, KeyEventArgs e)
+        {
+            if (e.Key == Key.LeftShift || e.Key == Key.RightShift)
+            {
+                isShiftKeyPressed = false;
+            }
+        }
+
         private async void SendButton_Click(object sender, RoutedEventArgs e)
         {
             string userMessage = txtMessage.Text;
 
-            if (userMessage.Length == 0 || userMessage == " ")
+            if (string.IsNullOrWhiteSpace(userMessage))
             {
-
-            }
-            else
-            {
-                Input newInput = new Input
-                {
-                    Message = userMessage,
-                };
-                ChatPanel.Children.Add(newInput);
-
-                //string generatedText = await GetGeneratedTextFromAI(userMessage);
-
-                Output newOutput = new Output
-                {
-                    Message = "Test, đang thử giao diện",
-                };
-
-                ChatPanel.Children.Add(newOutput);
-
-                // Xóa nội dung TextBox sau khi gửi
-                txtMessage.Text = string.Empty;
+                // Ngăn chặn việc thêm Input nếu dữ liệu người dùng trống
+                return;
             }
 
+            Input newInput = new Input
+            {
+                Message = userMessage,
+            };
+            ChatPanel.Children.Add(newInput);
+
+            //string generatedText = await GetGeneratedTextFromAI(userMessage);
+
+            Output newOutput = new Output
+            {
+                Message = "Test, đang thử giao diện",
+            };
+
+            ChatPanel.Children.Add(newOutput);
+
+            // Xóa nội dung TextBox sau khi gửi
+            txtMessage.Text = string.Empty;
         }
 
 
@@ -103,7 +134,7 @@ namespace ChatBox
         {
             var client = new HttpClient();
             var baseUrl = "https://api.openai.com/v1/chat/completions";
-            //API key tạm thời bị khoá rồi, nào xong hết gỡ khỏi github mới thêm key được
+            //API key tạm thời bị khoá rồi, nào xong hết gỡ khỏi github mới thêm key.
             var apiKey = "YOUR_API_KEY";
             client.DefaultRequestHeaders.Authorization = new System.Net.Http.Headers.AuthenticationHeaderValue("Bearer", apiKey);
 

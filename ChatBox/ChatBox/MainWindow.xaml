@@ -248,7 +248,11 @@
                                    IsHitTestVisible="False" Text="Type your message..."
                                    Visibility="{Binding ElementName=txtMessage,Path=Text.IsEmpty,Converter={StaticResource BoolToVis}}"/>
 
-                        <TextBox x:Name="txtMessage" Style="{StaticResource messageTextbox}" Height="35" Margin="0,0,120,0" TextWrapping="Wrap" VerticalScrollBarVisibility="Auto"/>
+                        <TextBox x:Name="txtMessage" 
+                                 Style="{StaticResource messageTextbox}" 
+                                 Height="35" Margin="0,0,120,0" 
+                                 TextWrapping="Wrap" VerticalScrollBarVisibility="Auto"
+                                 AcceptsReturn="True"/>
 
                         <!--Buttons-->
                         <StackPanel Orientation="Horizontal" Margin="0 0 8 0" HorizontalAlignment="Right" VerticalAlignment="Center">
