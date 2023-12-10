@@ -8,7 +8,7 @@
              mc:Ignorable="d" 
              d:DesignHeight="600" 
              d:DesignWidth="622"
-             Style="{StaticResource Page_Style}">
+            Style="{StaticResource Page_Style}">
     <Grid>
             
     </Grid>
