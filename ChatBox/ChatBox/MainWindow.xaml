@@ -294,7 +294,7 @@
                                 <Icon:PackIconMaterial Kind="Paperclip" Width="12" Foreground="#a6a6a6" Margin="9,0,10,0"/>
                             </Button>
 
-                            <Button Style="{StaticResource textBoxButton}">
+                            <Button Style="{StaticResource textBoxButton}" Click="MicButton_Click">
                                 <Icon:PackIconMaterial Kind="MicrophoneOutline" Width="12" Foreground="#a6a6a6" Margin="9,0,10,0"/>
                             </Button>
                         </StackPanel>
