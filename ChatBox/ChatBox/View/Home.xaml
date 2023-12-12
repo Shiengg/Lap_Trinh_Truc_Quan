@@ -5,13 +5,17 @@
              xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
              xmlns:local="clr-namespace:ChatBox.View"
              mc:Ignorable="d" 
-             d:DesignHeight="600" d:DesignWidth="622">
+             d:DesignHeight="720" d:DesignWidth="805">
     <Grid>
-        <Border CornerRadius="0,20,20,0" Margin="0,5,5,0">
-
-            <Image Source="/Images/home_page.png"
-                   Stretch="Fill" />
-
+        <Border CornerRadius="0 20 20 0">
+            <Border.Background>
+                <RadialGradientBrush>
+                    <GradientStop Color="#FFEBE3EE"/>
+                    <GradientStop Color="#FFE2ADF9" Offset="1"/>
+                </RadialGradientBrush>
+            </Border.Background>
+            <Image HorizontalAlignment="Left" Height="132" Margin="336,0,0,0" VerticalAlignment="Center" Width="140" 
+        Source="/Images/openai.jpg"/>
         </Border>
     </Grid>
 </UserControl>

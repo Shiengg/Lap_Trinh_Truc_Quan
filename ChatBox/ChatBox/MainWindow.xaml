@@ -3,6 +3,8 @@
 		xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
 		xmlns:Icon="http://metro.mahapps.com/winfx/xaml/iconpacks"
 		xmlns:uc="clr-namespace:ChatBox.UserControls"
+        xmlns:vm="clr-namespace:ChatBox.ViewModel"
+        xmlns:Menu="clr-namespace:ChatBox.Utilities"
 		xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
 		xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
 		Height="720" Width="1080"  Background="Transparent"
@@ -10,7 +12,12 @@
 
     <Window.Resources>
         <BooleanToVisibilityConverter x:Key="BoolToVis"/>
+        <ResourceDictionary x:Key="AllResources"/>
     </Window.Resources>
+
+    <Window.DataContext>
+        <vm:NavigationVM/>
+    </Window.DataContext>
 
     <Grid>
         <Grid.ColumnDefinitions>
@@ -48,19 +55,19 @@
                     </TextBlock.LayoutTransform>
                 </TextBlock>
                 <!--Account Buttons-->
-                <StackPanel Margin="0 170 0 0">
+                <!--<StackPanel Margin="0 170 0 0">
                     <uc:AccountMenuBotton Title="A" GradientColor1="#e5db6f"/>
                     <uc:AccountMenuBotton Title="B" GradientColor1="#fba0cb"/>
                     <uc:AccountMenuBotton Title="A" GradientColor1="#FFE26868"/>
 
-                    <!--Add Button-->
+                    --><!--Add Button--><!--
                     <Button Style="{StaticResource leftSideButton}">
                         <Border Background="Transparent" CornerRadius="3" Width="25" Height="25" BorderThickness="0.8"
 								Margin="-3 0 0 0" BorderBrush="White">
                             <Icon:PackIconMaterial Kind="Plus" Width="10" Height="10" VerticalAlignment="Center" HorizontalAlignment="Center"/>
                         </Border>
                     </Button>
-                </StackPanel>
+                </StackPanel>-->
             </Grid>
 
         </Border>
@@ -84,11 +91,27 @@
                     <uc:MenuButton Title="Newchat" Icon="PenPlus"/>
                 </StackPanel>-->
 
-                <StackPanel Margin="25 160 0 0">
-                    <uc:MenuButton Title="Dashboard" Icon="HomeOutline"/>
+                <!--<StackPanel Margin="25 160 0 0">
+                    <uc:MenuButton Title="Dashboard" Icon="HomeOutline" />
                     <uc:MenuButton Title="Users" Icon="AccountMinusOutline"/>
-                    <!--<uc:MenuButton Title="History" Icon="ClipboardClockOutline"/>-->
+                    <uc:MenuButton Title="History" Icon="ClipboardClockOutline"/>
                     <uc:MenuButton Title="Newchat" Icon="PenPlus"/>
+                </StackPanel>-->
+
+                <!--Navigation-->
+                <StackPanel Margin="25 160 0 0">
+                    <Menu:Btn Style="{StaticResource BtnStyle}" Command="{Binding HomeCommand}" IsChecked="True">
+                        <Grid>
+                            <Image Source="Images/img_home.png" Style="{StaticResource Image_Style}"/>
+                            <TextBlock Text="Dashboard" Style="{StaticResource Text_Style}"/>
+                        </Grid>
+                    </Menu:Btn>
+                    <Menu:Btn Style="{StaticResource BtnStyle}" Command="{Binding UserCommand}">
+                        <Grid>
+                            <Image Source="Images/img_customer.png" Style="{StaticResource Image_Style}"/>
+                            <TextBlock Text="User" Style="{StaticResource Text_Style}"/>
+                        </Grid>
+                    </Menu:Btn>
                 </StackPanel>
 
                 <!--Bottom Menu Buttons-->
@@ -100,6 +123,9 @@
             </Grid>
         </Border>
 
+        <Grid Grid.Column="1" Grid.Row="1">
+            <ContentControl x:Name="Pages" Content="{Binding CurrentView}"/>
+        </Grid>
         <!--Top Section-->
         <Grid Grid.Column="2" Grid.ColumnSpan="2" Margin="40 30">
             <Grid.ColumnDefinitions>
@@ -285,5 +311,6 @@
                 </Grid>
             </Grid>
         </Border>
+        
     </Grid>
 </Window>

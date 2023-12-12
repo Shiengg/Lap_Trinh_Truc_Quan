@@ -15,7 +15,10 @@
     <None Remove="Images\gmail.png" />
     <None Remove="Images\gmail2.png" />
     <None Remove="Images\home_page.png" />
+    <None Remove="Images\img_customer.png" />
+    <None Remove="Images\img_home.png" />
     <None Remove="Images\key2.png" />
+    <None Remove="Images\openai.jpg" />
     <None Remove="Images\robot.jpg" />
     <None Remove="Images\user.jpg" />
     <None Remove="Images\User.png" />
@@ -42,7 +45,16 @@
     <Resource Include="Images\home_page.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Resource>
+    <Resource Include="Images\img_customer.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Images\img_home.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
     <Resource Include="Images\key2.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Images\openai.jpg">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Resource>
     <Resource Include="Images\robot.jpg" />
