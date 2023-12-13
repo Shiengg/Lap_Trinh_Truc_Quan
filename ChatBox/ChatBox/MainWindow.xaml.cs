@@ -1,4 +1,6 @@
 ﻿using ChatBox.UserControls;
+using ChatBox.Utilities;
+using ChatBox.ViewModel;
 using ChatGPT;
 using Newtonsoft.Json;
 using System;
@@ -31,10 +33,12 @@ namespace ChatBox
         public MainWindow()
         {
             InitializeComponent();
-            DataContext = this;
+            DataContext = new NavigationVM();
             //messageListView.ItemsSource = chatMessages;
             AttachTextBoxEvents();
         }
+
+      
 
         private void AttachTextBoxEvents()
         {

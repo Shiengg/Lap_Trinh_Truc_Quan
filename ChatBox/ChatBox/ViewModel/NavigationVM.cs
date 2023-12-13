@@ -32,5 +32,6 @@ namespace ChatBox.ViewModel
             // Startup Page
             CurrentView = new HomeVM();
         }
+
     }
 }
