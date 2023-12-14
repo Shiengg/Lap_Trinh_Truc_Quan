@@ -258,10 +258,18 @@
                                  TextWrapping="Wrap" VerticalScrollBarVisibility="Auto"
                                  AcceptsReturn="True"/>
 
+                        <Image x:Name="selectedImage" Margin="10"/>
                         <!--Buttons-->
                         <StackPanel Orientation="Horizontal" Margin="0 0 8 0" HorizontalAlignment="Right" VerticalAlignment="Center">
-                            <Button Style="{StaticResource textBoxButton}" Margin="0 0 1 0">
-                                <Icon:PackIconMaterial Kind="Image" Width="12" Foreground="#a6a6a6" Margin="9,0,10,0"/>
+                            <Button x:Name="InputImage"
+                                    Click="InputImage_Click"
+                                    Style="{StaticResource textBoxButton}" 
+                                    Margin="0 0 1 0">
+                                <Icon:PackIconMaterial 
+                                    Kind="Image"
+                                    Width="12" 
+                                    Foreground="#a6a6a6" 
+                                    Margin="9,0,10,0"/>
                             </Button>
 
                             <Button Style="{StaticResource textBoxButton}">
