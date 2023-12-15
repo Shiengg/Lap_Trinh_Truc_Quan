@@ -338,6 +338,20 @@ namespace ChatBox
         }
 
         // Tự động cuộn xuống để xem tin nhắn mới nhất - vẫn chưa hoàn thiện khi mà người dùng lăn chuột thì không tự động cuộn nữa
+        
+        
+
+        private void ChatScrollViewer_ScrollChanged(object sender, ScrollChangedEventArgs e)
+        {
+            // Kiểm tra xem thanh cuộn có ở dưới cùng không
+            bool isScrollAtBottom = Math.Abs(e.ExtentHeightChange - e.VerticalOffset) < 1;
+
+            // Nếu thanh cuộn ở dưới cùng, tự động cuộn xuống dưới cùng
+            if (isScrollAtBottom)
+            {
+                ScrollToBottom();
+            }
+        }
         private void ChatScrollViewer_Loaded(object sender, RoutedEventArgs e)
         {
             // Tự động cuộn xuống dưới cùng khi Loaded
@@ -349,5 +363,7 @@ namespace ChatBox
         {
             ChatScrollViewer.ScrollToEnd();
         }
+
+
     }
 }
