@@ -8,6 +8,7 @@ using System.Collections.ObjectModel;
 using System.Linq;
 using System.Net.Http;
 using System.Text;
+using System.Threading;
 using System.Threading.Tasks;
 using System.Windows;
 using System.Windows.Controls;
@@ -21,6 +22,7 @@ using System.Windows.Shapes;
 using System.IO;
 using Microsoft.Azure.CognitiveServices.Vision.ComputerVision.Models;
 using Microsoft.Azure.CognitiveServices.Vision.ComputerVision;
+using System.Windows.Threading;
 
 
 
@@ -337,25 +339,28 @@ namespace ChatBox
             MessageBox.Show(result, "Kết Quả Nhận Diện Hình Ảnh");
         }
 
-        // Tự động cuộn xuống để xem tin nhắn mới nhất - vẫn chưa hoàn thiện khi mà người dùng lăn chuột thì không tự động cuộn nữa
-        
-        
+        // Tự động cuộn xuống để xem tin nhắn mới nhất 
 
-        private void ChatScrollViewer_ScrollChanged(object sender, ScrollChangedEventArgs e)
-        {
-            // Kiểm tra xem thanh cuộn có ở dưới cùng không
-            bool isScrollAtBottom = Math.Abs(e.ExtentHeightChange - e.VerticalOffset) < 1;
+        private bool userScrolled = false;
+        private DispatcherTimer scrollTimer;
 
-            // Nếu thanh cuộn ở dưới cùng, tự động cuộn xuống dưới cùng
-            if (isScrollAtBottom)
-            {
-                ScrollToBottom();
-            }
-        }
         private void ChatScrollViewer_Loaded(object sender, RoutedEventArgs e)
         {
             // Tự động cuộn xuống dưới cùng khi Loaded
             ScrollToBottom();
+        }
+
+        private void ChatScrollViewer_ScrollChanged(object sender, ScrollChangedEventArgs e)
+        {
+            // Kiểm tra xem người dùng đã cuộn chưa
+            if (!userScrolled)
+            {
+                // Tự động cuộn xuống dưới cùng
+                ScrollToBottom();
+            }
+
+            // Đặt lại giá trị userScrolled sau một khoảng thời gian
+            ResetUserScrolledTimer();
         }
 
         // Hàm để tự động cuộn xuống dưới cùng
@@ -363,6 +368,34 @@ namespace ChatBox
         {
             ChatScrollViewer.ScrollToEnd();
         }
+
+        // Hàm xử lý sự kiện PreviewMouseWheel để đánh dấu là người dùng đã cuộn
+        private void ChatScrollViewer_PreviewMouseWheel(object sender, MouseWheelEventArgs e)
+        {
+            userScrolled = true;
+
+            // Đặt lại giá trị userScrolled sau một khoảng thời gian
+            ResetUserScrolledTimer();
+        }
+
+        // Đặt lại giá trị userScrolled sau một khoảng thời gian
+        private void ResetUserScrolledTimer()
+        {
+            if (scrollTimer == null)
+            {
+                scrollTimer = new DispatcherTimer();
+                scrollTimer.Interval = TimeSpan.FromSeconds(0.2); // Đặt thời gian 
+                scrollTimer.Tick += (sender, args) =>
+                {
+                    userScrolled = false;
+                    scrollTimer.Stop();
+                };
+            }
+
+            scrollTimer.Stop();
+            scrollTimer.Start();
+        }
+
 
 
     }
