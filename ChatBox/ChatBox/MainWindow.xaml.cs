@@ -336,5 +336,18 @@ namespace ChatBox
             // Hiển thị kết quả trong cửa sổ đầu ra hoặc UI của bạn
             MessageBox.Show(result, "Kết Quả Nhận Diện Hình Ảnh");
         }
+
+        // Tự động cuộn xuống để xem tin nhắn mới nhất - vẫn chưa hoàn thiện khi mà người dùng lăn chuột thì không tự động cuộn nữa
+        private void ChatScrollViewer_Loaded(object sender, RoutedEventArgs e)
+        {
+            // Tự động cuộn xuống dưới cùng khi Loaded
+            ScrollToBottom();
+        }
+
+        // Hàm để tự động cuộn xuống dưới cùng
+        private void ScrollToBottom()
+        {
+            ChatScrollViewer.ScrollToEnd();
+        }
     }
 }
