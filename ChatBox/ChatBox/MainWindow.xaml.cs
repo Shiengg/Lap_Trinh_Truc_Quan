@@ -2,6 +2,7 @@
 using ChatBox.Utilities;
 using ChatBox.ViewModel;
 using ChatGPT;
+using Microsoft.Win32;
 using Newtonsoft.Json;
 using System;
 using System.Collections.Generic;
@@ -19,6 +20,11 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
+using System.Windows.Threading;
+using System.IO;
+using Microsoft.Azure.CognitiveServices.Vision.ComputerVision.Models;
+using Microsoft.Azure.CognitiveServices.Vision.ComputerVision;
+
 
 
 
@@ -265,5 +271,137 @@ namespace ChatBox
         //{
         //    this.Close();
         //}
+
+        //Nhận diện hình ảnh, chỉ đơn giản cho ra 1 cái mô tả cho hình ảnh truyền vào ;-;
+        public class ImageRecognitionService
+        {
+            private readonly string apiKey = "4064be77337747769d9f837f88afe9e6";
+            private readonly string endpoint = "https://apiforchatbot.cognitiveservices.azure.com/";
+
+            public async Task<string> RecognizeImageAsync(string imagePath)
+            {
+                var client = new ComputerVisionClient(new ApiKeyServiceClientCredentials(apiKey))
+                {
+                    Endpoint = endpoint
+                };
+
+                using (var imageStream = File.OpenRead(imagePath))
+                {
+                    var result = await client.AnalyzeImageInStreamAsync(imageStream, new List<VisualFeatureTypes?>
+            {
+                VisualFeatureTypes.Categories,
+                VisualFeatureTypes.Description,
+                VisualFeatureTypes.Tags
+            }.ToList());
+
+                    // Xử lý kết quả ở đây
+                    return ParseImageRecognitionResult(result);
+                }
+            }
+
+            private string ParseImageRecognitionResult(ImageAnalysis result)
+            {
+                return $" Description: {result.Description.Captions.FirstOrDefault()?.Text}";
+            }
+
+        }
+        private void InputImage_Click(object sender, RoutedEventArgs e)
+        {
+            // Mở hộp thoại chọn tệp ảnh từ file
+            OpenFileDialog openFileDialog = new OpenFileDialog
+            {
+                Filter = "Image files (*.png;*.jpeg;*.jpg)|*.png;*.jpeg;*.jpg|All files (*.*)|*.*"
+            };
+
+            if (openFileDialog.ShowDialog() == true)
+            {
+                // Lấy đường dẫn của tệp ảnh đã chọn
+                string imagePath = openFileDialog.FileName;
+                // Hiển thị ảnh trong Image control
+                DisplaySelectedImage(imagePath);
+
+                // Gọi phương thức nhận diện ảnh
+                RecognizeImage(imagePath);
+
+            }
+
+
+        }
+        private void DisplaySelectedImage(string imagePath)
+        {
+            // Hiển thị ảnh trong Image control
+            BitmapImage bitmap = new BitmapImage();
+            bitmap.BeginInit();
+            bitmap.UriSource = new Uri(imagePath);
+            bitmap.EndInit();
+            selectedImage.Source = bitmap;
+        }
+
+        private async void RecognizeImage(string imagePath)
+        {
+            ImageRecognitionService imageRecognitionService = new ImageRecognitionService();
+            // Gọi phương thức nhận diện ảnh từ ImageRecognitionService
+            string result = await imageRecognitionService.RecognizeImageAsync(imagePath);
+
+            // Hiển thị kết quả trong cửa sổ đầu ra hoặc UI của bạn
+            MessageBox.Show(result, "Kết Quả Nhận Diện Hình Ảnh");
+        }
+
+        // Tự động cuộn xuống để xem tin nhắn mới nhất 
+
+        private bool userScrolled = false;
+        private DispatcherTimer scrollTimer;
+
+        private void ChatScrollViewer_Loaded(object sender, RoutedEventArgs e)
+        {
+            // Tự động cuộn xuống dưới cùng khi Loaded
+            ScrollToBottom();
+        }
+
+        private void ChatScrollViewer_ScrollChanged(object sender, ScrollChangedEventArgs e)
+        {
+            // Kiểm tra xem người dùng đã cuộn chưa
+            if (!userScrolled)
+            {
+                // Tự động cuộn xuống dưới cùng
+                ScrollToBottom();
+            }
+
+            // Đặt lại giá trị userScrolled sau một khoảng thời gian
+            ResetUserScrolledTimer();
+        }
+
+        // Hàm để tự động cuộn xuống dưới cùng
+        private void ScrollToBottom()
+        {
+            ChatScrollViewer.ScrollToEnd();
+        }
+
+        // Hàm xử lý sự kiện PreviewMouseWheel để đánh dấu là người dùng đã cuộn
+        private void ChatScrollViewer_PreviewMouseWheel(object sender, MouseWheelEventArgs e)
+        {
+            userScrolled = true;
+
+            // Đặt lại giá trị userScrolled sau một khoảng thời gian
+            ResetUserScrolledTimer();
+        }
+
+        // Đặt lại giá trị userScrolled sau một khoảng thời gian
+        private void ResetUserScrolledTimer()
+        {
+            if (scrollTimer == null)
+            {
+                scrollTimer = new DispatcherTimer();
+                scrollTimer.Interval = TimeSpan.FromSeconds(0.2); // Đặt thời gian 
+                scrollTimer.Tick += (sender, args) =>
+                {
+                    userScrolled = false;
+                    scrollTimer.Stop();
+                };
+            }
+
+            scrollTimer.Stop();
+            scrollTimer.Start();
+        }
     }
 }

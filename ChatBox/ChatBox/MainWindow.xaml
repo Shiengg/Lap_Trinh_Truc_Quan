@@ -258,7 +258,11 @@
                 </ListView>-->
 
                 <Grid Grid.Row="3" >
-                    <ScrollViewer Margin="0,-53,0,56">
+                    <ScrollViewer Margin="0,-53,0,56"
+                                  x:Name="ChatScrollViewer"
+                                  Loaded="ChatScrollViewer_Loaded"
+                                  ScrollChanged="ChatScrollViewer_ScrollChanged"
+                                  PreviewMouseWheel="ChatScrollViewer_PreviewMouseWheel">
                         <StackPanel x:Name="ChatPanel" Margin="20,20,20,50">
 
                         </StackPanel>
@@ -283,10 +287,12 @@
                                  Height="35" Margin="0,0,120,0" 
                                  TextWrapping="Wrap" VerticalScrollBarVisibility="Auto"
                                  AcceptsReturn="True"/>
-
+                        <Image x:Name="selectedImage" Margin="10"/>
                         <!--Buttons-->
                         <StackPanel Orientation="Horizontal" Margin="0 0 8 0" HorizontalAlignment="Right" VerticalAlignment="Center">
-                            <Button Style="{StaticResource textBoxButton}" Margin="0 0 1 0">
+                            <Button x:Name="InputImage"
+                                    Click="InputImage_Click"
+                                Style="{StaticResource textBoxButton}" Margin="0 0 1 0">
                                 <Icon:PackIconMaterial Kind="Image" Width="12" Foreground="#a6a6a6" Margin="9,0,10,0"/>
                             </Button>
 
