@@ -112,8 +112,9 @@ namespace ChatBox
 
         private async void SendButton_Click(object sender, RoutedEventArgs e)
         {
-            string userMessage = txtMessage.Text;
+            string userMessage = txtMessage.Text.Trim(); // Loại bỏ các khoảng trắng ở đầu và cuối chuỗi
 
+            // Kiểm tra xem chuỗi có chứa chỉ ký tự trắng hoặc xuống dòng không
             if (string.IsNullOrWhiteSpace(userMessage))
             {
                 // Ngăn chặn việc thêm Input nếu dữ liệu người dùng trống
@@ -138,6 +139,20 @@ namespace ChatBox
             // Xóa nội dung TextBox sau khi gửi
             txtMessage.Text = string.Empty;
         }
+
+
+        private bool IsWhiteSpaceOrNewLine(string text)
+        {
+            foreach (char c in text)
+            {
+                if (!char.IsWhiteSpace(c))
+                {
+                    return false; // Nếu có ít nhất một ký tự không phải là khoảng trắng hoặc xuống dòng
+                }
+            }
+            return true; // Nếu chuỗi chỉ chứa ký tự trắng hoặc xuống dòng
+        }
+
 
 
         private async Task<string> GetGeneratedTextFromAI(string userInput)
