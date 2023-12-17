@@ -27,7 +27,6 @@ using Microsoft.Azure.CognitiveServices.Vision.ComputerVision;
 
 
 
-
 namespace ChatBox
 {
     /// <summary>
@@ -84,8 +83,8 @@ namespace ChatBox
             Application.Current.Shutdown();
         }
 
+
         private bool isShiftKeyPressed = false;
-        //
         private void txtMessage_PreviewKeyDown(object sender, KeyEventArgs e)
         {
             if (e.Key == Key.LeftShift || e.Key == Key.RightShift)
@@ -139,7 +138,6 @@ namespace ChatBox
             // Xóa nội dung TextBox sau khi gửi
             txtMessage.Text = string.Empty;
         }
-
 
         private bool IsWhiteSpaceOrNewLine(string text)
         {
