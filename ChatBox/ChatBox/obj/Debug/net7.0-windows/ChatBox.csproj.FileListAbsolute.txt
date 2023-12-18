@@ -812,3 +812,5 @@ D:\Github\Lap_Trinh_Truc_Quan\ChatBox\ChatBox\obj\Debug\net7.0-windows\View\User
 D:\Github\Lap_Trinh_Truc_Quan\ChatBox\ChatBox\obj\Debug\net7.0-windows\Utilities\DataTemplate.baml
 D:\Github\Lap_Trinh_Truc_Quan\ChatBox\ChatBox\obj\Debug\net7.0-windows\View\Home.baml
 D:\Github\Lap_Trinh_Truc_Quan\ChatBox\ChatBox\obj\Debug\net7.0-windows\View\User.baml
+D:\Năm 2\ChatBox\Lap_Trinh_Truc_Quan\ChatBox\ChatBox\obj\Debug\net7.0-windows\View\Calendar.g.cs
+D:\Năm 2\ChatBox\Lap_Trinh_Truc_Quan\ChatBox\ChatBox\obj\Debug\net7.0-windows\View\Calendar.baml
