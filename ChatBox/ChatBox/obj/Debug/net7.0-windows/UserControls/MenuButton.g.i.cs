@@ -70,7 +70,7 @@ namespace ChatBox.UserControls {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/ChatBox;component/usercontrols/menubutton.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/ChatBox;V1.0.0.0;component/usercontrols/menubutton.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\..\UserControls\MenuButton.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);
