@@ -53,7 +53,7 @@ namespace ChatBox.UserControls {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/ChatBox;V1.0.0.0;component/usercontrols/output.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/ChatBox;component/usercontrols/output.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\..\UserControls\Output.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);
