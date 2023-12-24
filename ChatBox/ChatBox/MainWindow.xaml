@@ -61,21 +61,25 @@
                               Command="{Binding HomeCommand}"
                               IsChecked="True" >
                         <Grid>
-                            <TextBlock>Home</TextBlock>
+                            <Image Source="Images/img_home.png" Style="{StaticResource Image_Style}"/>
+                            <TextBlock Text="Dashboard" Style="{StaticResource Text_Style}"/>
                         </Grid>
                         
                     </Menu:Btn>
                     
-                    <!-- Dashboard -->
+                    <!-- Dashboard --><!--
                     <Menu:Btn Style="{StaticResource BtnStyle}"
                               Command="{Binding DashboardCommand}">
                        
-                    </Menu:Btn>
+                    </Menu:Btn>-->
                     
                     <!-- User -->
                     <Menu:Btn Style="{StaticResource BtnStyle}"
                               Command="{Binding UserCommand}">
-                        
+                        <Grid>
+                            <Image Source="Images/img_customer.png" Style="{StaticResource Image_Style}"/>
+                            <TextBlock Text="User" Style="{StaticResource Text_Style}"/>
+                        </Grid>
                     </Menu:Btn>
                     
                     <!-- Page 1-->

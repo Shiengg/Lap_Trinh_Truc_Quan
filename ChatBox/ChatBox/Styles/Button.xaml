@@ -22,7 +22,7 @@
 
                         <Border.Background>
                             <SolidColorBrush x:Name="BorderBackground"
-                                             Color="#272B2F" />
+                                             Color="#FFB9A1FA" />
                         </Border.Background>
 
                         <Grid>
@@ -88,7 +88,7 @@
 
                             <Setter Property="Background"
                                     TargetName="border"
-                                    Value="#212529" />
+                                    Value="#FFB9A1FA" />
 
                             <Setter Property="Visibility"
                                     TargetName="Indicator"
