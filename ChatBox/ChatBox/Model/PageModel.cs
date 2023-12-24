@@ -8,12 +8,11 @@ namespace ChatBox.Model
 {
     public class PageModel
     {
-        public int CustomerCount { get; set; }
-        public string Introduce { get; set; }
-        public DateOnly Birthday { get; set; }
-        public decimal TransactionValue { get; set; }
-        public TimeOnly ShipmentDelivery { get; set; }
-        public bool LocationStatus { get; set; }
-
+        public string Dashboard { get; set; }
+        public int User { get; set; }
+        public DateOnly Calender { get; set; }
+        public string Page1 { get; set; }
+        public string Page2 { get; set; }
+        public string Page3 { get; set; }
     }
 }

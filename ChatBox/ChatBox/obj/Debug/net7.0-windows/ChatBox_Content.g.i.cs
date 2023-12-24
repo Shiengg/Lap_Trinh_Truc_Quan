@@ -8,6 +8,8 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("close.png")]
+[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("images/openai.jpg")]
+[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("images/shutdown_def.png")]
+[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("images/shutdown_mo.png")]
 
 

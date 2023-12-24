@@ -7,22 +7,22 @@
     </ApplicationDefinition>
   </ItemGroup>
   <ItemGroup>
-    <Compile Update="Login.xaml.cs">
-      <SubType>Code</SubType>
-    </Compile>
-    <Compile Update="SignUp.xaml.cs">
-      <SubType>Code</SubType>
-    </Compile>
-    <Compile Update="UserControls\Input.xaml.cs">
-      <SubType>Code</SubType>
-    </Compile>
-    <Compile Update="UserControls\Output.xaml.cs">
-      <SubType>Code</SubType>
-    </Compile>
     <Compile Update="View\Calendar.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Update="View\Dashboard.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Update="View\Home.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="View\Page1.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="View\Page2.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="View\Page3.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
     <Compile Update="View\User.xaml.cs">
@@ -30,19 +30,10 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <Page Update="Login.xaml">
-      <SubType>Designer</SubType>
-    </Page>
     <Page Update="MainWindow.xaml">
       <SubType>Designer</SubType>
     </Page>
-    <Page Update="SignUp.xaml">
-      <SubType>Designer</SubType>
-    </Page>
     <Page Update="Styles\Button.xaml">
-      <SubType>Designer</SubType>
-    </Page>
-    <Page Update="Styles\Image.xaml">
       <SubType>Designer</SubType>
     </Page>
     <Page Update="Styles\Page.xaml">
@@ -51,19 +42,25 @@
     <Page Update="Styles\Text.xaml">
       <SubType>Designer</SubType>
     </Page>
-    <Page Update="UserControls\Input.xaml">
-      <SubType>Designer</SubType>
-    </Page>
-    <Page Update="UserControls\Output.xaml">
-      <SubType>Designer</SubType>
-    </Page>
-    <Page Update="Utilities\DataTemplate.xaml">
+    <Page Update="Ultilities\DataTemplate.xaml">
       <SubType>Designer</SubType>
     </Page>
     <Page Update="View\Calendar.xaml">
       <SubType>Designer</SubType>
     </Page>
+    <Page Update="View\Dashboard.xaml">
+      <SubType>Designer</SubType>
+    </Page>
     <Page Update="View\Home.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="View\Page1.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="View\Page2.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="View\Page3.xaml">
       <SubType>Designer</SubType>
     </Page>
     <Page Update="View\User.xaml">

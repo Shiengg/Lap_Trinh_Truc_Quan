@@ -3,10 +3,18 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
              xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
-             xmlns:local="clr-namespace:ChatBox.View"
+             xmlns:vm="clr-namespace:ChatBox.ViewModel"
              mc:Ignorable="d" 
-             d:DesignHeight="720" d:DesignWidth="805">
+             d:DesignHeight="720" 
+             d:DesignWidth="805"
+             Style="{StaticResource Page_Style}">
+
+    <UserControl.DataContext>
+        <vm:HomeVM />
+    </UserControl.DataContext>
+    
     <Grid>
+
         <Border CornerRadius="0 20 20 0">
             <Border.Background>
                 <RadialGradientBrush>
@@ -17,5 +25,6 @@
             <Image HorizontalAlignment="Left" Height="132" Margin="336,0,0,0" VerticalAlignment="Center" Width="140" 
         Source="/Images/openai.jpg"/>
         </Border>
+        
     </Grid>
 </UserControl>

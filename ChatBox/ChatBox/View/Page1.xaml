@@ -1,0 +1,24 @@
+﻿<UserControl x:Class="ChatBox.View.Page1"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:ChatBox.View"
+             xmlns:vm="clr-namespace:ChatBox.ViewModel"
+             mc:Ignorable="d" 
+             d:DesignHeight="720" 
+             d:DesignWidth="805"
+             Style="{StaticResource Page_Style}">
+
+    <UserControl.DataContext>
+        <vm:Page1VM />
+    </UserControl.DataContext>
+
+    <Grid>
+        
+        <Border CornerRadius="0 20 20 0" Background="Red">
+
+        </Border>
+        
+    </Grid>
+</UserControl>

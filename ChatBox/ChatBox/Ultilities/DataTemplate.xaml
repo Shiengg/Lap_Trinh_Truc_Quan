@@ -1,0 +1,38 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:vm="clr-namespace:ChatBox.ViewModel"
+                    xmlns:view="clr-namespace:ChatBox.View">
+
+    <DataTemplate DataType="{x:Type vm:DashboardVM}">
+        <view:Dashboard />
+    </DataTemplate>
+
+
+    <DataTemplate DataType="{x:Type vm:UserVM}">
+        <view:User />
+    </DataTemplate>
+
+
+    <DataTemplate DataType="{x:Type vm:HomeVM}">
+        <view:Home />
+    </DataTemplate>
+
+
+    <DataTemplate DataType="{x:Type vm:CalenderVM}">
+        <view:Calendar />
+    </DataTemplate>
+
+    <DataTemplate DataType="{x:Type vm:Page1VM}">
+        <view:Page1 />
+    </DataTemplate>
+
+    <DataTemplate DataType="{x:Type vm:Page2VM}">
+        <view:Page2 />
+    </DataTemplate>
+
+    <DataTemplate DataType="{x:Type vm:Page3VM}">
+        <view:Page3 />
+    </DataTemplate>
+
+
+</ResourceDictionary>

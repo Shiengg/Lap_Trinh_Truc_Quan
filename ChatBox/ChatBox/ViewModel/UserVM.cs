@@ -7,19 +7,20 @@ using ChatBox.Model;
 
 namespace ChatBox.ViewModel
 {
-    class UserVM: Utilities.ViewModelBase
+    class UserVM: Ultilities.ViewModelBase
     {
         private readonly PageModel _pageModel;
-        public int CustomerID
+
+        public int UserID
         {
-            get { return _pageModel.CustomerCount; }
-            set { _pageModel.CustomerCount = value; OnPropertyChanged(); }
+            get { return _pageModel.User; }
+            set { _pageModel.User = value; OnPropertyChanged(); }
         }
 
         public UserVM()
         {
             _pageModel = new PageModel();
-            CustomerID = 100528;
+            UserID = 0;
         }
     }
 }
