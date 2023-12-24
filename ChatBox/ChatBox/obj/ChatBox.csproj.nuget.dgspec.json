@@ -48,6 +48,10 @@
             "CommunityToolkit.Mvvm": {
               "target": "Package",
               "version": "[8.2.2, )"
+            },
+            "MongoDB.Driver": {
+              "target": "Package",
+              "version": "[2.23.1, )"
             }
           },
           "imports": [

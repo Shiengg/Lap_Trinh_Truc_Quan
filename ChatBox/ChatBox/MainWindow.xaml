@@ -85,7 +85,10 @@
                     <!-- Page 1-->
                     <Menu:Btn Style="{StaticResource BtnStyle}"
                               Command="{Binding Page1Command}">
-
+                        <Grid>
+                            <Image Source="Images/calendar2.jpg" Style="{StaticResource Image_Style}"/>
+                            <TextBlock Text="Calendar" Style="{StaticResource Text_Style}"/>
+                        </Grid>
                     </Menu:Btn>
 
                     <!-- Page 2-->

@@ -60,7 +60,7 @@
                                 <Storyboard>
                                     <ColorAnimation Storyboard.TargetName="BorderBackground"
                                                     Storyboard.TargetProperty="Color"
-                                                    From="#272B2F"
+                                                    From="#FFB9A1FA"
                                                     To="#3E434A"
                                                     Duration="0:0:0.3" />
                                 </Storyboard>
@@ -76,7 +76,7 @@
                                     <ColorAnimation Storyboard.TargetName="BorderBackground"
                                                     Storyboard.TargetProperty="Color"
                                                     From="#3E434A"
-                                                    To="#272B2F"
+                                                    To="#FFB9A1FA"
                                                     Duration="0:0:0.3" />
                                 </Storyboard>
                             </BeginStoryboard>
