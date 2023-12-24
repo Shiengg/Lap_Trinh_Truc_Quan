@@ -65,11 +65,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\VSC\\ChatBox\\ChatBox\\ChatBox.csproj",
+      "projectUniqueName": "D:\\Github\\Lap_Trinh_Truc_Quan\\ChatBox\\ChatBox\\ChatBox.csproj",
       "projectName": "ChatBox",
-      "projectPath": "D:\\VSC\\ChatBox\\ChatBox\\ChatBox.csproj",
+      "projectPath": "D:\\Github\\Lap_Trinh_Truc_Quan\\ChatBox\\ChatBox\\ChatBox.csproj",
       "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-      "outputPath": "D:\\VSC\\ChatBox\\ChatBox\\obj\\",
+      "outputPath": "D:\\Github\\Lap_Trinh_Truc_Quan\\ChatBox\\ChatBox\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

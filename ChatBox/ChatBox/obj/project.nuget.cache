@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "5ltDcDsmVENxZRTIUq1tntFIBxetT3SpN1M23XdgWTRZ39NLms4gf9/WlxqDuAtnBmtQLBmHuIff4m/XX1D7Rg==",
+  "dgSpecHash": "5oJYK0WR8gyHSFpFaZ8BkraxUx1vM8ucOuDRMgatWMPIj0EaPhnQViSUPyfNxnZ3FR+cPtu4ZHsoBmId38eGNw==",
   "success": true,
-  "projectFilePath": "D:\\VSC\\ChatBox\\ChatBox\\ChatBox.csproj",
+  "projectFilePath": "D:\\Github\\Lap_Trinh_Truc_Quan\\ChatBox\\ChatBox\\ChatBox.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Admin\\.nuget\\packages\\communitytoolkit.mvvm\\8.2.2\\communitytoolkit.mvvm.8.2.2.nupkg.sha512"
   ],
