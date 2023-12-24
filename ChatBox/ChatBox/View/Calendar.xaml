@@ -5,7 +5,8 @@
              xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
              xmlns:local="clr-namespace:ChatBox.View"
              mc:Ignorable="d" 
-             d:DesignHeight="720" d:DesignWidth="805">
+             d:DesignHeight="720" d:DesignWidth="805"
+             Style="{StaticResource Page_Style}">
     <UserControl.Resources>
         <ControlTemplate x:Key="CalendarItemTemplate1" TargetType="{x:Type CalendarItem}">
             <ControlTemplate.Resources>

@@ -12,7 +12,7 @@
 
     <Window.Resources>
         <BooleanToVisibilityConverter x:Key="BoolToVis"/>
-        <ResourceDictionary x:Key="AllResources"/>
+        <!--<ResourceDictionary x:Key="AllResources"/>-->
     </Window.Resources>
 
     <Window.DataContext>
@@ -23,8 +23,8 @@
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="55"/>
             <ColumnDefinition Width="220"/>
-            <ColumnDefinition Width="350"/>
-            <ColumnDefinition Width="*"/>
+            <!--<ColumnDefinition Width="350"/>-->
+            <ColumnDefinition Width="805"/>
         </Grid.ColumnDefinitions>
 
         <Grid.RowDefinitions>
@@ -60,7 +60,9 @@
                     <uc:AccountMenuBotton Title="B" GradientColor1="#fba0cb"/>
                     <uc:AccountMenuBotton Title="A" GradientColor1="#FFE26868"/>
 
-                    --><!--Add Button--><!--
+                    -->
+                <!--Add Button-->
+                <!--
                     <Button Style="{StaticResource leftSideButton}">
                         <Border Background="Transparent" CornerRadius="3" Width="25" Height="25" BorderThickness="0.8"
 								Margin="-3 0 0 0" BorderBrush="White">
@@ -73,7 +75,7 @@
         </Border>
 
         <!--Left Menu2-->
-        <Border Grid.RowSpan="2" CornerRadius="0 20 20 0" Panel.ZIndex="1" Margin="48,0,332,0" Grid.ColumnSpan="3" Background="#FFB9A1FA">
+        <Border Grid.RowSpan="2" CornerRadius="0 20 20 0" Panel.ZIndex="1" Margin="48,0,780,0" Grid.ColumnSpan="3" Background="#FFB9A1FA">
             <Grid>
                 <!--Top Combobox-->
                 <ComboBox Style="{DynamicResource ComboBoxStyle1}" VerticalAlignment="Top" Margin="25 45 0 0">
@@ -100,6 +102,7 @@
 
                 <!--Navigation-->
                 <StackPanel Margin="25 160 0 0">
+
                     <Menu:Btn Style="{StaticResource BtnStyle}" Command="{Binding HomeCommand}" IsChecked="True">
                         <Grid>
                             <Image Source="Images/img_home.png" Style="{StaticResource Image_Style}"/>
@@ -112,6 +115,7 @@
                             <TextBlock Text="User" Style="{StaticResource Text_Style}"/>
                         </Grid>
                     </Menu:Btn>
+
                 </StackPanel>
 
                 <!--Bottom Menu Buttons-->
@@ -123,8 +127,8 @@
             </Grid>
         </Border>
 
-        <Grid Grid.Column="1" Grid.Row="1">
-            <ContentControl x:Name="Pages" Content="{Binding CurrentView}"/>
+        <Grid Grid.Column="2">
+            <ContentControl Content="{Binding CurrentView}"/>
         </Grid>
         <!--Top Section-->
         <Grid Grid.Column="2" Grid.ColumnSpan="2" Margin="40 30">
@@ -171,7 +175,7 @@
         </Grid>
 
         <!--Chat Items Section-->
-        <Border Grid.Column="2" Grid.Row="1">
+        <Border Grid.Row="1">
             <Grid>
                 <Grid.RowDefinitions>
                     <RowDefinition Height="107*"/>
@@ -317,6 +321,6 @@
                 </Grid>
             </Grid>
         </Border>
-        
+
     </Grid>
 </Window>
