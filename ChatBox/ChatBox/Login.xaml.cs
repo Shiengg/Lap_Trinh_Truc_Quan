@@ -123,10 +123,11 @@ namespace ChatBox
             Application.Current.Shutdown();
         }
 
-        //private void Button_Click_1(object sender, RoutedEventArgs e)
-        //{
-        //    SignUp f = new SignUp();
-        //    f.Show();
-        //}
+
+        private void Button_Click_1(object sender, RoutedEventArgs e)
+        {
+            SignUp f = new SignUp();
+            f.Show();
+        }
     }
 }
