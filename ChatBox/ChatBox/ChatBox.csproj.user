@@ -7,6 +7,12 @@
     </ApplicationDefinition>
   </ItemGroup>
   <ItemGroup>
+    <Compile Update="Login.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="SignUp.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Update="View\Calendar.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
@@ -30,10 +36,19 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
+    <Page Update="Login.xaml">
+      <SubType>Designer</SubType>
+    </Page>
     <Page Update="MainWindow.xaml">
       <SubType>Designer</SubType>
     </Page>
+    <Page Update="SignUp.xaml">
+      <SubType>Designer</SubType>
+    </Page>
     <Page Update="Styles\Button.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Styles\Image.xaml">
       <SubType>Designer</SubType>
     </Page>
     <Page Update="Styles\Page.xaml">

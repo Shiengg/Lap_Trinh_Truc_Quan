@@ -61,33 +61,45 @@
                               Command="{Binding HomeCommand}"
                               IsChecked="True" >
                         <Grid>
-                            <TextBlock>Home</TextBlock>
+                   
+                                <Image Source="Images/img_home.png" Style="{StaticResource Image_Style}"/>
+                                <TextBlock Text="Dashboard" Style="{StaticResource Text_Style}"/>
+                           
                         </Grid>
                         
                     </Menu:Btn>
                     
                     <!-- Dashboard -->
-                    <Menu:Btn Style="{StaticResource BtnStyle}"
+                    <!--<Menu:Btn Style="{StaticResource BtnStyle}"
                               Command="{Binding DashboardCommand}">
                        
-                    </Menu:Btn>
+                    </Menu:Btn>-->
                     
                     <!-- User -->
                     <Menu:Btn Style="{StaticResource BtnStyle}"
                               Command="{Binding UserCommand}">
-                        
+                        <Grid>
+                            <Image Source="Images/img_customer.png" Style="{StaticResource Image_Style}"/>
+                            <TextBlock Text="User" Style="{StaticResource Text_Style}"/>
+                        </Grid>
                     </Menu:Btn>
                     
                     <!-- Page 1-->
                     <Menu:Btn Style="{StaticResource BtnStyle}"
                               Command="{Binding Page1Command}">
-
+                        <Grid>
+                            <Image Source="Images/calendar2.jpg" Style="{StaticResource Image_Style}"/>
+                            <TextBlock Text="Calendar" Style="{StaticResource Text_Style}"/>
+                        </Grid>
                     </Menu:Btn>
 
                     <!-- Page 2-->
                     <Menu:Btn Style="{StaticResource BtnStyle}"
                               Command="{Binding Page2Command}">
-
+                        <Grid>
+                            <Image Source="Images/chat.png" Style="{StaticResource Image_Style}"/>
+                            <TextBlock Text="Chat" Style="{StaticResource Text_Style}"/>
+                        </Grid>
                     </Menu:Btn>
 
                     <!-- Page 3-->
