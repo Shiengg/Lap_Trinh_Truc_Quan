@@ -55,11 +55,11 @@
 
         <Style x:Key="messageTextbox" TargetType="TextBox">
             <Setter Property="Background" Value="#f5f7f9"/>
-            <Setter Property="Foreground" Value="#767676"/>
+            <Setter Property="Foreground" Value="Black"/>
             <Setter Property="BorderThickness" Value="1"/>
             <Setter Property="BorderBrush" Value="#e1e0e3"/>
-            <Setter Property="FontSize" Value="12"/>
-            <Setter Property="Padding" Value="10 8 10 0"/>
+            <Setter Property="FontSize" Value="14"/>
+            <Setter Property="Padding" Value="10 12 10 0"/>
             <Setter Property="VerticalAlignment" Value="Center"/>
             <Setter Property="Margin" Value="0 10"/>
             <Setter Property="Template">
@@ -127,16 +127,16 @@
                     </Grid.ColumnDefinitions>
 
                     <!--Message TextBox-->
-                    <Grid>
+                    <Grid Margin="0,91,0,0">
                         <TextBlock Margin="15 0 120 0" VerticalAlignment="Center" Foreground="#868686" Panel.ZIndex="1"
                              IsHitTestVisible="False" Text="Type your message..."
                              Visibility="{Binding ElementName=txtMessage,Path=Text.IsEmpty,Converter={StaticResource BoolToVis}}"/>
 
                         <TextBox x:Name="txtMessage" 
-                           Style="{StaticResource messageTextbox}" Margin="0,63,120,62" 
+                           Style="{StaticResource messageTextbox}" Margin="0,23,122,23" 
                            TextWrapping="Wrap" VerticalScrollBarVisibility="Auto"
                            AcceptsReturn="True" VerticalAlignment="Stretch"/>
-                        <Image x:Name="selectedImage" Margin="10"/>
+                        <Image x:Name="selectedImage" Margin="10,69,10,10"/>
                         <!--Buttons-->
                         <StackPanel Orientation="Horizontal" Margin="0 0 8 0" HorizontalAlignment="Right" VerticalAlignment="Center">
                             <Button x:Name="InputImage"
