@@ -49,6 +49,10 @@
               "target": "Package",
               "version": "[8.2.2, )"
             },
+            "Json.Net": {
+              "target": "Package",
+              "version": "[1.0.33, )"
+            },
             "MahApps.Metro.IconPacks.Material": {
               "target": "Package",
               "version": "[4.11.0, )"

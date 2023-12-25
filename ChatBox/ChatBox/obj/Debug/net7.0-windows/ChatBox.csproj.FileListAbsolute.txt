@@ -255,3 +255,4 @@ D:\Github\Lap_Trinh_Truc_Quan\ChatBox\ChatBox\obj\Debug\net7.0-windows\View\Comp
 D:\Github\Lap_Trinh_Truc_Quan\ChatBox\ChatBox\obj\Debug\net7.0-windows\View\Components\Input.baml
 D:\Github\Lap_Trinh_Truc_Quan\ChatBox\ChatBox\obj\Debug\net7.0-windows\View\Components\Output.g.cs
 D:\Github\Lap_Trinh_Truc_Quan\ChatBox\ChatBox\obj\Debug\net7.0-windows\View\Components\Output.baml
+D:\Github\Lap_Trinh_Truc_Quan\ChatBox\ChatBox\bin\Debug\net7.0-windows\Json.Net.dll
