@@ -93,7 +93,14 @@ namespace ChatBox.View
 
         private void SendButton_Click(object sender, RoutedEventArgs e)
         {
-            MessageBox.Show(txtMessage.Text, "Test thôi ehe");
+            string userMessage = txtMessage.Text.Trim(); // Loại bỏ các khoảng trắng ở đầu và cuối chuỗi
+
+            // Kiểm tra xem chuỗi có chứa chỉ ký tự trắng hoặc xuống dòng không
+            if (string.IsNullOrWhiteSpace(userMessage))
+            {
+                // Ngăn chặn việc thêm Input nếu dữ liệu người dùng trống
+                return;
+            }
         }
     }
 }

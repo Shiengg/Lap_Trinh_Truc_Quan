@@ -157,8 +157,8 @@
                     </Grid>
 
                     <!--Send Button-->
-                    <Button x:Name="sendButton" Grid.Column="1" Margin="1,116,4,32" Style="{StaticResource textBoxButton}" Click="SendButton_Click">
-                        <Icon:PackIconMaterial Kind="Send" Margin="9,0,10,0" Foreground="#6f59d4" HorizontalAlignment="Stretch">
+                    <Button x:Name="sendButton" Grid.Column="1" Margin="1,117,4,31" Style="{StaticResource textBoxButton}" Click="SendButton_Click">
+                        <Icon:PackIconMaterial Kind="Send" Margin="0,0,19,0" Foreground="#6f59d4" HorizontalAlignment="Stretch" RenderTransformOrigin="0.048,0.653">
                             <Icon:PackIconMaterial.LayoutTransform>
                                 <RotateTransform Angle="-45"/>
                             </Icon:PackIconMaterial.LayoutTransform>
