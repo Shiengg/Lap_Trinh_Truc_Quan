@@ -38,7 +38,8 @@ namespace ChatBox
             }
             else if (pass.Trim() == "")
             {
-                MessageBox.Show("Please enter your password!");
+                //MessageBox.Show("Please enter your password!");
+                loginStatus.Text = "Please enter your password!";
             }
             else
             {
