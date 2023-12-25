@@ -16,6 +16,9 @@
     <Compile Update="View\Calendar.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Update="View\Components\Input.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Update="View\Dashboard.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
@@ -61,6 +64,9 @@
       <SubType>Designer</SubType>
     </Page>
     <Page Update="View\Calendar.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="View\Components\Input.xaml">
       <SubType>Designer</SubType>
     </Page>
     <Page Update="View\Dashboard.xaml">
