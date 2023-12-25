@@ -8,4 +8,6 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = ChatBox
-build_property.ProjectDir = D:\Github\Lap_Trinh_Truc_Quan\ChatBox\ChatBox\
+build_property.ProjectDir = D:\Năm 2\ChatBox\Lap_Trinh_Truc_Quan\ChatBox\ChatBox\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 

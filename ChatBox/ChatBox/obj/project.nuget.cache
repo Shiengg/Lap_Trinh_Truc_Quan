@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "ckHshUuA2JT+Pz1xMa7WBmEXDh83VX3h/CdtZ29sobn/Ud9vz4U8ceBEuultfNP0Gfl0H4NB56ZX/xfqeJY2OQ==",
+  "dgSpecHash": "WiyfzSbKXkajp+IFJ4IBamYwf7cVaxQkblBNTtgGltihNCuFxsOc6ztzHh9aXhg+7C3DRrxZ4pH1iSjk5jUm+A==",
   "success": true,
-  "projectFilePath": "D:\\Github\\Lap_Trinh_Truc_Quan\\ChatBox\\ChatBox\\ChatBox.csproj",
+  "projectFilePath": "D:\\Năm 2\\ChatBox\\Lap_Trinh_Truc_Quan\\ChatBox\\ChatBox\\ChatBox.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Admin\\.nuget\\packages\\awssdk.core\\3.7.100.14\\awssdk.core.3.7.100.14.nupkg.sha512",
     "C:\\Users\\Admin\\.nuget\\packages\\awssdk.securitytoken\\3.7.100.14\\awssdk.securitytoken.3.7.100.14.nupkg.sha512",
