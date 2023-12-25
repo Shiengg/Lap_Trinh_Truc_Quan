@@ -49,6 +49,10 @@
               "target": "Package",
               "version": "[8.2.2, )"
             },
+            "MahApps.Metro.IconPacks.Material": {
+              "target": "Package",
+              "version": "[4.11.0, )"
+            },
             "MongoDB.Driver": {
               "target": "Package",
               "version": "[2.23.1, )"
