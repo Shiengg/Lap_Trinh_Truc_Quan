@@ -15,6 +15,7 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 using System.Windows.Threading;
+using Newtonsoft.Json.Linq;
 using static System.Runtime.InteropServices.JavaScript.JSType;
 
 namespace ChatBox.View
@@ -94,7 +95,7 @@ namespace ChatBox.View
             scrollTimer.Start();
         }
 
-        private void SendButton_Click(object sender, RoutedEventArgs e)
+        private async void SendButton_Click(object sender, RoutedEventArgs e)
         {
             string userMessage = txtMessage.Text.Trim(); // Loại bỏ các khoảng trắng ở đầu và cuối chuỗi
 
@@ -111,9 +112,11 @@ namespace ChatBox.View
             };
             ChatPanel.Children.Add(newInput);
 
+            string result = await CallApi(userMessage);
+
             Output newOutput = new Output
             {
-                Message = "Test giao diện thôi đừng có mà ý kiến nhá, cảm ơn nhiều",
+                Message = result,
             };
             ChatPanel.Children.Add(newOutput);
 
@@ -136,13 +139,21 @@ namespace ChatBox.View
                 if (response.IsSuccessStatusCode)
                 {
                     string result = await response.Content.ReadAsStringAsync();
-                    //JObject jsonResult = JObject.Parse(result);
-                    //JArray candidates = (JArray)jsonResult["candidates"];
+                    JObject jsonResult = JObject.Parse(result);
+                    JArray candidates = (JArray)jsonResult["candidates"];
 
-                    
+                    foreach (var candidate in candidates)
+                    {
+                        string text = (string)candidate["content"]["parts"][0]["text"];
+                        return text; // Trả về kết quả từ API
+                    }
+                }
+                else
+                {
+                    MessageBox.Show("Error: " + response.StatusCode);
                 }    
             }
-            return "hello";
+            return "Some problem about connect!!!!";
         }
     }
 }
