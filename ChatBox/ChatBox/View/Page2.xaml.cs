@@ -26,11 +26,6 @@ namespace ChatBox.View
             InitializeComponent();
         }
 
-        private void SendButton_Click(object sender, RoutedEventArgs e)
-        {
-
-        }
-
         private void MicButton_Click(object sender, RoutedEventArgs e)
         {
 
@@ -94,6 +89,11 @@ namespace ChatBox.View
 
             scrollTimer.Stop();
             scrollTimer.Start();
+        }
+
+        private void SendButton_Click(object sender, RoutedEventArgs e)
+        {
+            MessageBox.Show(txtMessage.Text, "Test thôi ehe");
         }
     }
 }
