@@ -45,7 +45,7 @@
     <Grid Margin="15">
 
         <Border CornerRadius="0 20 20 0" Background="#FFF9D8FF">
-            <TextBox x:Name="txtUser" Text="...."
+            <TextBox x:Name="txtUser" 
                 FontSize="13"
                 VerticalAlignment="Top"
                 Margin="194,146,0,0"

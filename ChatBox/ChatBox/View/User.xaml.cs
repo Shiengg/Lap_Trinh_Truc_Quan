@@ -36,7 +36,6 @@ namespace ChatBox.View
 
 
             modify.InsertAccountInfo(Email, Pass, User, Birthday, Introduce);
-
         }
 
     }
