@@ -43,21 +43,32 @@ namespace ChatBox
             }
             else
             {
-                Connection modify = new Connection(@"mongodb+srv://22521708:HgecVbTzd1Iqz6fx@cluster0.um2tiwy.mongodb.net/QLChatbox?retryWrites=true&w=majority", "Account");
+                Connection connection = new Connection(@"mongodb+srv://22521708:HgecVbTzd1Iqz6fx@cluster0.um2tiwy.mongodb.net/QLChatbox?retryWrites=true&w=majority", "Account");
 
-                List<Account> accounts = modify.GetAccounts(email);
+                List<Account> accounts = connection.GetAccounts(email);
 
-                if (accounts.Count != 0)
+                bool loginSuccess = false;
+
+                foreach (Account userAccount in accounts)
+                {
+                    if (userAccount.Email == email && userAccount.Password == pass)
+                    {
+                        loginSuccess = true;
+                        break; 
+                    }
+                }
+
+                if (loginSuccess)
                 {
                     loginStatus.Text = "Login Successfully!";
                     loginStatus.Foreground = Brushes.Green;
-                    MainWindow f = new MainWindow();
-                    f.Show();
+                    MainWindow mainWindow = new MainWindow();
+                    mainWindow.Show();
                     Window.GetWindow(this).Close();
                 }
                 else
                 {
-                    loginStatus.Text = "Login failed!";
+                    loginStatus.Text = "Incorrect email or password!";
                 }
             }
             //if (!string.IsNullOrEmpty(txtEmail.Text) && !string.IsNullOrEmpty(txtPassword.Password))
