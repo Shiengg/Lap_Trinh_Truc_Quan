@@ -157,7 +157,10 @@
                     </Grid>
                 </Border>
 
-                <Button Content="Sign Up" Click="Button_Click" Style="{StaticResource mainbutton}"/>
+                <Button Content="Sign Up" 
+                        Click="Button_Click"
+                        Style="{StaticResource mainbutton}"
+                        IsDefault="True" />
             </StackPanel>
         </Border>
     </Grid>

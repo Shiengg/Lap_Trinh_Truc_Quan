@@ -195,7 +195,10 @@
                     </Grid>
                 </Border>
 
-                <Button Content="Sign In" Click="Button_Click" Style="{StaticResource mainbutton}"/>
+                <Button Content="Sign In"
+                        Click="Button_Click"
+                        Style="{StaticResource mainbutton}"
+                        IsDefault="True"/>
 
             </StackPanel>
         </Border>
