@@ -10,11 +10,11 @@ none
 false
 TRACE;DEBUG;NET;NET7_0;NETCOREAPP
 D:\Github\Lap_Trinh_Truc_Quan\ChatBox\ChatBox\App.xaml
-161086320129
+17-1276570160
 3-2060764649
-301890858228
+31-864743079
 212-1545864029
-Login.xaml;MainWindow.xaml;SignUp.xaml;Styles\Button.xaml;Styles\Image.xaml;Styles\Page.xaml;Styles\Text.xaml;Ultilities\DataTemplate.xaml;View\Calendar.xaml;View\Components\Input.xaml;View\Dashboard.xaml;View\Home.xaml;View\Page1.xaml;View\Page2.xaml;View\Page3.xaml;View\User.xaml;
+Login.xaml;MainWindow.xaml;SignUp.xaml;Styles\Button.xaml;Styles\Image.xaml;Styles\Page.xaml;Styles\Text.xaml;Ultilities\DataTemplate.xaml;View\Calendar.xaml;View\Components\Input.xaml;View\Components\Output.xaml;View\Dashboard.xaml;View\Home.xaml;View\Page1.xaml;View\Page2.xaml;View\Page3.xaml;View\User.xaml;
 
 True
 

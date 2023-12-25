@@ -1,4 +1,5 @@
-﻿using System;
+﻿using ChatBox.View.Components;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -101,6 +102,21 @@ namespace ChatBox.View
                 // Ngăn chặn việc thêm Input nếu dữ liệu người dùng trống
                 return;
             }
+
+            Input newInput = new Input
+            {
+                Message = userMessage,
+            };
+            ChatPanel.Children.Add(newInput);
+
+            Output newOutput = new Output
+            {
+                Message = "Test giao diện thôi đừng có mà ý kiến nhá, cảm ơn nhiều",
+            };
+            ChatPanel.Children.Add(newOutput);
+
+            // Xóa nội dung TextBox sau khi gửi
+            txtMessage.Text = string.Empty;
         }
     }
 }
