@@ -34,6 +34,7 @@
 
   <ItemGroup>
     <PackageReference Include="CommunityToolkit.Mvvm" Version="8.2.2" />
+    <PackageReference Include="Json.Net" Version="1.0.33" />
     <PackageReference Include="MahApps.Metro.IconPacks.Material" Version="4.11.0" />
     <PackageReference Include="MongoDB.Driver" Version="2.23.1" />
   </ItemGroup>

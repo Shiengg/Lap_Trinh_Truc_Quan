@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "trD0Amx04zP9qXsAuupDF06IGvlWb3JHhhg0sVKZCY4N8lQv56DRtCd4GUC0QTnBh3FUZILyA6F8tga6ivQPxA==",
+  "dgSpecHash": "R2oRyvBLbm2SGgN+FTutjncI6gLWKdSCtURuhYXCzkhlimrDWlwaaAXsMVouWb/qUoKSA2iFWWVVQHvPaZg7Uw==",
   "success": true,
   "projectFilePath": "D:\\Github\\Lap_Trinh_Truc_Quan\\ChatBox\\ChatBox\\ChatBox.csproj",
   "expectedPackageFiles": [
@@ -8,6 +8,7 @@
     "C:\\Users\\Admin\\.nuget\\packages\\awssdk.securitytoken\\3.7.100.14\\awssdk.securitytoken.3.7.100.14.nupkg.sha512",
     "C:\\Users\\Admin\\.nuget\\packages\\communitytoolkit.mvvm\\8.2.2\\communitytoolkit.mvvm.8.2.2.nupkg.sha512",
     "C:\\Users\\Admin\\.nuget\\packages\\dnsclient\\1.6.1\\dnsclient.1.6.1.nupkg.sha512",
+    "C:\\Users\\Admin\\.nuget\\packages\\json.net\\1.0.33\\json.net.1.0.33.nupkg.sha512",
     "C:\\Users\\Admin\\.nuget\\packages\\mahapps.metro.iconpacks.material\\4.11.0\\mahapps.metro.iconpacks.material.4.11.0.nupkg.sha512",
     "C:\\Users\\Admin\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\2.0.0\\microsoft.extensions.logging.abstractions.2.0.0.nupkg.sha512",
     "C:\\Users\\Admin\\.nuget\\packages\\microsoft.netcore.platforms\\5.0.0\\microsoft.netcore.platforms.5.0.0.nupkg.sha512",

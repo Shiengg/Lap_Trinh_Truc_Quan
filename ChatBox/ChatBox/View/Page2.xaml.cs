@@ -2,6 +2,7 @@
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Net.Http;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows;
@@ -14,6 +15,7 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 using System.Windows.Threading;
+using static System.Runtime.InteropServices.JavaScript.JSType;
 
 namespace ChatBox.View
 {
@@ -117,6 +119,30 @@ namespace ChatBox.View
 
             // Xóa nội dung TextBox sau khi gửi
             txtMessage.Text = string.Empty;
+        }
+
+        private async Task<string> CallApi(string userInput)
+        {
+            string apiKey = "AIzaSyBcy3pZDBaXFpRSw43W7t9xYxrUsHX0Zdo";
+            string apiUrl = "https://generativelanguage.googleapis.com/v1beta/models/gemini-pro:generateContent?key=" + apiKey;
+
+            string jsonData = $"{{\"contents\":[{{\"parts\":[{{\"text\":\"{userInput}\"}}]}}]}}";
+
+            using (HttpClient client = new HttpClient()) 
+            {
+                client.DefaultRequestHeaders.Accept.Add(new System.Net.Http.Headers.MediaTypeWithQualityHeaderValue("application/json"));
+                HttpContent content = new StringContent(jsonData, Encoding.UTF8, "application/json");
+                HttpResponseMessage response = await client.PostAsync(apiUrl, content);
+                if (response.IsSuccessStatusCode)
+                {
+                    string result = await response.Content.ReadAsStringAsync();
+                    //JObject jsonResult = JObject.Parse(result);
+                    //JArray candidates = (JArray)jsonResult["candidates"];
+
+                    
+                }    
+            }
+            return "hello";
         }
     }
 }
