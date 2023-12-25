@@ -6,6 +6,7 @@
              xmlns:Icon="http://metro.mahapps.com/winfx/xaml/iconpacks"
              xmlns:local="clr-namespace:ChatBox.View"
              xmlns:vm="clr-namespace:ChatBox.ViewModel"
+             xmlns:io="clr-namespace:ChatBox.View.Components"
              mc:Ignorable="d" 
              d:DesignHeight="720" 
              d:DesignWidth="805"
@@ -156,8 +157,8 @@
                     </Grid>
 
                     <!--Send Button-->
-                    <Button x:Name="sendButton" Grid.Column="1" Margin="1,116,4,32" Style="{StaticResource textBoxButton}" Click="SendButton_Click">
-                        <Icon:PackIconMaterial Kind="Send" Margin="9,0,10,0" Foreground="#6f59d4" HorizontalAlignment="Stretch">
+                    <Button x:Name="sendButton" Grid.Column="1" Margin="1,118,4,30" Style="{StaticResource textBoxButton}" Click="SendButton_Click">
+                        <Icon:PackIconMaterial Kind="Send" Margin="2,0,17,0" Foreground="#6f59d4" HorizontalAlignment="Stretch" RenderTransformOrigin="0.228,0.338">
                             <Icon:PackIconMaterial.LayoutTransform>
                                 <RotateTransform Angle="-45"/>
                             </Icon:PackIconMaterial.LayoutTransform>
