@@ -34,11 +34,11 @@ namespace ChatBox
             string pass = txtPassword.Password;
             if (email.Trim() == "")
             {
-                MessageBox.Show("Please enter your email!");
+                loginStatus.Text = "Please enter your email!";
             }
             else if (pass.Trim() == "")
             {
-                //MessageBox.Show("Please enter your password!");
+                
                 loginStatus.Text = "Please enter your password!";
             }
             else
@@ -49,13 +49,15 @@ namespace ChatBox
 
                 if (accounts.Count != 0)
                 {
-                    MessageBox.Show("Login Successfully!");
+                    loginStatus.Text = "Login Successfully!";
+                    loginStatus.Foreground = Brushes.Green;
                     MainWindow f = new MainWindow();
                     f.Show();
+                    
                 }
                 else
                 {
-                    MessageBox.Show("Login failed!");
+                    loginStatus.Text = "Login failed!";
                 }
             }
             //if (!string.IsNullOrEmpty(txtEmail.Text) && !string.IsNullOrEmpty(txtPassword.Password))
