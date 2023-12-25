@@ -77,6 +77,7 @@ namespace ChatBox
                 MessageBox.Show("Registered successfully");
                 Login f = new Login();
                 f.Show();
+                Window.GetWindow(this).Close();
             }
             catch (Exception ex)
             {

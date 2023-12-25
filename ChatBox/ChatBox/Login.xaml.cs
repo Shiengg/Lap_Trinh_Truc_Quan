@@ -53,7 +53,7 @@ namespace ChatBox
                     loginStatus.Foreground = Brushes.Green;
                     MainWindow f = new MainWindow();
                     f.Show();
-                    
+                    Window.GetWindow(this).Close();
                 }
                 else
                 {
@@ -130,6 +130,9 @@ namespace ChatBox
         {
             SignUp f = new SignUp();
             f.Show();
+            Window.GetWindow(this).Close();
         }
+
+        
     }
 }
