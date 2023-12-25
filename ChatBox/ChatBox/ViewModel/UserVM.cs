@@ -17,8 +17,6 @@ namespace ChatBox.ViewModel
             set { _pageModel.User = value; OnPropertyChanged(); }
         }
 
-
-
         public UserVM()
         {
             _pageModel = new PageModel();
