@@ -53,7 +53,7 @@ namespace ChatBox.View {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/ChatBox;V1.0.0.0;component/view/dashboard.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/ChatBox;component/view/dashboard.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\..\View\Dashboard.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);

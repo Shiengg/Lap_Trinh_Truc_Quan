@@ -61,6 +61,8 @@ namespace ChatBox
                 if (loginSuccess)
                 {
                     loginStatus.Text = "Login Successfully!";
+                    Connection.SetLoggedInUserEmail(email);
+                    Connection.SetLoggedInUserPass(pass);
                     loginStatus.Foreground = Brushes.Green;
                     MainWindow mainWindow = new MainWindow();
                     mainWindow.Show();

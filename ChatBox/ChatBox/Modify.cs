@@ -18,8 +18,6 @@ namespace ChatBox
             return accounts;
         }
 
-
-
         public long CountAccounts(string email)
         {
             var filter = Builders<Account>.Filter.Eq("Email", email);
