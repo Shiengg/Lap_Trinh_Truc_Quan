@@ -26,6 +26,7 @@ namespace ChatBox
             }
 
         }
+
         private IMongoCollection<Account> accountCollection;
         public async Task<long> CountAccountsAsync(string email)
         {
@@ -55,14 +56,23 @@ namespace ChatBox
 
         private static string loggedInUserEmail; // Biến global để lưu trữ email của người dùng đã đăng nhập
 
+        private static string loggedInUserPassword;
         public static void SetLoggedInUserEmail(string email)
         {
             loggedInUserEmail = email;
+        }
+        public static void SetLoggedInUserPass(string pass)
+        {
+            loggedInUserPassword = pass;
         }
 
         public static string GetLoggedInUserEmail()
         {
             return loggedInUserEmail;
+        }
+        public static string GetLoggedInUserPass()
+        {
+            return loggedInUserPassword;
         }
 
         public void UpdateUserInformation(string userBirthday, string userIntroduce)
@@ -90,7 +100,22 @@ namespace ChatBox
             {
                 // Xảy ra lỗi: không thể cập nhật thông tin, cần xử lý tình huống này
             }
+
+
         }
+        public void InsertAccountInfo(string email, string password, string user, string birthday, string introduce)
+        {
+            var newAccount = new Account
+            {
+                Email = email,
+                Password = password,
+                User = user,
+                Birthday = birthday,
+                Introduce = introduce
+            };
+            accountCollection.InsertOne(newAccount);
+        }
+
 
     }
 }

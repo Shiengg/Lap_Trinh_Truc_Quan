@@ -45,10 +45,10 @@
     <Grid Margin="15">
 
         <Border CornerRadius="0 20 20 0" Background="#FFF9D8FF">
-            <TextBox Text="...."
+            <TextBox x:Name="txtUser" Text="...."
                 FontSize="13"
                 VerticalAlignment="Top"
-                Margin="148,146,0,0"
+                Margin="194,146,0,0"
                 Width="300"
                 Height="25" Background="#FFFCE8FF" HorizontalAlignment="Left" 
                 BorderThickness="0"/>
@@ -61,6 +61,15 @@
                    VerticalAlignment="Top"
                    FontFamily="/Fonts/#Rubik Medium"
                    Margin="61,139,0,0" />
+
+        <TextBox x:Name="txtBirthday" 
+     FontSize="13"
+     VerticalAlignment="Top"
+     Margin="198,213,0,0"
+     Width="300"
+     Height="25" Background="#FFFCE8FF" HorizontalAlignment="Left" 
+     BorderThickness="0"/>
+
         <TextBlock Text="Birthday :"
            Foreground="#FF6A686D"
            FontSize="25"
@@ -68,9 +77,6 @@
            VerticalAlignment="Top"
            FontFamily="/Fonts/#Rubik Medium"
            Margin="61,209,0,0" />
-        <ComboBox x:Name="DayComboBox" Width="70" Height="30" Margin="187,210,0,0" VerticalAlignment="Top" HorizontalAlignment="Left" RenderTransformOrigin="1.926,-0.06" Background="#FF211E22"/>
-        <ComboBox x:Name="MonthComboBox" Width="100" Height="30" Margin="288,210,0,0" VerticalAlignment="Top" HorizontalAlignment="Left" Background="#FF211E22" />
-        <ComboBox x:Name="YearComboBox" Width="70" Height="30" Margin="416,210,0,0" VerticalAlignment="Top" HorizontalAlignment="Left" Background="#FF211E22"/>
 
         <TextBlock Text="Introduce :"
      Foreground="#FF6A686D"
