@@ -12,11 +12,40 @@
     <UserControl.DataContext>
         <vm:UserVM />
     </UserControl.DataContext>
+    <UserControl.Resources>
+        <Style x:Key="mainbutton" TargetType="Button">
+            <Setter Property="FontSize" Value="14"/>
+            <Setter Property="Width" Value="200"/>
+            <Setter Property="Margin" Value="0 20 0 0"/>
+            <Setter Property="Background" Value="#FFB9A1FA"/>
+            <Setter Property="Foreground" Value="#FDFEFE"/>
+            <Setter Property="FocusVisualStyle" Value="{x:Null}"/>
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="Button">
+                        <Border Background="{TemplateBinding Background}" CornerRadius="25" BorderThickness="1" BorderBrush="#FFC1AEF6" Padding="15">
+                            <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                        </Border>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+            <Style.Triggers>
+                <Trigger Property="IsMouseOver" Value="True">
+                    <Setter Property="Background" Value="#FFB049EE"/>
+                    <Setter Property="Foreground" Value="White"/>
+                </Trigger>
+                <Trigger Property="IsMouseCaptured" Value="True">
+                    <Setter Property="Background" Value="#FF9B06F4"/>
+                    <Setter Property="Foreground" Value="White"/>
+                </Trigger>
+            </Style.Triggers>
+        </Style>
+    </UserControl.Resources>
     
     <Grid Margin="15">
 
-        <Border CornerRadius="0 20 20 0" Background="#FFF9D8FF">
-            <TextBox Text="...."
+        <Border CornerRadius="0 20 20 0" Background="#FFF3ECF4">
+            <TextBox
                 FontSize="13"
                 VerticalAlignment="Top"
                 Margin="148,146,0,0"
@@ -39,9 +68,9 @@
            VerticalAlignment="Top"
            FontFamily="/Fonts/#Rubik Medium"
            Margin="61,209,0,0" />
-        <ComboBox x:Name="DayComboBox" Width="70" Height="30" Margin="187,210,0,0" VerticalAlignment="Top" HorizontalAlignment="Left" RenderTransformOrigin="1.926,-0.06" Background="#FFFCE8FF" Foreground="#FFFCE8FF"/>
-        <ComboBox x:Name="MonthComboBox" Width="100" Height="30" Margin="288,210,0,0" VerticalAlignment="Top" HorizontalAlignment="Left" Background="#FFFCE8FF" Foreground="#FFFCE8FF"/>
-        <ComboBox x:Name="YearComboBox" Width="70" Height="30" Margin="416,210,0,0" VerticalAlignment="Top" HorizontalAlignment="Left" Background="#FFFCE8FF" Foreground="#FFFCE8FF"/>
+        <ComboBox x:Name="DayComboBox" Width="70" Height="30" Margin="187,210,0,0" VerticalAlignment="Top" HorizontalAlignment="Left" RenderTransformOrigin="1.926,-0.06" Background="#FF322C33"/>
+        <ComboBox x:Name="MonthComboBox" Width="100" Height="30" Margin="288,210,0,0" VerticalAlignment="Top" HorizontalAlignment="Left" Background="#FFFCE8FF" Foreground="#FF322C33"/>
+        <ComboBox x:Name="YearComboBox" Width="70" Height="30" Margin="416,210,0,0" VerticalAlignment="Top" HorizontalAlignment="Left" Background="#FFFCE8FF" Foreground="#FF322C33"/>
 
         <TextBlock Text="Introduce :"
      Foreground="#FF6A686D"
@@ -50,7 +79,7 @@
      VerticalAlignment="Top"
      FontFamily="/Fonts/#Rubik Medium"
      Margin="61,279,0,0" />
-        <TextBox Text="Enter your introduction..."
+        <TextBox
                  FontSize="13"
                  VerticalAlignment="Top"
                  Margin="61,349,0,0"
@@ -59,7 +88,7 @@
                  Background="#FFFCE8FF"
                  HorizontalAlignment="Left"
                  BorderThickness="0"/>
-
+        <Button Content="Save" Width="100"  HorizontalAlignment="Left" VerticalAlignment="Top" Margin="585,273,0,0" Style="{StaticResource mainbutton}"/>
 
     </Grid>
 </UserControl>

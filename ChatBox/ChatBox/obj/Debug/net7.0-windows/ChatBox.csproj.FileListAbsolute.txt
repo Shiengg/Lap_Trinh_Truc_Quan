@@ -226,3 +226,5 @@ F:\Git\Lap_Trinh_Truc_Quan\ChatBox\ChatBox\obj\Debug\net7.0-windows\refint\ChatB
 F:\Git\Lap_Trinh_Truc_Quan\ChatBox\ChatBox\obj\Debug\net7.0-windows\ChatBox.pdb
 F:\Git\Lap_Trinh_Truc_Quan\ChatBox\ChatBox\obj\Debug\net7.0-windows\ChatBox.genruntimeconfig.cache
 F:\Git\Lap_Trinh_Truc_Quan\ChatBox\ChatBox\obj\Debug\net7.0-windows\ref\ChatBox.dll
+D:\Năm 2\ChatBox\Lap_Trinh_Truc_Quan\ChatBox\ChatBox\bin\Debug\net7.0-windows\MahApps.Metro.IconPacks.Core.dll
+D:\Năm 2\ChatBox\Lap_Trinh_Truc_Quan\ChatBox\ChatBox\bin\Debug\net7.0-windows\MahApps.Metro.IconPacks.Material.dll
