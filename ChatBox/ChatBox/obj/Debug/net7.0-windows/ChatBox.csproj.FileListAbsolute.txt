@@ -249,3 +249,5 @@ D:\Github\Lap_Trinh_Truc_Quan\ChatBox\ChatBox\obj\Debug\net7.0-windows\SignUp.g.
 D:\Github\Lap_Trinh_Truc_Quan\ChatBox\ChatBox\obj\Debug\net7.0-windows\SignUp.baml
 F:\Git\Lap_Trinh_Truc_Quan\ChatBox\ChatBox\bin\Debug\net7.0-windows\MahApps.Metro.IconPacks.Core.dll
 F:\Git\Lap_Trinh_Truc_Quan\ChatBox\ChatBox\bin\Debug\net7.0-windows\MahApps.Metro.IconPacks.Material.dll
+D:\Năm 2\ChatBox\Lap_Trinh_Truc_Quan\ChatBox\ChatBox\bin\Debug\net7.0-windows\MahApps.Metro.IconPacks.Core.dll
+D:\Năm 2\ChatBox\Lap_Trinh_Truc_Quan\ChatBox\ChatBox\bin\Debug\net7.0-windows\MahApps.Metro.IconPacks.Material.dll
