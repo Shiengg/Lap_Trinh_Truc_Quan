@@ -10,7 +10,6 @@
 //------------------------------------------------------------------------------
 
 using ChatBox.View;
-using ChatBox.View.Components;
 using ChatBox.ViewModel;
 using System;
 using System.Diagnostics;
@@ -55,7 +54,7 @@ namespace ChatBox.View {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/ChatBox;V1.0.0.0;component/view/page3.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/ChatBox;component/view/page3.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\..\View\Page3.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);

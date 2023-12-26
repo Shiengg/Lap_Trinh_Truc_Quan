@@ -37,12 +37,12 @@ namespace ChatBox.View
             txtMessage.PreviewKeyUp += txtMessage_PreviewKeyUp;
         }
 
-        private void MicButton_Click(object sender, RoutedEventArgs e)
+        private void InputImage_Click(object sender, RoutedEventArgs e)
         {
 
         }
 
-        private void InputImage_Click(object sender, RoutedEventArgs e)
+        private void MicButton_Click(object sender, RoutedEventArgs e)
         {
 
         }
