@@ -9,7 +9,9 @@ namespace ChatBox.Model
     public class PageModel
     {
         public string Dashboard { get; set; }
-        public int User { get; set; }
+        public string User { get; set; }
+        public string Birthday {  get; set; }
+        public string Introduce { get; set; }
         public DateOnly Calender { get; set; }
         public string Page1 { get; set; }
         public string Page2 { get; set; }

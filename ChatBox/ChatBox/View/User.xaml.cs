@@ -1,4 +1,5 @@
-﻿using System;
+﻿using ChatBox.ViewModel;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -20,10 +21,18 @@ namespace ChatBox.View
     /// </summary>
     public partial class User : UserControl
     {
+        private UserVM _userVM;
         public User()
         {
             InitializeComponent();
+            _userVM = new UserVM();
+
+            // Gán giá trị từ UserVM vào các TextBox
+            txtUser.Text = _userVM.User;
+            txtBirthday.Text = _userVM.Birthday;
+            IntroduceTextBox.Text = _userVM.Introduce;
         }
+
 
         private async void Button_Click(object sender, RoutedEventArgs e)
         {
