@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 using System.Data.SqlClient;
 using MongoDB.Driver;
 using ChatBox;
+using ChatBox.ViewModel;
 
 namespace ChatBox
 {
@@ -26,6 +27,7 @@ namespace ChatBox
             }
 
         }
+
         private IMongoCollection<Account> accountCollection;
         public async Task<long> CountAccountsAsync(string email)
         {
@@ -55,42 +57,85 @@ namespace ChatBox
 
         private static string loggedInUserEmail; // Biến global để lưu trữ email của người dùng đã đăng nhập
 
+        private static string loggedInUserPassword;
         public static void SetLoggedInUserEmail(string email)
         {
             loggedInUserEmail = email;
+        }
+        public static void SetLoggedInUserPass(string pass)
+        {
+            loggedInUserPassword = pass;
         }
 
         public static string GetLoggedInUserEmail()
         {
             return loggedInUserEmail;
         }
-
-        public void UpdateUserInformation(string userBirthday, string userIntroduce)
+        public static string GetLoggedInUserPass()
         {
-            string userEmail = GetLoggedInUserEmail(); // Lấy email của người dùng đã đăng nhập
-
-            if (string.IsNullOrEmpty(userEmail))
-            {
-                // Xử lý trường hợp người dùng chưa đăng nhập hoặc có lỗi trong việc lấy email đăng nhập
-                return;
-            }
-
-            var filter = Builders<Account>.Filter.Eq(x => x.Email, userEmail);
-            var update = Builders<Account>.Update
-                .Set(x => x.Birthday, userBirthday)
-                .Set(x => x.Introduce, userIntroduce);
-
-            var result = accountCollection.UpdateOne(filter, update);
-
-            if (result.IsAcknowledged && result.ModifiedCount > 0)
-            {
-                // Thành công: thông tin đã được cập nhật vào tài khoản người dùng
-            }
-            else
-            {
-                // Xảy ra lỗi: không thể cập nhật thông tin, cần xử lý tình huống này
-            }
+            return loggedInUserPassword;
         }
+
+        //public void UpdateUserInformation(string userBirthday, string userIntroduce)
+        //{
+        //    string userEmail = GetLoggedInUserEmail(); // Lấy email của người dùng đã đăng nhập
+
+        //    if (string.IsNullOrEmpty(userEmail))
+        //    {
+        //        // Xử lý trường hợp người dùng chưa đăng nhập hoặc có lỗi trong việc lấy email đăng nhập
+        //        return;
+        //    }
+
+        //    var filter = Builders<Account>.Filter.Eq(x => x.Email, userEmail);
+        //    var update = Builders<Account>.Update
+        //        .Set(x => x.Birthday, userBirthday)
+        //        .Set(x => x.Introduce, userIntroduce);
+
+        //    var result = accountCollection.UpdateOne(filter, update);
+
+        //    if (result.IsAcknowledged && result.ModifiedCount > 0)
+        //    {
+        //        // Thành công: thông tin đã được cập nhật vào tài khoản người dùng
+        //    }
+        //    else
+        //    {
+        //        // Xảy ra lỗi: không thể cập nhật thông tin, cần xử lý tình huống này
+        //    }
+
+
+        //}
+        public void InsertAccountInfo(string email, string password, string user, string birthday, string introduce)
+        {
+            var newAccount = new Account
+            {
+                Email = email,
+                Password = password,
+                User = user,
+                Birthday = birthday,
+                Introduce = introduce
+            };
+            accountCollection.InsertOne(newAccount);
+        }
+
+        // Lấy thông tin từ MongoDB dựa trên email đã đăng nhập
+        public static async Task<Account> GetUserInfoFromMongoDB(string userEmail)
+        {
+            Connection connection = new Connection("mongodb+srv://22521708:HgecVbTzd1Iqz6fx@cluster0.um2tiwy.mongodb.net/AccountInfo?retryWrites=true&w=majority", "AccountInfo");
+            return await connection.GetUserInfoByEmail(userEmail);
+        }
+
+        public async Task<Account> GetUserInfoByEmail(string email)
+        {
+            // Kết nối tới MongoDB và thực hiện truy vấn để lấy thông tin người dùng theo email
+            // Code dưới đây là một phần của việc truy vấn từ MongoDB, có thể cần được thay đổi tùy theo thư viện hoặc cách bạn sử dụng MongoDB trong ứng dụng của mình
+
+            // Ở đây là một ví dụ sử dụng MongoDB.Driver
+            var filter = Builders<Account>.Filter.Eq("Email", email);
+            var userInfo = await accountCollection.Find(filter).FirstOrDefaultAsync();
+
+            return userInfo;
+        }
+
 
     }
 }
