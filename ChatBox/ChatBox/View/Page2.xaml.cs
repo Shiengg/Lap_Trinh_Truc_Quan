@@ -20,6 +20,7 @@ using static System.Runtime.InteropServices.JavaScript.JSType;
 using Microsoft.VisualBasic;
 using System.IO;
 using NAudio.Wave;
+using System.Text.Json;
 
 namespace ChatBox.View
 {
@@ -47,25 +48,89 @@ namespace ChatBox.View
         }
         private void MicButton_Click(object sender, RoutedEventArgs e)
         {
-            
+              
         }
+
         private static WaveFileWriter waveFileWriter;
         private static string outputPath;
+
         private async Task StartRecordingAsync()
         {
             string currentDirectory = Environment.CurrentDirectory;
-            string voicesDirectory = System.IO.Path.Combine(currentDirectory,"Voices");
+            string voicesDirectory = System.IO.Path.Combine(currentDirectory, "Voices");
 
-            if(!Directory.Exists(voicesDirectory))
+            if (!Directory.Exists(voicesDirectory))
             {
                 Directory.CreateDirectory(voicesDirectory);
             }
             outputPath = System.IO.Path.Combine(voicesDirectory, "recorded.wav");
-            
-            using (WaveInEvent waveSource = new WaveInEvent()) 
-            { 
-                waveSource.WaveFormat = new WaveFormat(44100, 1); //44.1 kHz, 16-bit, mono
+
+            using (WaveInEvent waveSource = new WaveInEvent())
+            {
+                waveSource.WaveFormat = new WaveFormat(44100, 1); // 44.1kHz, 16-bit, mono
+                waveSource.DataAvailable += WaveSourceDataAvailable;
+
+                waveFileWriter = new WaveFileWriter(outputPath, waveSource.WaveFormat);
+
+                waveSource.StartRecording();
+
+
+
+                while (!IsRecordingStopped())
+                {
+                    //Vòng lặp được thực hiện đến khi dừng.
+                }
+
+                waveSource.StopRecording();
+                waveFileWriter.Close();
             }
+
+            MessageBox.Show("Âm thanh đã được lưu lại!!!");
+        }
+
+        private async Task TranscribeAudioAsync(string filePath)
+        {
+            var payload = File.ReadAllBytes(filePath);
+
+            using (HttpClient client = new HttpClient())
+            {
+                client.DefaultRequestHeaders.Add("api-key", "K9knWqlkJYKXMktifrb983EjYjYSZKhF");
+
+                var response = await client.PostAsync("https://api.fpt.ai/hmi/asr/general", new ByteArrayContent(payload));
+                var result = await response.Content.ReadAsStringAsync();
+
+                if (response.IsSuccessStatusCode)
+                {
+                    var jsonDoc = JsonDocument.Parse(result);
+                    var hypotheses = jsonDoc.RootElement.GetProperty("hypotheses");
+                    var firstHypothesis = hypotheses.EnumerateArray().FirstOrDefault();
+
+                    if (firstHypothesis.TryGetProperty("utterance", out var utterance))
+                    {
+                        MessageBox.Show(utterance.GetString());
+                    }
+                    else
+                    {
+                        // Gọi một hàm thông báo hoặc cập nhật giao diện người dùng với thông báo lỗi
+                    }
+                }
+                else
+                {
+                    // Gọi một hàm thông báo hoặc cập nhật giao diện người dùng với thông báo lỗi
+                }
+            }
+        }
+
+        private bool IsRecordingStopped()
+        {
+            // Your existing code
+            return false;
+        }
+        static void WaveSourceDataAvailable(object sender, WaveInEventArgs e)
+        {
+            // Ghi dữ liệu âm thanh vào tệp
+            waveFileWriter.Write(e.Buffer, 0, e.BytesRecorded);
+            waveFileWriter.Flush();
         }
 
         private bool userScrolled = false;
