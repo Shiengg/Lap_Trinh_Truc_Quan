@@ -9,6 +9,8 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
+using MahApps.Metro.IconPacks;
+using MahApps.Metro.IconPacks.Converter;
 using System;
 using System.Diagnostics;
 using System.Windows;
@@ -92,7 +94,7 @@ namespace ChatBox {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/ChatBox;V1.0.0.0;component/login.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/ChatBox;component/login.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\Login.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);
