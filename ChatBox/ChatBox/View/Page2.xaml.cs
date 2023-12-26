@@ -17,6 +17,9 @@ using System.Windows.Shapes;
 using System.Windows.Threading;
 using Newtonsoft.Json.Linq;
 using static System.Runtime.InteropServices.JavaScript.JSType;
+using Microsoft.VisualBasic;
+using System.IO;
+using NAudio.Wave;
 
 namespace ChatBox.View
 {
@@ -29,6 +32,7 @@ namespace ChatBox.View
         {
             InitializeComponent();
             AttachTextBoxEvents();
+            
         }
 
         private void AttachTextBoxEvents()
@@ -41,10 +45,27 @@ namespace ChatBox.View
         {
 
         }
-
         private void MicButton_Click(object sender, RoutedEventArgs e)
         {
+            
+        }
+        private static WaveFileWriter waveFileWriter;
+        private static string outputPath;
+        private async Task StartRecordingAsync()
+        {
+            string currentDirectory = Environment.CurrentDirectory;
+            string voicesDirectory = System.IO.Path.Combine(currentDirectory,"Voices");
 
+            if(!Directory.Exists(voicesDirectory))
+            {
+                Directory.CreateDirectory(voicesDirectory);
+            }
+            outputPath = System.IO.Path.Combine(voicesDirectory, "recorded.wav");
+            
+            using (WaveInEvent waveSource = new WaveInEvent()) 
+            { 
+                waveSource.WaveFormat = new WaveFormat(44100, 1); //44.1 kHz, 16-bit, mono
+            }
         }
 
         private bool userScrolled = false;
