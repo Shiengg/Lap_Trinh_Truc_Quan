@@ -21,6 +21,7 @@ using Microsoft.VisualBasic;
 using System.IO;
 using NAudio.Wave;
 using System.Text.Json;
+using System.Threading;
 
 namespace ChatBox.View
 {
@@ -33,7 +34,7 @@ namespace ChatBox.View
         {
             InitializeComponent();
             AttachTextBoxEvents();
-            
+
         }
 
         private void AttachTextBoxEvents()
@@ -46,15 +47,36 @@ namespace ChatBox.View
         {
 
         }
+
+        private bool isRecording = false;
+        private CancellationTokenSource cancellationTokenSource;
         private void MicButton_Click(object sender, RoutedEventArgs e)
         {
-              
+            if (!isRecording)
+            {
+                StartRecordingAsync();
+                MicButton.Content = "Stop";
+            }
+            else
+            {
+                StopRecording();
+                MicButton.Content = "Start";
+            }
+
+            isRecording = !isRecording;
+        }
+
+        private void StopRecording()
+        {
+            // Gọi hàm để dừng ghi âm
+            cancellationTokenSource?.Cancel();
+            cancellationTokenSource = null;
         }
 
         private static WaveFileWriter waveFileWriter;
         private static string outputPath;
 
-        private async Task StartRecordingAsync()
+        public async Task StartRecordingAsync()
         {
             string currentDirectory = Environment.CurrentDirectory;
             string voicesDirectory = System.IO.Path.Combine(currentDirectory, "Voices");
@@ -76,16 +98,23 @@ namespace ChatBox.View
 
 
 
-                while (!IsRecordingStopped())
+                try
                 {
-                    //Vòng lặp được thực hiện đến khi dừng.
+                    // Đợi cho đến khi ghi âm dừng lại hoặc được yêu cầu dừng
+                    while (!IsRecordingStopped() && !cancellationTokenSource.Token.IsCancellationRequested)
+                    {
+                        await Task.Delay(100); // Hãy chắc chắn rằng bạn không block luồng chính quá lâu
+                    }
                 }
-
-                waveSource.StopRecording();
-                waveFileWriter.Close();
+                catch (OperationCanceledException)
+                {
+                    // Nếu có lỗi hủy bỏ, không cần xử lý gì ở đây.
+                }
+                finally
+                {
+                    StopRecording();
+                }
             }
-
-            MessageBox.Show("Âm thanh đã được lưu lại!!!");
         }
 
         private async Task TranscribeAudioAsync(string filePath)
