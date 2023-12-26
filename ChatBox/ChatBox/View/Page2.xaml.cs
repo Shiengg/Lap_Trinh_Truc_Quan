@@ -28,6 +28,13 @@ namespace ChatBox.View
         public Page2()
         {
             InitializeComponent();
+            AttachTextBoxEvents();
+        }
+
+        private void AttachTextBoxEvents()
+        {
+            txtMessage.PreviewKeyDown += txtMessage_PreviewKeyDown;
+            txtMessage.PreviewKeyUp += txtMessage_PreviewKeyUp;
         }
 
         private void MicButton_Click(object sender, RoutedEventArgs e)
@@ -95,6 +102,30 @@ namespace ChatBox.View
             scrollTimer.Start();
         }
 
+        private bool isShiftKeyPressed = false;
+        private void txtMessage_PreviewKeyDown(object sender, KeyEventArgs e)
+        {
+            if (e.Key == Key.LeftShift || e.Key == Key.RightShift)
+            {
+                isShiftKeyPressed = true;
+            }
+            else if (e.Key == Key.Enter)
+            {
+                if (!isShiftKeyPressed)
+                {
+                    e.Handled = true;
+                    SendButton_Click(sender, e);
+                }
+            }
+        }
+
+        private void txtMessage_PreviewKeyUp(object sender, KeyEventArgs e)
+        {
+            if (e.Key == Key.LeftShift || e.Key == Key.RightShift)
+            {
+                isShiftKeyPressed = false;
+            }
+        }
         private async void SendButton_Click(object sender, RoutedEventArgs e)
         {
             string userMessage = txtMessage.Text.Trim(); // Loại bỏ các khoảng trắng ở đầu và cuối chuỗi
@@ -112,6 +143,9 @@ namespace ChatBox.View
             };
             ChatPanel.Children.Add(newInput);
 
+            // Xóa nội dung TextBox sau khi gửi
+            txtMessage.Text = string.Empty;
+
             string result = await CallApi(userMessage);
 
             Output newOutput = new Output
@@ -119,9 +153,6 @@ namespace ChatBox.View
                 Message = result,
             };
             ChatPanel.Children.Add(newOutput);
-
-            // Xóa nội dung TextBox sau khi gửi
-            txtMessage.Text = string.Empty;
         }
 
         private async Task<string> CallApi(string userInput)
