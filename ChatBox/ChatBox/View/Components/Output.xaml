@@ -20,7 +20,15 @@
                 VerticalAlignment="Top" 
                 RenderTransformOrigin="1.392,0.457" 
                 Margin="1,1,0,0">
-            <TextBlock HorizontalAlignment="Left" VerticalAlignment="Center" FontSize="14" Width="Auto" MaxWidth="265" Text="{Binding Message}" TextWrapping="Wrap" />
+            <TextBox
+                HorizontalAlignment="Left" 
+                VerticalAlignment="Center" 
+                FontSize="14" Width="Auto" 
+                MaxWidth="265" Text="{Binding Message}" 
+                TextWrapping="Wrap"
+                BorderThickness="0"
+                Background="Transparent"
+                IsReadOnly="True"/>
         </Border>
 
     </Grid>
