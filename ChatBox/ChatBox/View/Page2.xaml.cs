@@ -53,7 +53,7 @@ namespace ChatBox.View
                 try
                 {
                     StartRecordingAsync();
-                    MicButton.Content = "Stop Recording";
+                    
                 }
                 catch (Exception ex)
                 {
@@ -65,7 +65,6 @@ namespace ChatBox.View
                 try
                 {
                     StopRecordingAsync();
-                    MicButton.Content = "Start Recording";
                     TranscribeAudioAsync(outputPath);
                 }
                 catch (Exception ex)
@@ -113,7 +112,7 @@ namespace ChatBox.View
             waveFileWriter = null;
         }
 
-        static async Task TranscribeAudioAsync(string filePath)
+        private async Task<string> TranscribeAudioAsync(string filePath)
         {
             var payload = File.ReadAllBytes(filePath);
 
@@ -133,16 +132,19 @@ namespace ChatBox.View
 
                     if (firstHypothesis.TryGetProperty("utterance", out var utterance))
                     {
-                        MessageBox.Show(utterance.GetString());
+                        return utterance.GetString();
+
                     }
                     else
                     {
-                        MessageBox.Show("Không thể tìm thấy thông tin 'utterance' trong kết quả.");
+                        return("Không thể tìm thấy thông tin 'utterance' trong kết quả.");
+                        
                     }
                 }
                 else
                 {
-                    MessageBox.Show($"Error: {response.StatusCode}");
+                    return $"Error: {response.StatusCode}";
+
                 }
             }
         }
