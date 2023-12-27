@@ -119,6 +119,7 @@
 
                         </StackPanel>
                     </ScrollViewer>
+
                 </Grid>
 
                 <!--Bottom Message Section-->
@@ -127,7 +128,13 @@
                         <ColumnDefinition Width="*"/>
                         <ColumnDefinition Width="auto"/>
                     </Grid.ColumnDefinitions>
-
+                    <Grid Margin="585,22,28,124" Grid.ColumnSpan="2">
+                        <Popup x:Name="VoiceStatus" IsOpen="False">
+                            <Grid Background="LightGray" >
+                                <TextBlock Text="Recording..." Margin="10" FontFamily="Romoto" FontWeight="Bold" FontSize="12"/>
+                            </Grid>
+                        </Popup>
+                    </Grid>
                     <!--Message TextBox-->
                     <Grid Margin="0,91,0,0">
                         <TextBlock Margin="15 0 120 0" VerticalAlignment="Center" Foreground="#868686" Panel.ZIndex="1"
@@ -155,6 +162,10 @@
                                 <Icon:PackIconMaterial Kind="MicrophoneOutline" Width="12" Foreground="#a6a6a6" Margin="9,0,10,0"/>
                             </Button>
                         </StackPanel>
+
+
+                        
+
                     </Grid>
 
                     <!--Send Button-->

@@ -46,13 +46,14 @@ namespace ChatBox.View
         {
 
         }
-        private void MicButton_Click(object sender, RoutedEventArgs e)
+        private async void MicButton_Click(object sender, RoutedEventArgs e)
         {
             if (!isRecording)
             {
                 try
                 {
                     StartRecordingAsync();
+                    VoiceStatus.IsOpen = !VoiceStatus.IsOpen;
                     
                 }
                 catch (Exception ex)
@@ -65,7 +66,9 @@ namespace ChatBox.View
                 try
                 {
                     StopRecordingAsync();
-                    TranscribeAudioAsync(outputPath);
+                    string transcribeResult = await TranscribeAudioAsync(outputPath);
+                    txtMessage.Text = transcribeResult;
+                    VoiceStatus.IsOpen = !VoiceStatus.IsOpen;
                 }
                 catch (Exception ex)
                 {
