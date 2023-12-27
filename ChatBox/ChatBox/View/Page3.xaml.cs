@@ -81,7 +81,6 @@ namespace ChatBox.View
 
             }
 
-
         }
         private void DisplaySelectedImage(string imagePath)
         {
@@ -102,6 +101,17 @@ namespace ChatBox.View
             // Hiển thị kết quả trong cửa sổ đầu ra hoặc UI của bạn
             Descript.Text = result;
         }
+
+        private void Button_MouseEnter(object sender, System.Windows.Input.MouseEventArgs e)
+        {
+            // Ngẫu nhiên chọn một màu mới
+            Random random = new Random();
+            Color randomColor = Color.FromRgb((byte)random.Next(256), (byte)random.Next(256), (byte)random.Next(256));
+
+            Button button = (Button)sender;
+            button.Background = new SolidColorBrush(randomColor);
+        }
+
     }
 
 }
