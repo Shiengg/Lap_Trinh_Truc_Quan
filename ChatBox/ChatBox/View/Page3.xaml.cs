@@ -24,5 +24,11 @@ namespace ChatBox.View
         {
             InitializeComponent();
         }
+
+        private void InputImage_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
     }
+
 }
