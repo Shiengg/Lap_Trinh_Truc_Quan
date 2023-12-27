@@ -48,8 +48,115 @@ namespace ChatBox.View
         }
         private void MicButton_Click(object sender, RoutedEventArgs e)
         {
-            MessageBox.Show("Hello");
+            if (!isRecording)
+            {
+                try
+                {
+                    StartRecordingAsync();
+                    MicButton.Content = "Stop Recording";
+                }
+                catch (Exception ex)
+                {
+                    MessageBox.Show("Error starting recording: " + ex.Message, "Error", MessageBoxButton.OK, MessageBoxImage.Error);
+                }
+            }
+            else
+            {
+                try
+                {
+                    StopRecordingAsync();
+                    MicButton.Content = "Start Recording";
+                    TranscribeAudioAsync(outputPath);
+                }
+                catch (Exception ex)
+                {
+                    MessageBox.Show("Error stopping recording: " + ex.Message, "Error", MessageBoxButton.OK, MessageBoxImage.Error);
+                }
+            }
+
+            isRecording = !isRecording;
         }
+
+        private WaveInEvent waveSource;
+        private WaveFileWriter waveFileWriter;
+        private string outputPath;
+        private bool isRecording = false;
+
+        private async Task StartRecordingAsync()
+        {
+            string currentDirectory = Environment.CurrentDirectory;
+            string voicesDirectory = System.IO.Path.Combine(currentDirectory, "Voices");
+
+            if (!Directory.Exists(voicesDirectory))
+            {
+                Directory.CreateDirectory(voicesDirectory);
+            }
+
+            outputPath = System.IO.Path.Combine(voicesDirectory, "recorded.wav");
+
+            waveSource = new WaveInEvent();
+            waveSource.WaveFormat = new WaveFormat(44100, 1); // 44.1kHz, 16-bit, mono
+            waveSource.DataAvailable += WaveSourceDataAvailable;
+
+            waveFileWriter = new WaveFileWriter(outputPath, waveSource.WaveFormat);
+
+            waveSource.StartRecording();
+        }
+
+        private async Task StopRecordingAsync()
+        {
+            waveSource.StopRecording();
+            waveFileWriter.Close();
+            waveSource.Dispose();
+            waveFileWriter.Dispose();
+            waveSource = null;
+            waveFileWriter = null;
+        }
+
+        static async Task TranscribeAudioAsync(string filePath)
+        {
+            var payload = File.ReadAllBytes(filePath);
+
+            using (HttpClient client = new HttpClient())
+            {
+                client.DefaultRequestHeaders.Add("api-key", "K9knWqlkJYKXMktifrb983EjYjYSZKhF");
+
+                var response = await client.PostAsync("https://api.fpt.ai/hmi/asr/general", new ByteArrayContent(payload));
+                var result = await response.Content.ReadAsStringAsync();
+
+                if (response.IsSuccessStatusCode)
+                {
+                    // Phân tích kết quả JSON
+                    var jsonDoc = JsonDocument.Parse(result);
+                    var hypotheses = jsonDoc.RootElement.GetProperty("hypotheses");
+                    var firstHypothesis = hypotheses.EnumerateArray().FirstOrDefault();
+
+                    if (firstHypothesis.TryGetProperty("utterance", out var utterance))
+                    {
+                        MessageBox.Show(utterance.GetString());
+                    }
+                    else
+                    {
+                        MessageBox.Show("Không thể tìm thấy thông tin 'utterance' trong kết quả.");
+                    }
+                }
+                else
+                {
+                    MessageBox.Show($"Error: {response.StatusCode}");
+                }
+            }
+        }
+
+        private void WaveSourceDataAvailable(object sender, WaveInEventArgs e)
+        {
+            if (e.BytesRecorded > 0)
+            {
+                waveFileWriter.Write(e.Buffer, 0, e.BytesRecorded);
+                waveFileWriter.Flush();
+            }
+        }
+
+
 
         private bool userScrolled = false;
         private DispatcherTimer scrollTimer;
