@@ -12,6 +12,7 @@
     <None Remove="Images\chat.png" />
     <None Remove="Images\close.jpg" />
     <None Remove="Images\gmail2.png" />
+    <None Remove="Images\icons8-mic-100.png" />
     <None Remove="Images\Image.png" />
     <None Remove="Images\ImageIcon.png" />
     <None Remove="Images\img_customer.png" />
@@ -23,6 +24,9 @@
   </ItemGroup>
 
   <ItemGroup>
+    <Content Include="Images\icons8-mic-100.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
     <Content Include="Images\Image.png">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>

@@ -288,3 +288,9 @@ F:\Git\Lap_Trinh_Truc_Quan\ChatBox\ChatBox\bin\Debug\net7.0-windows\Microsoft.Re
 F:\Git\Lap_Trinh_Truc_Quan\ChatBox\ChatBox\bin\Debug\net7.0-windows\Microsoft.Rest.ClientRuntime.Azure.dll
 F:\Git\Lap_Trinh_Truc_Quan\ChatBox\ChatBox\bin\Debug\net7.0-windows\Images\Image.png
 F:\Git\Lap_Trinh_Truc_Quan\ChatBox\ChatBox\bin\Debug\net7.0-windows\Images\img_customer.png
+D:\Github\Lap_Trinh_Truc_Quan\ChatBox\ChatBox\bin\Debug\net7.0-windows\Images\Image.png
+D:\Github\Lap_Trinh_Truc_Quan\ChatBox\ChatBox\bin\Debug\net7.0-windows\Images\img_customer.png
+D:\Github\Lap_Trinh_Truc_Quan\ChatBox\ChatBox\bin\Debug\net7.0-windows\Microsoft.Azure.CognitiveServices.Vision.ComputerVision.dll
+D:\Github\Lap_Trinh_Truc_Quan\ChatBox\ChatBox\bin\Debug\net7.0-windows\Microsoft.Rest.ClientRuntime.dll
+D:\Github\Lap_Trinh_Truc_Quan\ChatBox\ChatBox\bin\Debug\net7.0-windows\Microsoft.Rest.ClientRuntime.Azure.dll
+D:\Github\Lap_Trinh_Truc_Quan\ChatBox\ChatBox\bin\Debug\net7.0-windows\Images\icons8-mic-100.png
