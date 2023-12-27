@@ -113,7 +113,8 @@
                             x:Name="ChatScrollViewer"
                             Loaded="ChatScrollViewer_Loaded"
                             ScrollChanged="ChatScrollViewer_ScrollChanged"
-                            PreviewMouseWheel="ChatScrollViewer_PreviewMouseWheel">
+                            PreviewMouseWheel="ChatScrollViewer_PreviewMouseWheel" 
+                            >
                         <StackPanel x:Name="ChatPanel" Margin="20,20,20,50">
 
                         </StackPanel>
