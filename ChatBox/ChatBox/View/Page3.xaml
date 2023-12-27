@@ -30,7 +30,7 @@
         <Grid>
             <Image x:Name="selectedImage" Width="300" Height="300" />
             <TextBlock x:Name="Descript"
-                       FontSize="14"
+                       FontSize="16"
                        FontFamily="Roboto"
                        FontWeight="Bold"
                        Height="50"
