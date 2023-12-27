@@ -104,7 +104,7 @@ namespace ChatBox.View
 
         private void Button_MouseEnter(object sender, System.Windows.Input.MouseEventArgs e)
         {
-            // Ngẫu nhiên chọn một màu mới
+            //Ngẫu nhiên chọn một màu mới
             Random random = new Random();
             Color randomColor = Color.FromRgb((byte)random.Next(256), (byte)random.Next(256), (byte)random.Next(256));
 

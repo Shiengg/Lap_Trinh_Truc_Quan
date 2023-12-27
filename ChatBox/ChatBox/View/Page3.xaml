@@ -28,6 +28,7 @@
         </Border>
 
         <Grid>
+
             <Image x:Name="selectedImage" Width="300" Height="300" />
             <TextBlock x:Name="Descript"
                        FontSize="16"
