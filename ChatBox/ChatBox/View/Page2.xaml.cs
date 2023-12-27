@@ -52,7 +52,7 @@ namespace ChatBox.View
         private CancellationTokenSource cancellationTokenSource;
         private void MicButton_Click(object sender, RoutedEventArgs e)
         {
-            MessageBox.Show("Hihi");
+            MessageBox.Show("Hihii");
         }
 
         private bool userScrolled = false;
