@@ -106,7 +106,7 @@
                     <Menu:Btn Style="{StaticResource BtnStyle}"
                               Command="{Binding Page3Command}">
                         <Grid>
-                            <Image Source="Images/Image.png" Style="{StaticResource Image_Style}"/>
+                            <Image Source="Images/close.jpg" Style="{StaticResource Image_Style}"/>
                             <TextBlock Text="Recognition" Style="{StaticResource Text_Style}"/>
                         </Grid>
                     </Menu:Btn>
