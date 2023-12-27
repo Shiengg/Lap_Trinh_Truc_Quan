@@ -17,7 +17,11 @@
     <Grid>
 
         <Border CornerRadius="0 20 20 0" Background="Green">
-
+            <Button x:Name="InputImage"
+                    Click="InputImage_Click"
+                    >
+                
+            </Button>
         </Border>
 
     </Grid>
