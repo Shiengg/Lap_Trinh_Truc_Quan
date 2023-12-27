@@ -52,6 +52,10 @@
               "target": "Package",
               "version": "[4.11.0, )"
             },
+            "Microsoft.Azure.CognitiveServices.Vision.ComputerVision": {
+              "target": "Package",
+              "version": "[7.0.1, )"
+            },
             "MongoDB.Driver": {
               "target": "Package",
               "version": "[2.23.1, )"

@@ -15,14 +15,21 @@
     </UserControl.DataContext>
 
     <Grid>
-
         <Border CornerRadius="0 20 20 0" Background="Green">
             <Button x:Name="InputImage"
-                    Click="InputImage_Click"
-                    >
-                
+                    Click="InputImage_Click">
             </Button>
         </Border>
 
+        <Grid>
+            <Image x:Name="selectedImage" Width="300" Height="300" />
+            <TextBlock x:Name="Descript"
+           Height="50"
+           Width="auto"
+           Margin="0 400 0 0"
+           HorizontalAlignment="Center"
+           />
+        </Grid>
+        
     </Grid>
 </UserControl>
