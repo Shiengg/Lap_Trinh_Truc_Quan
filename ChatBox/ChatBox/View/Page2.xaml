@@ -87,7 +87,11 @@
     </UserControl.Resources>
 
     <Grid>
-        <Border CornerRadius="15" Background="#ffffff" Margin="17,0,5,5" ClipToBounds="True">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="797*"/>
+            <ColumnDefinition Width="8*"/>
+        </Grid.ColumnDefinitions>
+        <Border CornerRadius="15" Background="#ffffff" Margin="17,0,5,5" ClipToBounds="True" Grid.ColumnSpan="2">
             <Grid>
                 <Grid.RowDefinitions>
                     <RowDefinition Height="auto"/>
@@ -105,7 +109,11 @@
 
                     <TextBlock Text="AI" FontSize="16" Margin="20 15" HorizontalAlignment="Left"/>
 
+                    
+                </Border>
 
+                <Border Height="auto" Width="100" Margin="646,-3,37,3" >
+                    
                 </Border>
 
                 <Grid Grid.Row="3" >
@@ -164,7 +172,7 @@
                         </StackPanel>
 
 
-                        
+
 
                     </Grid>
 
