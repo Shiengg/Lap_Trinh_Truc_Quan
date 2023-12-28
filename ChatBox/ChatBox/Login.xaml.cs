@@ -110,14 +110,6 @@ namespace ChatBox
             }
         }
 
-        //private void Button_Click(object sender, RoutedEventArgs e)
-        //{
-        //    if (!string.IsNullOrEmpty(txtEmail.Text) && !string.IsNullOrEmpty(txtPassword.Password))
-        //    {
-        //        MessageBox.Show("Sucessfully Sign In");
-        //    }
-        //}
-
         private void Border_MouseDown(object sender, MouseButtonEventArgs e)
         {
             if (e.ChangedButton == MouseButton.Left)
