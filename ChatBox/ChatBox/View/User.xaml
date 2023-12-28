@@ -44,7 +44,7 @@
     </UserControl.Resources>
     <Grid Margin="15">
 
-        <Border CornerRadius="0 20 20 0" Background="#FFF9D8FF">
+        <Border CornerRadius="0 20 20 0" Background="White">
             <TextBox x:Name="txtUser" 
                 FontSize="13"
                 VerticalAlignment="Top"
