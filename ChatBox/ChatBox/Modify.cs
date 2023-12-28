@@ -29,7 +29,7 @@ namespace ChatBox
         {
             var newAccount = new Account { Email = email, Password = password }; // Tạo đối tượng Account mới
 
-            accountCollection.InsertOne(newAccount); // Thêm đối tượng Account vào collection trong MongoDB
+            accountCollection.InsertOne(newAccount); 
         }
 
         public async Task<long> CountAccountsAsync(string email)
