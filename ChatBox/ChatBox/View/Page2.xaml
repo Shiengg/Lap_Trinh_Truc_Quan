@@ -84,6 +84,53 @@
                 </Setter.Value>
             </Setter>
         </Style>
+
+        <Style x:Key="toggleButton" TargetType="ToggleButton">
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="ToggleButton">
+                        <Grid>
+                            <Border x:Name="Border" Background="#FF8E32F1" CornerRadius="13" Width="50" Height="26"
+                                    VerticalAlignment="Center" HorizontalAlignment="Center"/>
+                            <Ellipse x:Name="Ellipse" Fill="#fbfbfb" Height="24" Width="24" Margin="25 0 0 0"
+                                     HorizontalAlignment="Left" VerticalAlignment="Center"/>
+                        </Grid>
+
+                        <ControlTemplate.Triggers>
+                            <Trigger Property="IsChecked" Value="True">
+                                <Trigger.EnterActions>
+                                    <BeginStoryboard>
+                                        <Storyboard>
+                                            <ColorAnimation Storyboard.TargetName="Border"
+                                                            Storyboard.TargetProperty="(Border.Background).(SolidColorBrush.Color)"
+                                                            To="#FF8E32F1" Duration="0:0:0.2"/>
+                                            <ThicknessAnimation Storyboard.TargetName="Ellipse"
+                                                            Storyboard.TargetProperty="Margin"
+                                                            To="1 0 0 0" Duration="0:0:0.2"/>
+                                        </Storyboard>
+                                    </BeginStoryboard>
+                                </Trigger.EnterActions>
+
+
+                                <Trigger.ExitActions>
+                                    <BeginStoryboard>
+                                        <Storyboard>
+                                            <ColorAnimation Storyboard.TargetName="Border"
+                                                            Storyboard.TargetProperty="(Border.Background).(SolidColorBrush.Color)"
+                                                            To="#FF8E32F1" Duration="0:0:0.2"/>
+                                            <ThicknessAnimation Storyboard.TargetName="Ellipse"
+                                                                Storyboard.TargetProperty="Margin"
+                                                                To="25 0 0 0" Duration="0:0:0.2"/>
+                                        </Storyboard>
+                                    </BeginStoryboard>
+                                </Trigger.ExitActions>
+                            </Trigger>
+                        </ControlTemplate.Triggers>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+
+        </Style>
     </UserControl.Resources>
 
     <Grid>
@@ -109,11 +156,34 @@
 
                     <TextBlock Text="AI" FontSize="16" Margin="20 15" HorizontalAlignment="Left"/>
 
-                    
+
                 </Border>
 
-                <Border Height="auto" Width="100" Margin="646,-3,37,3" >
-                    
+                <Border Height="auto" Margin="548,-3,94,3" >
+                    <CheckBox x:Name="toggle"
+            HorizontalAlignment="Right"
+            IsChecked="{Binding ElementName=card, Path=Ischecked}" Height="48" >
+                        <CheckBox.Style>
+                            <Style TargetType="CheckBox" BasedOn="{StaticResource toggleButton}">
+                                <Setter Property="VerticalAlignment"
+                      Value="Top"/>
+                                <Style.Triggers>
+                                    <DataTrigger Binding="{Binding ElementName=card, Path=IsHorizontal}"
+                               Value="True">
+                                        <Setter Property="VerticalAlignment"
+                              Value="Center"/>
+                                    </DataTrigger>
+
+                                    <DataTrigger Binding="{Binding ElementName=card, Path=IsHorizontal}"
+                               Value="False">
+                                        <Setter Property="VerticalAlignment"
+                              Value="Top"/>
+                                    </DataTrigger>
+                                </Style.Triggers>
+                            </Style>
+                        </CheckBox.Style>
+
+                    </CheckBox>
                 </Border>
 
                 <Grid Grid.Row="3" >
