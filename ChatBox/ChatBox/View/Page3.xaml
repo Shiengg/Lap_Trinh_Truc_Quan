@@ -76,7 +76,7 @@
             <Button Content="Select Image" 
              Click="InputImage_Click"
              Style="{StaticResource mainbutton}"
-             IsDefault="True" Margin="302,435,303,208" 
+             IsDefault="True" Margin="302,477,303,166" 
              />
         </Border>
         <Button x:Name="InputImage"
@@ -86,5 +86,16 @@
                  Style="{StaticResource textBoxButton}" Margin="303,189,302,331" Width="200" Height="200">
             <Icon:PackIconMaterial Kind="Image" Width="198" Height="100" Foreground="#a6a6a6" VerticalAlignment="Center" HorizontalAlignment="Center"/>
         </Button>
+        <Image x:Name="selectedImage" Width="300" Height="300"
+               Margin="252,139,253,281"/>
+        <TextBlock x:Name="Descript" 
+                   Height="40"
+                   Width="auto"
+                   Margin="0,584,0,96"
+                   HorizontalAlignment="Center"
+                   FontSize="18"
+                   FontWeight="Bold"
+                   FontFamily="Roboto"
+           />
     </Grid>
 </UserControl>
