@@ -64,7 +64,7 @@ namespace ChatBox.ViewModel
         public UserVM()
         {
             _pageModel = new PageModel();
-            User = "";
+            User = "lmao";
             Birthday = ""; // giá trị mặc định cho birthday
             Introduce = ""; // giá trị mặc định cho introduce
 
