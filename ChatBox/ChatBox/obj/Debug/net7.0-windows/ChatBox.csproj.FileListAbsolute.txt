@@ -308,3 +308,5 @@ D:\Năm 2\ChatBox\Lap_Trinh_Truc_Quan\ChatBox\ChatBox\bin\Debug\net7.0-windows\N
 D:\Năm 2\ChatBox\Lap_Trinh_Truc_Quan\ChatBox\ChatBox\bin\Debug\net7.0-windows\NAudio.Wasapi.dll
 D:\Năm 2\ChatBox\Lap_Trinh_Truc_Quan\ChatBox\ChatBox\bin\Debug\net7.0-windows\NAudio.WinForms.dll
 D:\Năm 2\ChatBox\Lap_Trinh_Truc_Quan\ChatBox\ChatBox\bin\Debug\net7.0-windows\NAudio.WinMM.dll
+D:\Github\Lap_Trinh_Truc_Quan\ChatBox\ChatBox\obj\Debug\net7.0-windows\View\Components\InputGPT.g.cs
+D:\Github\Lap_Trinh_Truc_Quan\ChatBox\ChatBox\obj\Debug\net7.0-windows\View\Components\InputGPT.baml
