@@ -264,7 +264,7 @@ namespace ChatBox.View
             txtMessage.Text = string.Empty;
 
             string result = await CallApi(userMessage);
-            string GPTResult = await GetGeneratedTextFromAI(userMessage);
+            
 
             Output newOutput = new Output
             {
@@ -305,36 +305,6 @@ namespace ChatBox.View
             return "Some problem about connect!!!!";
         }
 
-        private async Task<string> GetGeneratedTextFromAI(string userInput)
-        {
-            var client = new HttpClient();
-            var baseUrl = "https://api.openai.com/v1/chat/completions";
-            //API key tạm thời bị khoá rồi, nào xong hết gỡ khỏi github mới thêm key.
-            var apiKey = "Your_API_Key";
-            client.DefaultRequestHeaders.Authorization = new System.Net.Http.Headers.AuthenticationHeaderValue("Bearer", apiKey);
-
-            while (true)
-            {
-
-                var parameters = new
-                {
-                    model = "gpt-3.5-turbo",
-                    messages = new[] { new { role = "user", content = userInput }, },
-                    max_tokens = 1024,
-                    temperature = 0.2f,
-                };
-
-                var response = await client.PostAsync(baseUrl, new StringContent(JsonConvert.SerializeObject(parameters), Encoding.UTF8, "application/json"));// new StringContent(json));
-
-                // Read the response
-                var responseContent = await response.Content.ReadAsStringAsync();
-
-                // Extract the completed text from the response
-                dynamic responseObject = JsonConvert.DeserializeObject(responseContent);
-                string generatedText = responseObject.choices[0].message.content;
-
-                return generatedText;
-            }
-        }
+        
     }
 }
