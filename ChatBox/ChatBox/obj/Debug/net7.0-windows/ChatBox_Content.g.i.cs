@@ -10,6 +10,7 @@
 
 [assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("images/icons8-mic-100.png")]
 [assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("images/image.png")]
+[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("images/logo.png")]
 [assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("images/logout.png")]
 [assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("images/openai.jpg")]
 [assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("images/shutdown_def.png")]
