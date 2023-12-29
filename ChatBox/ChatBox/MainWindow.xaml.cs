@@ -29,5 +29,12 @@ namespace ChatBox
         {
             Close();
         }
+
+        private void LogOut_Click(object sender, RoutedEventArgs e)
+        {
+            Login f = new Login();
+            f.Show();
+            Window.GetWindow(this).Close();
+        }
     }
 }

@@ -254,7 +254,6 @@ namespace ChatBox.View
             {
                 Message = userMessage,
             };
-            newInput.Background = Brushes.Red;
             ChatPanel.Children.Add(newInput);
 
             // Xóa nội dung TextBox sau khi gửi
