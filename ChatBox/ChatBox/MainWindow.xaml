@@ -117,7 +117,12 @@
 
                 </StackPanel>
 
-                <Button x:Name="LogOut" Height="50" Margin="0,624,0,46" BorderThickness="0" Click="LogOut_Click"/>
+                <Button x:Name="LogOut" Background="Transparent" Height="50" Margin="0,624,0,46" BorderThickness="0" Click="LogOut_Click">
+                    <Grid>
+                        <Image Source="Images/logout.png" Style="{StaticResource Image_Style}"/>
+                        <TextBlock Text="Log Out" Style="{StaticResource Text_Style}"/>
+                    </Grid>
+                </Button>
 
             </Grid>
 
