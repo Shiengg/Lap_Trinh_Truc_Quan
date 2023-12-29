@@ -294,3 +294,17 @@ D:\Github\Lap_Trinh_Truc_Quan\ChatBox\ChatBox\bin\Debug\net7.0-windows\Microsoft
 D:\Github\Lap_Trinh_Truc_Quan\ChatBox\ChatBox\bin\Debug\net7.0-windows\Microsoft.Rest.ClientRuntime.dll
 D:\Github\Lap_Trinh_Truc_Quan\ChatBox\ChatBox\bin\Debug\net7.0-windows\Microsoft.Rest.ClientRuntime.Azure.dll
 D:\Github\Lap_Trinh_Truc_Quan\ChatBox\ChatBox\bin\Debug\net7.0-windows\Images\icons8-mic-100.png
+F:\Git\Lap_Trinh_Truc_Quan\ChatBox\ChatBox\bin\Debug\net7.0-windows\Images\icons8-mic-100.png
+D:\Năm 2\ChatBox\Lap_Trinh_Truc_Quan\ChatBox\ChatBox\bin\Debug\net7.0-windows\Images\icons8-mic-100.png
+D:\Năm 2\ChatBox\Lap_Trinh_Truc_Quan\ChatBox\ChatBox\bin\Debug\net7.0-windows\Images\Image.png
+D:\Năm 2\ChatBox\Lap_Trinh_Truc_Quan\ChatBox\ChatBox\bin\Debug\net7.0-windows\Images\img_customer.png
+D:\Năm 2\ChatBox\Lap_Trinh_Truc_Quan\ChatBox\ChatBox\bin\Debug\net7.0-windows\Microsoft.Azure.CognitiveServices.Vision.ComputerVision.dll
+D:\Năm 2\ChatBox\Lap_Trinh_Truc_Quan\ChatBox\ChatBox\bin\Debug\net7.0-windows\Microsoft.Rest.ClientRuntime.dll
+D:\Năm 2\ChatBox\Lap_Trinh_Truc_Quan\ChatBox\ChatBox\bin\Debug\net7.0-windows\Microsoft.Rest.ClientRuntime.Azure.dll
+D:\Năm 2\ChatBox\Lap_Trinh_Truc_Quan\ChatBox\ChatBox\bin\Debug\net7.0-windows\NAudio.dll
+D:\Năm 2\ChatBox\Lap_Trinh_Truc_Quan\ChatBox\ChatBox\bin\Debug\net7.0-windows\NAudio.Asio.dll
+D:\Năm 2\ChatBox\Lap_Trinh_Truc_Quan\ChatBox\ChatBox\bin\Debug\net7.0-windows\NAudio.Core.dll
+D:\Năm 2\ChatBox\Lap_Trinh_Truc_Quan\ChatBox\ChatBox\bin\Debug\net7.0-windows\NAudio.Midi.dll
+D:\Năm 2\ChatBox\Lap_Trinh_Truc_Quan\ChatBox\ChatBox\bin\Debug\net7.0-windows\NAudio.Wasapi.dll
+D:\Năm 2\ChatBox\Lap_Trinh_Truc_Quan\ChatBox\ChatBox\bin\Debug\net7.0-windows\NAudio.WinForms.dll
+D:\Năm 2\ChatBox\Lap_Trinh_Truc_Quan\ChatBox\ChatBox\bin\Debug\net7.0-windows\NAudio.WinMM.dll

@@ -73,15 +73,7 @@ namespace ChatBox
                     loginStatus.Text = "Incorrect email or password!";
                 }
             }
-            //if (!string.IsNullOrEmpty(txtEmail.Text) && !string.IsNullOrEmpty(txtPassword.Password))
-            //{
-            //    MainWindow f = new MainWindow();
-            //    f.Show();
-            //}
-            //else
-            //{
-            //    MessageBox.Show("Login failed");
-            //}
+          
         }
 
         private void textEmail_MouseDown(object sender, MouseButtonEventArgs e)
@@ -117,14 +109,6 @@ namespace ChatBox
                 textPassword.Visibility = Visibility.Visible;
             }
         }
-
-        //private void Button_Click(object sender, RoutedEventArgs e)
-        //{
-        //    if (!string.IsNullOrEmpty(txtEmail.Text) && !string.IsNullOrEmpty(txtPassword.Password))
-        //    {
-        //        MessageBox.Show("Sucessfully Sign In");
-        //    }
-        //}
 
         private void Border_MouseDown(object sender, MouseButtonEventArgs e)
         {

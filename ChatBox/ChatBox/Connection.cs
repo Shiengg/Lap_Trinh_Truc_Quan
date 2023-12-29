@@ -75,35 +75,6 @@ namespace ChatBox
         {
             return loggedInUserPassword;
         }
-
-        //public void UpdateUserInformation(string userBirthday, string userIntroduce)
-        //{
-        //    string userEmail = GetLoggedInUserEmail(); // Lấy email của người dùng đã đăng nhập
-
-        //    if (string.IsNullOrEmpty(userEmail))
-        //    {
-        //        // Xử lý trường hợp người dùng chưa đăng nhập hoặc có lỗi trong việc lấy email đăng nhập
-        //        return;
-        //    }
-
-        //    var filter = Builders<Account>.Filter.Eq(x => x.Email, userEmail);
-        //    var update = Builders<Account>.Update
-        //        .Set(x => x.Birthday, userBirthday)
-        //        .Set(x => x.Introduce, userIntroduce);
-
-        //    var result = accountCollection.UpdateOne(filter, update);
-
-        //    if (result.IsAcknowledged && result.ModifiedCount > 0)
-        //    {
-        //        // Thành công: thông tin đã được cập nhật vào tài khoản người dùng
-        //    }
-        //    else
-        //    {
-        //        // Xảy ra lỗi: không thể cập nhật thông tin, cần xử lý tình huống này
-        //    }
-
-
-        //}
         public void InsertAccountInfo(string email, string password, string user, string birthday, string introduce)
         {
             var newAccount = new Account
@@ -129,7 +100,6 @@ namespace ChatBox
             // Kết nối tới MongoDB và thực hiện truy vấn để lấy thông tin người dùng theo email
             // Code dưới đây là một phần của việc truy vấn từ MongoDB, có thể cần được thay đổi tùy theo thư viện hoặc cách bạn sử dụng MongoDB trong ứng dụng của mình
 
-            // Ở đây là một ví dụ sử dụng MongoDB.Driver
             var filter = Builders<Account>.Filter.Eq("Email", email);
             var userInfo = await accountCollection.Find(filter).FirstOrDefaultAsync();
 
