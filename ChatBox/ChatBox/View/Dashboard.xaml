@@ -147,12 +147,12 @@
                 </Grid.RowDefinitions>
 
                 <!--Top chat MenuBar-->
-                <Border Background="#ffffff" CornerRadius="0 20 0 0">
+                <Border Background="#10A37F" CornerRadius="0 20 0 0" Margin="0,-2,-1,0">
                     <Border.Effect>
                         <DropShadowEffect BlurRadius="20" ShadowDepth="1" Direction="-90" Opacity="0.1"/>
                     </Border.Effect>
 
-                    <TextBlock Text="AI" FontSize="16" Margin="20 15" HorizontalAlignment="Left"/>
+                    <TextBlock Text="GPT AI" Foreground="White" FontSize="16" FontWeight="Bold" Margin="20 15" HorizontalAlignment="Left"/>
 
 
                 </Border>

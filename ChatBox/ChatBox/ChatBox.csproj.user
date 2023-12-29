@@ -19,9 +19,6 @@
     <Compile Update="View\Components\Input.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Update="View\Components\InputGPT.xaml.cs">
-      <SubType>Code</SubType>
-    </Compile>
     <Compile Update="View\Components\Output.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
@@ -73,9 +70,6 @@
       <SubType>Designer</SubType>
     </Page>
     <Page Update="View\Components\Input.xaml">
-      <SubType>Designer</SubType>
-    </Page>
-    <Page Update="View\Components\InputGPT.xaml">
       <SubType>Designer</SubType>
     </Page>
     <Page Update="View\Components\Output.xaml">

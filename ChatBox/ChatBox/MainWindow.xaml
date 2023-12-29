@@ -14,7 +14,7 @@
     <Window.DataContext>
         <vm:NavigationVM />
     </Window.DataContext>
-    
+
     <Grid>
         <Border Background="#f8f7fc"
                 CornerRadius="20" />
@@ -44,7 +44,7 @@
                         </TextBlock>
                     </Grid>
                 </Border>
-                    
+
             </Grid>
             <!-- // Navigation Panel // -->
             <Grid HorizontalAlignment="Right"
@@ -55,7 +55,7 @@
 
                 <StackPanel Height="500"
                             Width="220" >
-                    
+
                     <!-- Home -->
                     <Menu:Btn Style="{StaticResource BtnStyle}"
                               Command="{Binding HomeCommand}"
@@ -78,7 +78,7 @@
                             <TextBlock Text="User" Style="{StaticResource Text_Style}"/>
                         </Grid>
                     </Menu:Btn>
-                    
+
                     <!-- Page 1-->
                     <Menu:Btn Style="{StaticResource BtnStyle}"
                               Command="{Binding Page1Command}">
@@ -116,6 +116,8 @@
                     </Menu:Btn>
 
                 </StackPanel>
+
+                <Button x:Name="LogOut" Height="50" Margin="0,624,0,46" BorderThickness="0" Click="LogOut_Click"/>
 
             </Grid>
 
