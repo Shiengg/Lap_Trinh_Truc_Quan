@@ -61,20 +61,15 @@
                               Command="{Binding HomeCommand}"
                               IsChecked="True" >
                         <Grid>
-                   
-                                <Image Source="Images/img_home.png" Style="{StaticResource Image_Style}"/>
-                                <TextBlock Text="Dashboard" Style="{StaticResource Text_Style}"/>
-                           
+
+                            <Image Source="Images/img_home.png" Style="{StaticResource Image_Style}"/>
+                            <TextBlock Text="Dashboard" Style="{StaticResource Text_Style}"/>
+
                         </Grid>
-                        
+
                     </Menu:Btn>
-                    
-                    <!-- Dashboard -->
-                    <!--<Menu:Btn Style="{StaticResource BtnStyle}"
-                              Command="{Binding DashboardCommand}">
-                       
-                    </Menu:Btn>-->
-                    
+
+
                     <!-- User -->
                     <Menu:Btn Style="{StaticResource BtnStyle}"
                               Command="{Binding UserCommand}">
@@ -98,8 +93,17 @@
                               Command="{Binding Page2Command}">
                         <Grid>
                             <Image Source="Images/chat.png" Style="{StaticResource Image_Style}"/>
-                            <TextBlock Text="Chat" Style="{StaticResource Text_Style}"/>
+                            <TextBlock Text="Gemini Chat" Style="{StaticResource Text_Style}"/>
                         </Grid>
+                    </Menu:Btn>
+
+                    <Menu:Btn Style="{StaticResource BtnStyle}"
+                              Command="{Binding DashboardCommand}">
+                        <Grid>
+                            <Image Source="Images/chat.png" Style="{StaticResource Image_Style}"/>
+                            <TextBlock Text="GPT Chat" Style="{StaticResource Text_Style}"/>
+                        </Grid>
+
                     </Menu:Btn>
 
                     <!-- Page 3-->

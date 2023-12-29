@@ -159,32 +159,7 @@
 
                 </Border>
 
-                <Border Height="auto" Margin="548,-3,94,3" >
-                    <CheckBox x:Name="toggle"
-            HorizontalAlignment="Right"
-            IsChecked="{Binding ElementName=card, Path=Ischecked}" Height="48" >
-                        <CheckBox.Style>
-                            <Style TargetType="CheckBox" BasedOn="{StaticResource toggleButton}">
-                                <Setter Property="VerticalAlignment"
-                      Value="Top"/>
-                                <Style.Triggers>
-                                    <DataTrigger Binding="{Binding ElementName=card, Path=IsHorizontal}"
-                               Value="True">
-                                        <Setter Property="VerticalAlignment"
-                              Value="Center"/>
-                                    </DataTrigger>
-
-                                    <DataTrigger Binding="{Binding ElementName=card, Path=IsHorizontal}"
-                               Value="False">
-                                        <Setter Property="VerticalAlignment"
-                              Value="Top"/>
-                                    </DataTrigger>
-                                </Style.Triggers>
-                            </Style>
-                        </CheckBox.Style>
-
-                    </CheckBox>
-                </Border>
+                
 
                 <Grid Grid.Row="3" >
                     <ScrollViewer Margin="0,-53,0,109"
