@@ -264,7 +264,7 @@ namespace ChatBox.View
 
             Output newOutput = new Output
             {
-                Message = "Test giao diện thôi hỏi cc",
+                Message = "Đang test giao diện",
             };
             
             ChatPanel.Children.Add(newOutput);
