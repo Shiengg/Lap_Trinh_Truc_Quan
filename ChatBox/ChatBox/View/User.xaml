@@ -120,7 +120,8 @@
                  Height="290"
                  Background="White"
                  HorizontalAlignment="Left"
-                 BorderThickness="0"/>
+                 BorderThickness="0"
+                 TextWrapping="Wrap"/>
 
         <Button x:Name="btnUser" Content="Refresh" Width="100"  Margin="563,289,112,352"  Style="{StaticResource mainbutton}" Click="Button_Click"/>
         <Button x:Name="btnSave" Content="Save" Width="100"  Margin="563,289,112,352"  Style="{StaticResource mainbutton}" Click="Button_Click1"/>
