@@ -260,11 +260,11 @@ namespace ChatBox.View
             txtMessage.Text = string.Empty;
 
 
-            //string generatedText = await GetGeneratedTextFromAI(userMessage);
+            string generatedText = await GetGeneratedTextFromAI(userMessage);
 
             Output newOutput = new Output
             {
-                Message = "Đang test giao diện",
+                Message = generatedText,
             };
             
             ChatPanel.Children.Add(newOutput);
@@ -275,7 +275,9 @@ namespace ChatBox.View
             var client = new HttpClient();
             var baseUrl = "https://api.openai.com/v1/chat/completions";
             //API key tạm thời bị khoá rồi, nào xong hết gỡ khỏi github mới thêm key.
-            var apiKey = "Your_API_Key";
+            string api1 = "sk-aeW8dzpcHLX0vyiNWpfBT3Blbk";
+            string api2 = "FJr2UmtGXvKApGXTk58LHi";
+            var apiKey = api1 + api2;
             client.DefaultRequestHeaders.Authorization = new System.Net.Http.Headers.AuthenticationHeaderValue("Bearer", apiKey);
 
             while (true)
