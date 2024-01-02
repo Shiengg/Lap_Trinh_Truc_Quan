@@ -12,9 +12,9 @@ namespace ChatBox.Model
         public string User { get; set; }
         public string Birthday { get; set; }
         public string Introduce { get; set; }
-        public DateOnly Calender { get; set; }
+        public DateOnly Calendar { get; set; }
         public string Page1 { get; set; }
-        public string Page2 { get; set; }
+        public string GeminiChat { get; set; }
         public string Page3 { get; set; }
     }
 }

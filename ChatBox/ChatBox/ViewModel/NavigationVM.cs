@@ -19,30 +19,29 @@ namespace ChatBox.ViewModel
         }
 
         public ICommand HomeCommand { get; set; }
-        public ICommand DashboardCommand { get; set; }
+        public ICommand GPTChatCommand { get; set; }
         public ICommand UserCommand { get; set; }
-        public ICommand CalenderCommand { get; set; }
-        public ICommand Page1Command { get; set; }
-        public ICommand Page2Command { get; set; }
+        public ICommand CalendarCommand { get; set; }
+        public ICommand ImageRecognitionCommand { get; set; }
+        public ICommand GeminiChatCommand { get; set; }
         public ICommand Page3Command { get; set; }
 
         private void Home(object obj) => CurrentView = new HomeVM();
-        private void Dashboard(object obj) => CurrentView = new DashboardVM();
+        private void GPTChat(object obj) => CurrentView = new GPTChatVM();
         private void User(object obj) => CurrentView = new UserVM();
-        private void Calender(object obj) => CurrentView = new CalenderVM();
-        private void Page1(object obj) => CurrentView = new Page1VM();
-        private void Page2(object obj) => CurrentView = new Page2VM();
-        private void Page3(object obj) => CurrentView = new Page3VM();
-
+        private void Calendar(object obj) => CurrentView = new CalendarVM();
+        private void ImageRecognition(object obj) => CurrentView = new ImageRecpgnitionVM();
+        private void GeminiChat(object obj) => CurrentView = new GeminiChatVM();
+        
         public NavigationVM()
         {
             HomeCommand = new RelayCommand(Home);
-            DashboardCommand = new RelayCommand(Dashboard);
+            GPTChatCommand = new RelayCommand(GPTChat);
             UserCommand = new RelayCommand(User);
-            CalenderCommand = new RelayCommand(Calender);
-            Page1Command = new RelayCommand(Page1);
-            Page2Command = new RelayCommand(Page2);
-            Page3Command = new RelayCommand(Page3);
+            CalendarCommand = new RelayCommand(Calendar);
+            ImageRecognitionCommand = new RelayCommand(ImageRecognition);
+            GeminiChatCommand = new RelayCommand(GeminiChat);
+            
 
             CurrentView= new HomeVM();
         }

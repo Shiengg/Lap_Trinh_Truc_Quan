@@ -3,36 +3,30 @@
                     xmlns:vm="clr-namespace:ChatBox.ViewModel"
                     xmlns:view="clr-namespace:ChatBox.View">
 
-    <DataTemplate DataType="{x:Type vm:DashboardVM}">
-        <view:Dashboard />
-    </DataTemplate>
-
-
-    <DataTemplate DataType="{x:Type vm:UserVM}">
-        <view:User />
-    </DataTemplate>
-
+   
 
     <DataTemplate DataType="{x:Type vm:HomeVM}">
         <view:Home />
     </DataTemplate>
 
+    <DataTemplate DataType="{x:Type vm:UserVM}">
+        <view:User />
+    </DataTemplate>
 
-    <DataTemplate DataType="{x:Type vm:CalenderVM}">
+    <DataTemplate DataType="{x:Type vm:CalendarVM}">
         <view:Calendar />
     </DataTemplate>
 
-    <DataTemplate DataType="{x:Type vm:Page1VM}">
-        <view:Page1 />
+    <DataTemplate DataType="{x:Type vm:GeminiChatVM}">
+        <view:GeminiChat />
     </DataTemplate>
 
-    <DataTemplate DataType="{x:Type vm:Page2VM}">
-        <view:Page2 />
+    <DataTemplate DataType="{x:Type vm:GPTChatVM}">
+        <view:GPTChat />
     </DataTemplate>
 
-    <DataTemplate DataType="{x:Type vm:Page3VM}">
-        <view:Page3 />
+    <DataTemplate DataType="{x:Type vm:ImageRecpgnitionVM}">
+        <view:ImageRecognition />
     </DataTemplate>
-
 
 </ResourceDictionary>

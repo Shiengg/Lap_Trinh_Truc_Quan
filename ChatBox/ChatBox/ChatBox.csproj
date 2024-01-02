@@ -18,7 +18,6 @@
     <None Remove="Images\img_customer.png" />
     <None Remove="Images\img_home.png" />
     <None Remove="Images\key2.png" />
-    <None Remove="Images\logo.png" />
     <None Remove="Images\logout.png" />
     <None Remove="Images\openai.jpg" />
     <None Remove="Images\shutdown_def.png" />
@@ -30,9 +29,6 @@
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
     <Content Include="Images\Image.png">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
-    <Content Include="Images\logo.png">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
     <Content Include="Images\logout.png">

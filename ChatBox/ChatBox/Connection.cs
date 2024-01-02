@@ -14,7 +14,7 @@ namespace ChatBox
     {
         //private static string stringConnection= @"mongodb+srv://22521708:HgecVbTzd1Iqz6fx@cluster0.um2tiwy.mongodb.net/Chatbox?retryWrites=true&w=majority";
         private IMongoDatabase database;
-        string databaseName = "QLChatbox";
+        string databaseName = "AccountInfo";
         string collectionName = "Account";
         string connectionString = "mongodb+srv://22521708:HgecVbTzd1Iqz6fx@cluster0.um2tiwy.mongodb.net/QLChatbox?retryWrites=true&w=majority";
         public Connection(string connectionString, string databaseName)
@@ -75,17 +75,16 @@ namespace ChatBox
         {
             return loggedInUserPassword;
         }
-        public void InsertAccountInfo(string email, string password, string user, string birthday, string introduce)
+        public void InsertOrUpdateAccountInfo(string email, string password, string user, string birthday, string introduce)
         {
-            var newAccount = new Account
-            {
-                Email = email,
-                Password = password,
-                User = user,
-                Birthday = birthday,
-                Introduce = introduce
-            };
-            accountCollection.InsertOne(newAccount);
+            var filter = Builders<Account>.Filter.Eq("Email", email);
+            var update = Builders<Account>.Update
+                .Set("Password", password)
+                .Set("User", user)
+                .Set("Birthday", birthday)
+                .Set("Introduce", introduce);
+            var options = new UpdateOptions { IsUpsert = true };
+            accountCollection.UpdateOne(filter, update, options);
         }
 
         // Lấy thông tin từ MongoDB dựa trên email đã đăng nhập

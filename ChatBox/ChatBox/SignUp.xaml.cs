@@ -59,7 +59,7 @@ namespace ChatBox
             if (!CheckPasswordLength(Pass)) { MessageBox.Show("Please enter at least 8 characters"); return; }
             if (cPass != Pass) { MessageBox.Show("Please confirm your password again"); return; }
             // Khởi tạo đối tượng MongoConnection với chuỗi kết nối
-            Connection modify = new Connection(@"mongodb+srv://22521708:HgecVbTzd1Iqz6fx@cluster0.um2tiwy.mongodb.net/QLChatbox?retryWrites=true&w=majority", "Account");
+            Connection modify = new Connection(@"mongodb+srv://22521708:HgecVbTzd1Iqz6fx@cluster0.um2tiwy.mongodb.net/QLChatbox?retryWrites=true&w=majority", "AccountInfo");
 
             // Sử dụng phương thức CountAccountsAsync để kiểm tra sự tồn tại của Email
             long existingAccounts = await modify.CountAccountsAsync(Email);
