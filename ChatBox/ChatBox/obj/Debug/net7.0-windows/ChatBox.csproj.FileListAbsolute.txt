@@ -192,11 +192,7 @@ F:\Git\Lap_Trinh_Truc_Quan\ChatBox\ChatBox\obj\Debug\net7.0-windows\Login.g.cs
 F:\Git\Lap_Trinh_Truc_Quan\ChatBox\ChatBox\obj\Debug\net7.0-windows\MainWindow.g.cs
 F:\Git\Lap_Trinh_Truc_Quan\ChatBox\ChatBox\obj\Debug\net7.0-windows\SignUp.g.cs
 F:\Git\Lap_Trinh_Truc_Quan\ChatBox\ChatBox\obj\Debug\net7.0-windows\View\Calendar.g.cs
-F:\Git\Lap_Trinh_Truc_Quan\ChatBox\ChatBox\obj\Debug\net7.0-windows\View\Dashboard.g.cs
 F:\Git\Lap_Trinh_Truc_Quan\ChatBox\ChatBox\obj\Debug\net7.0-windows\View\Home.g.cs
-F:\Git\Lap_Trinh_Truc_Quan\ChatBox\ChatBox\obj\Debug\net7.0-windows\View\Page1.g.cs
-F:\Git\Lap_Trinh_Truc_Quan\ChatBox\ChatBox\obj\Debug\net7.0-windows\View\Page2.g.cs
-F:\Git\Lap_Trinh_Truc_Quan\ChatBox\ChatBox\obj\Debug\net7.0-windows\View\Page3.g.cs
 F:\Git\Lap_Trinh_Truc_Quan\ChatBox\ChatBox\obj\Debug\net7.0-windows\View\User.g.cs
 F:\Git\Lap_Trinh_Truc_Quan\ChatBox\ChatBox\obj\Debug\net7.0-windows\App.g.cs
 F:\Git\Lap_Trinh_Truc_Quan\ChatBox\ChatBox\obj\Debug\net7.0-windows\ChatBox_Content.g.cs
@@ -208,11 +204,7 @@ F:\Git\Lap_Trinh_Truc_Quan\ChatBox\ChatBox\obj\Debug\net7.0-windows\MainWindow.b
 F:\Git\Lap_Trinh_Truc_Quan\ChatBox\ChatBox\obj\Debug\net7.0-windows\SignUp.baml
 F:\Git\Lap_Trinh_Truc_Quan\ChatBox\ChatBox\obj\Debug\net7.0-windows\Ultilities\DataTemplate.baml
 F:\Git\Lap_Trinh_Truc_Quan\ChatBox\ChatBox\obj\Debug\net7.0-windows\View\Calendar.baml
-F:\Git\Lap_Trinh_Truc_Quan\ChatBox\ChatBox\obj\Debug\net7.0-windows\View\Dashboard.baml
 F:\Git\Lap_Trinh_Truc_Quan\ChatBox\ChatBox\obj\Debug\net7.0-windows\View\Home.baml
-F:\Git\Lap_Trinh_Truc_Quan\ChatBox\ChatBox\obj\Debug\net7.0-windows\View\Page1.baml
-F:\Git\Lap_Trinh_Truc_Quan\ChatBox\ChatBox\obj\Debug\net7.0-windows\View\Page2.baml
-F:\Git\Lap_Trinh_Truc_Quan\ChatBox\ChatBox\obj\Debug\net7.0-windows\View\Page3.baml
 F:\Git\Lap_Trinh_Truc_Quan\ChatBox\ChatBox\obj\Debug\net7.0-windows\View\User.baml
 F:\Git\Lap_Trinh_Truc_Quan\ChatBox\ChatBox\obj\Debug\net7.0-windows\ChatBox.g.resources
 F:\Git\Lap_Trinh_Truc_Quan\ChatBox\ChatBox\obj\Debug\net7.0-windows\ChatBox.GeneratedMSBuildEditorConfig.editorconfig
@@ -743,3 +735,10 @@ C:\Users\Admin\Downloads\App\App\App\ChatBox\obj\Debug\net7.0-windows\refint\Cha
 C:\Users\Admin\Downloads\App\App\App\ChatBox\obj\Debug\net7.0-windows\ChatBox.pdb
 C:\Users\Admin\Downloads\App\App\App\ChatBox\obj\Debug\net7.0-windows\ChatBox.genruntimeconfig.cache
 C:\Users\Admin\Downloads\App\App\App\ChatBox\obj\Debug\net7.0-windows\ref\ChatBox.dll
+F:\Git\Lap_Trinh_Truc_Quan\ChatBox\ChatBox\bin\Debug\net7.0-windows\Images\logout.png
+F:\Git\Lap_Trinh_Truc_Quan\ChatBox\ChatBox\obj\Debug\net7.0-windows\View\GeminiChat.g.cs
+F:\Git\Lap_Trinh_Truc_Quan\ChatBox\ChatBox\obj\Debug\net7.0-windows\View\GPTChat.g.cs
+F:\Git\Lap_Trinh_Truc_Quan\ChatBox\ChatBox\obj\Debug\net7.0-windows\View\ImageRecognition.g.cs
+F:\Git\Lap_Trinh_Truc_Quan\ChatBox\ChatBox\obj\Debug\net7.0-windows\View\GeminiChat.baml
+F:\Git\Lap_Trinh_Truc_Quan\ChatBox\ChatBox\obj\Debug\net7.0-windows\View\GPTChat.baml
+F:\Git\Lap_Trinh_Truc_Quan\ChatBox\ChatBox\obj\Debug\net7.0-windows\View\ImageRecognition.baml
