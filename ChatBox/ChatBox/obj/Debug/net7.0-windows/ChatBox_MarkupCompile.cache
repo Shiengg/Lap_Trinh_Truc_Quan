@@ -4,16 +4,16 @@
 winexe
 C#
 .cs
-F:\Git\Lap_Trinh_Truc_Quan\ChatBox\ChatBox\obj\Debug\net7.0-windows\
+D:\Github\Lap_Trinh_Truc_Quan\ChatBox\ChatBox\obj\Debug\net7.0-windows\
 ChatBox
 none
 false
 TRACE;DEBUG;NET;NET7_0;NETCOREAPP
-F:\Git\Lap_Trinh_Truc_Quan\ChatBox\ChatBox\App.xaml
+D:\Github\Lap_Trinh_Truc_Quan\ChatBox\ChatBox\App.xaml
 16-1929476262
-7150267323
+81947460622
 27-2013234435
-232824621618
+2321232350938
 Login.xaml;MainWindow.xaml;SignUp.xaml;Styles\Button.xaml;Styles\Image.xaml;Styles\Page.xaml;Styles\Text.xaml;Ultilities\DataTemplate.xaml;View\Calendar.xaml;View\Components\Input.xaml;View\Components\Output.xaml;View\GeminiChat.xaml;View\GPTChat.xaml;View\Home.xaml;View\ImageRecognition.xaml;View\User.xaml;
 
 False

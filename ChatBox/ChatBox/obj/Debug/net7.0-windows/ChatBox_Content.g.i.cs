@@ -12,6 +12,7 @@
 [assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("images/image.png")]
 [assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("images/logout.png")]
 [assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("images/openai.jpg")]
+[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("images/return.png")]
 [assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("images/shutdown_def.png")]
 [assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("images/shutdown_mo.png")]
 [assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("images/img_customer.png")]

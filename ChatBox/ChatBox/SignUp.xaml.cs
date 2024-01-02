@@ -149,5 +149,12 @@ namespace ChatBox
                 textConfirmPassword.Visibility = Visibility.Visible;
             }
         }
+
+        private void Image_MouseUp_1(object sender, MouseButtonEventArgs e)
+        {
+            Login f = new Login();
+            f.Show();
+            Window.GetWindow(this).Close();
+        }
     }
 }
