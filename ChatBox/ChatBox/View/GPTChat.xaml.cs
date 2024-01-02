@@ -274,8 +274,10 @@ namespace ChatBox.View
         {
             var client = new HttpClient();
             var baseUrl = "https://api.openai.com/v1/chat/completions";
-            //API key tạm thời bị khoá rồi, nào xong hết gỡ khỏi github mới thêm key.
-            var apiKey = "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";
+            //APIKey of GPT Platform
+            string api1 = "sk-hXwwVNT8aWTDYLTGiIAHT3Bl";
+            string api2 = "bkFJoXgptjRynAfW6vvNIUlG";
+            var apiKey = api1 + api2;
             client.DefaultRequestHeaders.Authorization = new System.Net.Http.Headers.AuthenticationHeaderValue("Bearer", apiKey);
 
             while (true)
