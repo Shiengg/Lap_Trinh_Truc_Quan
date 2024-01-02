@@ -16,7 +16,7 @@ using System.Windows.Shapes;
 namespace ChatBox.View
 {
     /// <summary>
-    /// Interaction logic for Calendar.xaml
+    /// Interaction logic for Page1.xaml
     /// </summary>
     public partial class Calendar : UserControl
     {

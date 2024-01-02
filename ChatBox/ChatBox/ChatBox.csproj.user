@@ -13,28 +13,25 @@
     <Compile Update="SignUp.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Update="View\Calendar.xaml.cs">
-      <SubType>Code</SubType>
-    </Compile>
     <Compile Update="View\Components\Input.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
     <Compile Update="View\Components\Output.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Update="View\Dashboard.xaml.cs">
+    <Compile Update="View\GPTChat.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
     <Compile Update="View\Home.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Update="View\Page1.xaml.cs">
+    <Compile Update="View\Calendar.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Update="View\Page2.xaml.cs">
+    <Compile Update="View\GeminiChat.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Update="View\Page3.xaml.cs">
+    <Compile Update="View\ImageRecognition.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
     <Compile Update="View\User.xaml.cs">
@@ -66,28 +63,25 @@
     <Page Update="Ultilities\DataTemplate.xaml">
       <SubType>Designer</SubType>
     </Page>
-    <Page Update="View\Calendar.xaml">
-      <SubType>Designer</SubType>
-    </Page>
     <Page Update="View\Components\Input.xaml">
       <SubType>Designer</SubType>
     </Page>
     <Page Update="View\Components\Output.xaml">
       <SubType>Designer</SubType>
     </Page>
-    <Page Update="View\Dashboard.xaml">
+    <Page Update="View\GPTChat.xaml">
       <SubType>Designer</SubType>
     </Page>
     <Page Update="View\Home.xaml">
       <SubType>Designer</SubType>
     </Page>
-    <Page Update="View\Page1.xaml">
+    <Page Update="View\Calendar.xaml">
       <SubType>Designer</SubType>
     </Page>
-    <Page Update="View\Page2.xaml">
+    <Page Update="View\GeminiChat.xaml">
       <SubType>Designer</SubType>
     </Page>
-    <Page Update="View\Page3.xaml">
+    <Page Update="View\ImageRecognition.xaml">
       <SubType>Designer</SubType>
     </Page>
     <Page Update="View\User.xaml">

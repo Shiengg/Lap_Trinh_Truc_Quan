@@ -43,7 +43,7 @@ namespace ChatBox
             }
             else
             {
-                Connection connection = new Connection(@"mongodb+srv://22521708:HgecVbTzd1Iqz6fx@cluster0.um2tiwy.mongodb.net/QLChatbox?retryWrites=true&w=majority", "Account");
+                Connection connection = new Connection(@"mongodb+srv://22521708:HgecVbTzd1Iqz6fx@cluster0.um2tiwy.mongodb.net/QLChatbox?retryWrites=true&w=majority", "AccountInfo");
 
                 List<Account> accounts = connection.GetAccounts(email);
 

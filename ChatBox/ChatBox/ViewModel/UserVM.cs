@@ -61,16 +61,20 @@ namespace ChatBox.ViewModel
             }
         }
 
+
         public UserVM()
         {
             _pageModel = new PageModel();
-            User = "unknown";
-            Birthday = "unknown"; // giá trị mặc định cho birthday
-            Introduce = "unknown"; // giá trị mặc định cho introduce
+
+
+
+            User = _pageModel.User;
+            Birthday = _pageModel.Birthday; // giá trị mặc định cho birthday
+            Introduce = _pageModel.Introduce; // giá trị mặc định cho introduce
 
         }
 
-        public async void LoadUserData(string userEmail)
+        public async Task LoadUserData(string userEmail)
         {
             // Lấy thông tin từ MongoDB
             //var userInfo = await Connection.GetUserInfoFromMongoDB(userEmail);
@@ -84,15 +88,21 @@ namespace ChatBox.ViewModel
             if (userInfo != null)
             {
                 _pageModel.User = userInfo.User ?? ""; // Kiểm tra và gán giá trị hoặc rỗng nếu null
-                _pageModel.Birthday = userInfo.Birthday ?? "01/01/2000"; // Sử dụng giá trị mặc định nếu null
-                _pageModel.Introduce = userInfo.Introduce ?? "Hello!"; // Sử dụng giá trị mặc định nếu null
+                _pageModel.Birthday = userInfo.Birthday ?? ""; // Sử dụng giá trị mặc định nếu null
+                _pageModel.Introduce = userInfo.Introduce ?? ""; // Sử dụng giá trị mặc định nếu null
             }
             else
             {
                 // Xử lý khi không tìm thấy thông tin người dùng trong MongoDB dựa trên email đã cung cấp
                 // Ví dụ: thông báo lỗi, đặt giá trị mặc định, hoặc thực hiện hành động khác tùy thuộc vào logic của ứng dụng
+
+                _pageModel.User = "";
+                _pageModel.Birthday = "";
+                _pageModel.Introduce = "";
             }
         }
+
+
 
     }
 }

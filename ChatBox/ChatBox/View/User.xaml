@@ -7,7 +7,8 @@
              mc:Ignorable="d" 
              d:DesignHeight="720" 
              d:DesignWidth="805"
-             Style="{StaticResource Page_Style}">
+             Style="{StaticResource Page_Style}"
+             Loaded="UserControl_Loaded">
 
     <UserControl.DataContext>
         <vm:UserVM />
@@ -44,31 +45,57 @@
     </UserControl.Resources>
     <Grid Margin="15">
 
-        <Border CornerRadius="0 20 20 0" Background="White">
-            <TextBox x:Name="txtUser" 
-                FontSize="13"
-                VerticalAlignment="Top"
-                Margin="194,146,0,0"
-                Width="300"
-                Height="25" Background="#FFFCE8FF" HorizontalAlignment="Left" 
-                BorderThickness="0"/>
+        
+        
+        <Border CornerRadius="0 20 20 0">
+            <Border.Background>
+                <RadialGradientBrush>
+                    <GradientStop Color="#FFEBE3EE"/>
+                    <GradientStop Color="#FFE2ADF9" Offset="1"/>
+                </RadialGradientBrush>
+            </Border.Background>
         </Border>
 
-        <TextBlock Text="User :"
+        <TextBlock Text="User Name :"
                    Foreground="#FF6A686D"
                    FontSize="25"
                    HorizontalAlignment="Left"
                    VerticalAlignment="Top"
                    FontFamily="/Fonts/#Rubik Medium"
-                   Margin="61,139,0,0" />
+                   Margin="29,74,0,0" />
+
+        <TextBlock Text="Password :"
+                   Foreground="#FF6A686D"
+                   FontSize="25"
+                   HorizontalAlignment="Left"
+                   VerticalAlignment="Top"
+                   FontFamily="/Fonts/#Rubik Medium"
+                   Margin="43,144,0,0" />
+
 
         <TextBox x:Name="txtBirthday" 
-     FontSize="13"
-     VerticalAlignment="Top"
-     Margin="198,213,0,0"
-     Width="300"
-     Height="25" Background="#FFFCE8FF" HorizontalAlignment="Left" 
-     BorderThickness="0"/>
+                 FontSize="16"
+                 VerticalAlignment="Top"
+                 Margin="199,213,0,0"
+                 Width="300"
+                 Height="25" Background="White" HorizontalAlignment="Left" 
+                 BorderThickness="0"/>
+
+        <TextBox x:Name="txtUser" 
+                 FontSize="16"
+                 VerticalAlignment="Top"
+                 Margin="199,75,0,0"
+                 Width="300"
+                 Height="25" Background="White" HorizontalAlignment="Left" 
+                 BorderThickness="0"/>
+
+        <TextBox x:Name="txtPass" 
+                FontSize="16"
+                VerticalAlignment="Top"
+                Margin="199,145,0,0"
+                Width="300"
+                Height="25" Background="White" HorizontalAlignment="Left" 
+                BorderThickness="0"/>
 
         <TextBlock Text="Birthday :"
            Foreground="#FF6A686D"
@@ -85,16 +112,17 @@
      VerticalAlignment="Top"
      FontFamily="/Fonts/#Rubik Medium"
      Margin="61,279,0,0" />
-        <TextBox x:Name="IntroduceTextBox"
-                 FontSize="13"
+        <TextBox x:Name="txtIntroduction"
+                 FontSize="16"
                  VerticalAlignment="Top"
                  Margin="61,349,0,0"
                  Width="596"
                  Height="290"
-                 Background="#FFFCE8FF"
+                 Background="White"
                  HorizontalAlignment="Left"
                  BorderThickness="0"/>
 
-        <Button Content="Save" Width="100"  Margin="563,289,112,352"  Style="{StaticResource mainbutton}" Click="Button_Click"/>
+        <Button x:Name="btnUser" Content="Refresh" Width="100"  Margin="563,289,112,352"  Style="{StaticResource mainbutton}" Click="Button_Click"/>
+        <Button x:Name="btnSave" Content="Save" Width="100"  Margin="563,289,112,352"  Style="{StaticResource mainbutton}" Click="Button_Click1"/>
     </Grid>
 </UserControl>

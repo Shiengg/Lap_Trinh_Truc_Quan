@@ -30,7 +30,7 @@ namespace ChatBox
             Close();
         }
 
-        private void LogOut_Click(object sender, RoutedEventArgs e)
+        private void Btn_Checked(object sender, RoutedEventArgs e)
         {
             Login f = new Login();
             f.Show();

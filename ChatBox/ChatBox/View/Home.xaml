@@ -12,7 +12,7 @@
     <UserControl.DataContext>
         <vm:HomeVM />
     </UserControl.DataContext>
-
+    
     <Grid>
 
         <Border CornerRadius="0 20 20 0">
@@ -22,9 +22,9 @@
                     <GradientStop Color="#FFE2ADF9" Offset="1"/>
                 </RadialGradientBrush>
             </Border.Background>
-            <Image HorizontalAlignment="Center" Height="132" VerticalAlignment="Center" Width="320" 
-        Source="/Images/logo.png"/>
+            <Image HorizontalAlignment="Left" Height="132" Margin="336,0,0,0" VerticalAlignment="Center" Width="140" 
+        Source="/Images/openai.jpg"/>
         </Border>
-
+        
     </Grid>
 </UserControl>

@@ -309,6 +309,351 @@ D:\Năm 2\ChatBox\Lap_Trinh_Truc_Quan\ChatBox\ChatBox\bin\Debug\net7.0-windows\N
 D:\Năm 2\ChatBox\Lap_Trinh_Truc_Quan\ChatBox\ChatBox\bin\Debug\net7.0-windows\NAudio.WinForms.dll
 D:\Năm 2\ChatBox\Lap_Trinh_Truc_Quan\ChatBox\ChatBox\bin\Debug\net7.0-windows\NAudio.WinMM.dll
 D:\Github\Lap_Trinh_Truc_Quan\ChatBox\ChatBox\bin\Debug\net7.0-windows\Images\logout.png
-F:\Git\Lap_Trinh_Truc_Quan\ChatBox\ChatBox\bin\Debug\net7.0-windows\Images\logout.png
-F:\Git\Lap_Trinh_Truc_Quan\ChatBox\ChatBox\bin\Debug\net7.0-windows\Images\logo.png
-D:\Github\Lap_Trinh_Truc_Quan\ChatBox\ChatBox\bin\Debug\net7.0-windows\Images\logo.png
+C:\Users\Admin\Downloads\LTTQ\Lap_Trinh_Truc_Quan-main\ChatBox\ChatBox\bin\Debug\net7.0-windows\ChatBox.exe
+C:\Users\Admin\Downloads\LTTQ\Lap_Trinh_Truc_Quan-main\ChatBox\ChatBox\bin\Debug\net7.0-windows\Images\icons8-mic-100.png
+C:\Users\Admin\Downloads\LTTQ\Lap_Trinh_Truc_Quan-main\ChatBox\ChatBox\bin\Debug\net7.0-windows\Images\Image.png
+C:\Users\Admin\Downloads\LTTQ\Lap_Trinh_Truc_Quan-main\ChatBox\ChatBox\bin\Debug\net7.0-windows\Images\logout.png
+C:\Users\Admin\Downloads\LTTQ\Lap_Trinh_Truc_Quan-main\ChatBox\ChatBox\bin\Debug\net7.0-windows\Images\openai.jpg
+C:\Users\Admin\Downloads\LTTQ\Lap_Trinh_Truc_Quan-main\ChatBox\ChatBox\bin\Debug\net7.0-windows\Images\shutdown_def.png
+C:\Users\Admin\Downloads\LTTQ\Lap_Trinh_Truc_Quan-main\ChatBox\ChatBox\bin\Debug\net7.0-windows\Images\shutdown_mo.png
+C:\Users\Admin\Downloads\LTTQ\Lap_Trinh_Truc_Quan-main\ChatBox\ChatBox\bin\Debug\net7.0-windows\Images\img_customer.png
+C:\Users\Admin\Downloads\LTTQ\Lap_Trinh_Truc_Quan-main\ChatBox\ChatBox\bin\Debug\net7.0-windows\ChatBox.deps.json
+C:\Users\Admin\Downloads\LTTQ\Lap_Trinh_Truc_Quan-main\ChatBox\ChatBox\bin\Debug\net7.0-windows\ChatBox.runtimeconfig.json
+C:\Users\Admin\Downloads\LTTQ\Lap_Trinh_Truc_Quan-main\ChatBox\ChatBox\bin\Debug\net7.0-windows\ChatBox.dll
+C:\Users\Admin\Downloads\LTTQ\Lap_Trinh_Truc_Quan-main\ChatBox\ChatBox\bin\Debug\net7.0-windows\ChatBox.pdb
+C:\Users\Admin\Downloads\LTTQ\Lap_Trinh_Truc_Quan-main\ChatBox\ChatBox\bin\Debug\net7.0-windows\AWSSDK.Core.dll
+C:\Users\Admin\Downloads\LTTQ\Lap_Trinh_Truc_Quan-main\ChatBox\ChatBox\bin\Debug\net7.0-windows\AWSSDK.SecurityToken.dll
+C:\Users\Admin\Downloads\LTTQ\Lap_Trinh_Truc_Quan-main\ChatBox\ChatBox\bin\Debug\net7.0-windows\CommunityToolkit.Mvvm.dll
+C:\Users\Admin\Downloads\LTTQ\Lap_Trinh_Truc_Quan-main\ChatBox\ChatBox\bin\Debug\net7.0-windows\DnsClient.dll
+C:\Users\Admin\Downloads\LTTQ\Lap_Trinh_Truc_Quan-main\ChatBox\ChatBox\bin\Debug\net7.0-windows\Json.Net.dll
+C:\Users\Admin\Downloads\LTTQ\Lap_Trinh_Truc_Quan-main\ChatBox\ChatBox\bin\Debug\net7.0-windows\MahApps.Metro.IconPacks.Core.dll
+C:\Users\Admin\Downloads\LTTQ\Lap_Trinh_Truc_Quan-main\ChatBox\ChatBox\bin\Debug\net7.0-windows\MahApps.Metro.IconPacks.Material.dll
+C:\Users\Admin\Downloads\LTTQ\Lap_Trinh_Truc_Quan-main\ChatBox\ChatBox\bin\Debug\net7.0-windows\Microsoft.Azure.CognitiveServices.Vision.ComputerVision.dll
+C:\Users\Admin\Downloads\LTTQ\Lap_Trinh_Truc_Quan-main\ChatBox\ChatBox\bin\Debug\net7.0-windows\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\Admin\Downloads\LTTQ\Lap_Trinh_Truc_Quan-main\ChatBox\ChatBox\bin\Debug\net7.0-windows\Microsoft.Rest.ClientRuntime.dll
+C:\Users\Admin\Downloads\LTTQ\Lap_Trinh_Truc_Quan-main\ChatBox\ChatBox\bin\Debug\net7.0-windows\Microsoft.Rest.ClientRuntime.Azure.dll
+C:\Users\Admin\Downloads\LTTQ\Lap_Trinh_Truc_Quan-main\ChatBox\ChatBox\bin\Debug\net7.0-windows\MongoDB.Bson.dll
+C:\Users\Admin\Downloads\LTTQ\Lap_Trinh_Truc_Quan-main\ChatBox\ChatBox\bin\Debug\net7.0-windows\MongoDB.Driver.dll
+C:\Users\Admin\Downloads\LTTQ\Lap_Trinh_Truc_Quan-main\ChatBox\ChatBox\bin\Debug\net7.0-windows\MongoDB.Driver.Core.dll
+C:\Users\Admin\Downloads\LTTQ\Lap_Trinh_Truc_Quan-main\ChatBox\ChatBox\bin\Debug\net7.0-windows\MongoDB.Libmongocrypt.dll
+C:\Users\Admin\Downloads\LTTQ\Lap_Trinh_Truc_Quan-main\ChatBox\ChatBox\bin\Debug\net7.0-windows\NAudio.dll
+C:\Users\Admin\Downloads\LTTQ\Lap_Trinh_Truc_Quan-main\ChatBox\ChatBox\bin\Debug\net7.0-windows\NAudio.Asio.dll
+C:\Users\Admin\Downloads\LTTQ\Lap_Trinh_Truc_Quan-main\ChatBox\ChatBox\bin\Debug\net7.0-windows\NAudio.Core.dll
+C:\Users\Admin\Downloads\LTTQ\Lap_Trinh_Truc_Quan-main\ChatBox\ChatBox\bin\Debug\net7.0-windows\NAudio.Midi.dll
+C:\Users\Admin\Downloads\LTTQ\Lap_Trinh_Truc_Quan-main\ChatBox\ChatBox\bin\Debug\net7.0-windows\NAudio.Wasapi.dll
+C:\Users\Admin\Downloads\LTTQ\Lap_Trinh_Truc_Quan-main\ChatBox\ChatBox\bin\Debug\net7.0-windows\NAudio.WinForms.dll
+C:\Users\Admin\Downloads\LTTQ\Lap_Trinh_Truc_Quan-main\ChatBox\ChatBox\bin\Debug\net7.0-windows\NAudio.WinMM.dll
+C:\Users\Admin\Downloads\LTTQ\Lap_Trinh_Truc_Quan-main\ChatBox\ChatBox\bin\Debug\net7.0-windows\Newtonsoft.Json.dll
+C:\Users\Admin\Downloads\LTTQ\Lap_Trinh_Truc_Quan-main\ChatBox\ChatBox\bin\Debug\net7.0-windows\SharpCompress.dll
+C:\Users\Admin\Downloads\LTTQ\Lap_Trinh_Truc_Quan-main\ChatBox\ChatBox\bin\Debug\net7.0-windows\Snappier.dll
+C:\Users\Admin\Downloads\LTTQ\Lap_Trinh_Truc_Quan-main\ChatBox\ChatBox\bin\Debug\net7.0-windows\ZstdSharp.dll
+C:\Users\Admin\Downloads\LTTQ\Lap_Trinh_Truc_Quan-main\ChatBox\ChatBox\bin\Debug\net7.0-windows\runtimes\linux\native\libmongocrypt.so
+C:\Users\Admin\Downloads\LTTQ\Lap_Trinh_Truc_Quan-main\ChatBox\ChatBox\bin\Debug\net7.0-windows\runtimes\osx\native\libmongocrypt.dylib
+C:\Users\Admin\Downloads\LTTQ\Lap_Trinh_Truc_Quan-main\ChatBox\ChatBox\bin\Debug\net7.0-windows\runtimes\win\native\mongocrypt.dll
+C:\Users\Admin\Downloads\LTTQ\Lap_Trinh_Truc_Quan-main\ChatBox\ChatBox\obj\Debug\net7.0-windows\ChatBox.csproj.AssemblyReference.cache
+C:\Users\Admin\Downloads\LTTQ\Lap_Trinh_Truc_Quan-main\ChatBox\ChatBox\obj\Debug\net7.0-windows\Login.baml
+C:\Users\Admin\Downloads\LTTQ\Lap_Trinh_Truc_Quan-main\ChatBox\ChatBox\obj\Debug\net7.0-windows\Styles\Button.baml
+C:\Users\Admin\Downloads\LTTQ\Lap_Trinh_Truc_Quan-main\ChatBox\ChatBox\obj\Debug\net7.0-windows\Styles\Image.baml
+C:\Users\Admin\Downloads\LTTQ\Lap_Trinh_Truc_Quan-main\ChatBox\ChatBox\obj\Debug\net7.0-windows\Styles\Page.baml
+C:\Users\Admin\Downloads\LTTQ\Lap_Trinh_Truc_Quan-main\ChatBox\ChatBox\obj\Debug\net7.0-windows\Styles\Text.baml
+C:\Users\Admin\Downloads\LTTQ\Lap_Trinh_Truc_Quan-main\ChatBox\ChatBox\obj\Debug\net7.0-windows\Login.g.cs
+C:\Users\Admin\Downloads\LTTQ\Lap_Trinh_Truc_Quan-main\ChatBox\ChatBox\obj\Debug\net7.0-windows\MainWindow.g.cs
+C:\Users\Admin\Downloads\LTTQ\Lap_Trinh_Truc_Quan-main\ChatBox\ChatBox\obj\Debug\net7.0-windows\SignUp.g.cs
+C:\Users\Admin\Downloads\LTTQ\Lap_Trinh_Truc_Quan-main\ChatBox\ChatBox\obj\Debug\net7.0-windows\View\Calendar.g.cs
+C:\Users\Admin\Downloads\LTTQ\Lap_Trinh_Truc_Quan-main\ChatBox\ChatBox\obj\Debug\net7.0-windows\View\Components\Input.g.cs
+C:\Users\Admin\Downloads\LTTQ\Lap_Trinh_Truc_Quan-main\ChatBox\ChatBox\obj\Debug\net7.0-windows\View\Components\Output.g.cs
+C:\Users\Admin\Downloads\LTTQ\Lap_Trinh_Truc_Quan-main\ChatBox\ChatBox\obj\Debug\net7.0-windows\View\Dashboard.g.cs
+C:\Users\Admin\Downloads\LTTQ\Lap_Trinh_Truc_Quan-main\ChatBox\ChatBox\obj\Debug\net7.0-windows\View\Home.g.cs
+C:\Users\Admin\Downloads\LTTQ\Lap_Trinh_Truc_Quan-main\ChatBox\ChatBox\obj\Debug\net7.0-windows\View\Page1.g.cs
+C:\Users\Admin\Downloads\LTTQ\Lap_Trinh_Truc_Quan-main\ChatBox\ChatBox\obj\Debug\net7.0-windows\View\Page2.g.cs
+C:\Users\Admin\Downloads\LTTQ\Lap_Trinh_Truc_Quan-main\ChatBox\ChatBox\obj\Debug\net7.0-windows\View\Page3.g.cs
+C:\Users\Admin\Downloads\LTTQ\Lap_Trinh_Truc_Quan-main\ChatBox\ChatBox\obj\Debug\net7.0-windows\View\User.g.cs
+C:\Users\Admin\Downloads\LTTQ\Lap_Trinh_Truc_Quan-main\ChatBox\ChatBox\obj\Debug\net7.0-windows\App.g.cs
+C:\Users\Admin\Downloads\LTTQ\Lap_Trinh_Truc_Quan-main\ChatBox\ChatBox\obj\Debug\net7.0-windows\ChatBox_Content.g.cs
+C:\Users\Admin\Downloads\LTTQ\Lap_Trinh_Truc_Quan-main\ChatBox\ChatBox\obj\Debug\net7.0-windows\GeneratedInternalTypeHelper.g.cs
+C:\Users\Admin\Downloads\LTTQ\Lap_Trinh_Truc_Quan-main\ChatBox\ChatBox\obj\Debug\net7.0-windows\ChatBox_MarkupCompile.cache
+C:\Users\Admin\Downloads\LTTQ\Lap_Trinh_Truc_Quan-main\ChatBox\ChatBox\obj\Debug\net7.0-windows\ChatBox_MarkupCompile.lref
+C:\Users\Admin\Downloads\LTTQ\Lap_Trinh_Truc_Quan-main\ChatBox\ChatBox\obj\Debug\net7.0-windows\App.baml
+C:\Users\Admin\Downloads\LTTQ\Lap_Trinh_Truc_Quan-main\ChatBox\ChatBox\obj\Debug\net7.0-windows\MainWindow.baml
+C:\Users\Admin\Downloads\LTTQ\Lap_Trinh_Truc_Quan-main\ChatBox\ChatBox\obj\Debug\net7.0-windows\SignUp.baml
+C:\Users\Admin\Downloads\LTTQ\Lap_Trinh_Truc_Quan-main\ChatBox\ChatBox\obj\Debug\net7.0-windows\Ultilities\DataTemplate.baml
+C:\Users\Admin\Downloads\LTTQ\Lap_Trinh_Truc_Quan-main\ChatBox\ChatBox\obj\Debug\net7.0-windows\View\Calendar.baml
+C:\Users\Admin\Downloads\LTTQ\Lap_Trinh_Truc_Quan-main\ChatBox\ChatBox\obj\Debug\net7.0-windows\View\Components\Input.baml
+C:\Users\Admin\Downloads\LTTQ\Lap_Trinh_Truc_Quan-main\ChatBox\ChatBox\obj\Debug\net7.0-windows\View\Components\Output.baml
+C:\Users\Admin\Downloads\LTTQ\Lap_Trinh_Truc_Quan-main\ChatBox\ChatBox\obj\Debug\net7.0-windows\View\Dashboard.baml
+C:\Users\Admin\Downloads\LTTQ\Lap_Trinh_Truc_Quan-main\ChatBox\ChatBox\obj\Debug\net7.0-windows\View\Home.baml
+C:\Users\Admin\Downloads\LTTQ\Lap_Trinh_Truc_Quan-main\ChatBox\ChatBox\obj\Debug\net7.0-windows\View\Page1.baml
+C:\Users\Admin\Downloads\LTTQ\Lap_Trinh_Truc_Quan-main\ChatBox\ChatBox\obj\Debug\net7.0-windows\View\Page2.baml
+C:\Users\Admin\Downloads\LTTQ\Lap_Trinh_Truc_Quan-main\ChatBox\ChatBox\obj\Debug\net7.0-windows\View\Page3.baml
+C:\Users\Admin\Downloads\LTTQ\Lap_Trinh_Truc_Quan-main\ChatBox\ChatBox\obj\Debug\net7.0-windows\View\User.baml
+C:\Users\Admin\Downloads\LTTQ\Lap_Trinh_Truc_Quan-main\ChatBox\ChatBox\obj\Debug\net7.0-windows\ChatBox.g.resources
+C:\Users\Admin\Downloads\LTTQ\Lap_Trinh_Truc_Quan-main\ChatBox\ChatBox\obj\Debug\net7.0-windows\ChatBox.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Admin\Downloads\LTTQ\Lap_Trinh_Truc_Quan-main\ChatBox\ChatBox\obj\Debug\net7.0-windows\ChatBox.AssemblyInfoInputs.cache
+C:\Users\Admin\Downloads\LTTQ\Lap_Trinh_Truc_Quan-main\ChatBox\ChatBox\obj\Debug\net7.0-windows\ChatBox.AssemblyInfo.cs
+C:\Users\Admin\Downloads\LTTQ\Lap_Trinh_Truc_Quan-main\ChatBox\ChatBox\obj\Debug\net7.0-windows\ChatBox.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Downloads\LTTQ\Lap_Trinh_Truc_Quan-main\ChatBox\ChatBox\obj\Debug\net7.0-windows\ChatBox.csproj.CopyComplete
+C:\Users\Admin\Downloads\LTTQ\Lap_Trinh_Truc_Quan-main\ChatBox\ChatBox\obj\Debug\net7.0-windows\ChatBox.dll
+C:\Users\Admin\Downloads\LTTQ\Lap_Trinh_Truc_Quan-main\ChatBox\ChatBox\obj\Debug\net7.0-windows\refint\ChatBox.dll
+C:\Users\Admin\Downloads\LTTQ\Lap_Trinh_Truc_Quan-main\ChatBox\ChatBox\obj\Debug\net7.0-windows\ChatBox.pdb
+C:\Users\Admin\Downloads\LTTQ\Lap_Trinh_Truc_Quan-main\ChatBox\ChatBox\obj\Debug\net7.0-windows\ChatBox.genruntimeconfig.cache
+C:\Users\Admin\Downloads\LTTQ\Lap_Trinh_Truc_Quan-main\ChatBox\ChatBox\obj\Debug\net7.0-windows\ref\ChatBox.dll
+D:\Năm 2\Lập trình trực quan\LTTQ\Lap_Trinh_Truc_Quan-main\ChatBox\ChatBox\bin\Debug\net7.0-windows\ChatBox.exe
+D:\Năm 2\Lập trình trực quan\LTTQ\Lap_Trinh_Truc_Quan-main\ChatBox\ChatBox\bin\Debug\net7.0-windows\Images\icons8-mic-100.png
+D:\Năm 2\Lập trình trực quan\LTTQ\Lap_Trinh_Truc_Quan-main\ChatBox\ChatBox\bin\Debug\net7.0-windows\Images\Image.png
+D:\Năm 2\Lập trình trực quan\LTTQ\Lap_Trinh_Truc_Quan-main\ChatBox\ChatBox\bin\Debug\net7.0-windows\Images\logout.png
+D:\Năm 2\Lập trình trực quan\LTTQ\Lap_Trinh_Truc_Quan-main\ChatBox\ChatBox\bin\Debug\net7.0-windows\Images\openai.jpg
+D:\Năm 2\Lập trình trực quan\LTTQ\Lap_Trinh_Truc_Quan-main\ChatBox\ChatBox\bin\Debug\net7.0-windows\Images\shutdown_def.png
+D:\Năm 2\Lập trình trực quan\LTTQ\Lap_Trinh_Truc_Quan-main\ChatBox\ChatBox\bin\Debug\net7.0-windows\Images\shutdown_mo.png
+D:\Năm 2\Lập trình trực quan\LTTQ\Lap_Trinh_Truc_Quan-main\ChatBox\ChatBox\bin\Debug\net7.0-windows\Images\img_customer.png
+D:\Năm 2\Lập trình trực quan\LTTQ\Lap_Trinh_Truc_Quan-main\ChatBox\ChatBox\bin\Debug\net7.0-windows\ChatBox.deps.json
+D:\Năm 2\Lập trình trực quan\LTTQ\Lap_Trinh_Truc_Quan-main\ChatBox\ChatBox\bin\Debug\net7.0-windows\ChatBox.runtimeconfig.json
+D:\Năm 2\Lập trình trực quan\LTTQ\Lap_Trinh_Truc_Quan-main\ChatBox\ChatBox\bin\Debug\net7.0-windows\ChatBox.dll
+D:\Năm 2\Lập trình trực quan\LTTQ\Lap_Trinh_Truc_Quan-main\ChatBox\ChatBox\bin\Debug\net7.0-windows\ChatBox.pdb
+D:\Năm 2\Lập trình trực quan\LTTQ\Lap_Trinh_Truc_Quan-main\ChatBox\ChatBox\bin\Debug\net7.0-windows\AWSSDK.Core.dll
+D:\Năm 2\Lập trình trực quan\LTTQ\Lap_Trinh_Truc_Quan-main\ChatBox\ChatBox\bin\Debug\net7.0-windows\AWSSDK.SecurityToken.dll
+D:\Năm 2\Lập trình trực quan\LTTQ\Lap_Trinh_Truc_Quan-main\ChatBox\ChatBox\bin\Debug\net7.0-windows\CommunityToolkit.Mvvm.dll
+D:\Năm 2\Lập trình trực quan\LTTQ\Lap_Trinh_Truc_Quan-main\ChatBox\ChatBox\bin\Debug\net7.0-windows\DnsClient.dll
+D:\Năm 2\Lập trình trực quan\LTTQ\Lap_Trinh_Truc_Quan-main\ChatBox\ChatBox\bin\Debug\net7.0-windows\Json.Net.dll
+D:\Năm 2\Lập trình trực quan\LTTQ\Lap_Trinh_Truc_Quan-main\ChatBox\ChatBox\bin\Debug\net7.0-windows\MahApps.Metro.IconPacks.Core.dll
+D:\Năm 2\Lập trình trực quan\LTTQ\Lap_Trinh_Truc_Quan-main\ChatBox\ChatBox\bin\Debug\net7.0-windows\MahApps.Metro.IconPacks.Material.dll
+D:\Năm 2\Lập trình trực quan\LTTQ\Lap_Trinh_Truc_Quan-main\ChatBox\ChatBox\bin\Debug\net7.0-windows\Microsoft.Azure.CognitiveServices.Vision.ComputerVision.dll
+D:\Năm 2\Lập trình trực quan\LTTQ\Lap_Trinh_Truc_Quan-main\ChatBox\ChatBox\bin\Debug\net7.0-windows\Microsoft.Extensions.Logging.Abstractions.dll
+D:\Năm 2\Lập trình trực quan\LTTQ\Lap_Trinh_Truc_Quan-main\ChatBox\ChatBox\bin\Debug\net7.0-windows\Microsoft.Rest.ClientRuntime.dll
+D:\Năm 2\Lập trình trực quan\LTTQ\Lap_Trinh_Truc_Quan-main\ChatBox\ChatBox\bin\Debug\net7.0-windows\Microsoft.Rest.ClientRuntime.Azure.dll
+D:\Năm 2\Lập trình trực quan\LTTQ\Lap_Trinh_Truc_Quan-main\ChatBox\ChatBox\bin\Debug\net7.0-windows\MongoDB.Bson.dll
+D:\Năm 2\Lập trình trực quan\LTTQ\Lap_Trinh_Truc_Quan-main\ChatBox\ChatBox\bin\Debug\net7.0-windows\MongoDB.Driver.dll
+D:\Năm 2\Lập trình trực quan\LTTQ\Lap_Trinh_Truc_Quan-main\ChatBox\ChatBox\bin\Debug\net7.0-windows\MongoDB.Driver.Core.dll
+D:\Năm 2\Lập trình trực quan\LTTQ\Lap_Trinh_Truc_Quan-main\ChatBox\ChatBox\bin\Debug\net7.0-windows\MongoDB.Libmongocrypt.dll
+D:\Năm 2\Lập trình trực quan\LTTQ\Lap_Trinh_Truc_Quan-main\ChatBox\ChatBox\bin\Debug\net7.0-windows\NAudio.dll
+D:\Năm 2\Lập trình trực quan\LTTQ\Lap_Trinh_Truc_Quan-main\ChatBox\ChatBox\bin\Debug\net7.0-windows\NAudio.Asio.dll
+D:\Năm 2\Lập trình trực quan\LTTQ\Lap_Trinh_Truc_Quan-main\ChatBox\ChatBox\bin\Debug\net7.0-windows\NAudio.Core.dll
+D:\Năm 2\Lập trình trực quan\LTTQ\Lap_Trinh_Truc_Quan-main\ChatBox\ChatBox\bin\Debug\net7.0-windows\NAudio.Midi.dll
+D:\Năm 2\Lập trình trực quan\LTTQ\Lap_Trinh_Truc_Quan-main\ChatBox\ChatBox\bin\Debug\net7.0-windows\NAudio.Wasapi.dll
+D:\Năm 2\Lập trình trực quan\LTTQ\Lap_Trinh_Truc_Quan-main\ChatBox\ChatBox\bin\Debug\net7.0-windows\NAudio.WinForms.dll
+D:\Năm 2\Lập trình trực quan\LTTQ\Lap_Trinh_Truc_Quan-main\ChatBox\ChatBox\bin\Debug\net7.0-windows\NAudio.WinMM.dll
+D:\Năm 2\Lập trình trực quan\LTTQ\Lap_Trinh_Truc_Quan-main\ChatBox\ChatBox\bin\Debug\net7.0-windows\Newtonsoft.Json.dll
+D:\Năm 2\Lập trình trực quan\LTTQ\Lap_Trinh_Truc_Quan-main\ChatBox\ChatBox\bin\Debug\net7.0-windows\SharpCompress.dll
+D:\Năm 2\Lập trình trực quan\LTTQ\Lap_Trinh_Truc_Quan-main\ChatBox\ChatBox\bin\Debug\net7.0-windows\Snappier.dll
+D:\Năm 2\Lập trình trực quan\LTTQ\Lap_Trinh_Truc_Quan-main\ChatBox\ChatBox\bin\Debug\net7.0-windows\ZstdSharp.dll
+D:\Năm 2\Lập trình trực quan\LTTQ\Lap_Trinh_Truc_Quan-main\ChatBox\ChatBox\bin\Debug\net7.0-windows\runtimes\linux\native\libmongocrypt.so
+D:\Năm 2\Lập trình trực quan\LTTQ\Lap_Trinh_Truc_Quan-main\ChatBox\ChatBox\bin\Debug\net7.0-windows\runtimes\osx\native\libmongocrypt.dylib
+D:\Năm 2\Lập trình trực quan\LTTQ\Lap_Trinh_Truc_Quan-main\ChatBox\ChatBox\bin\Debug\net7.0-windows\runtimes\win\native\mongocrypt.dll
+D:\Năm 2\Lập trình trực quan\LTTQ\Lap_Trinh_Truc_Quan-main\ChatBox\ChatBox\obj\Debug\net7.0-windows\ChatBox.csproj.AssemblyReference.cache
+D:\Năm 2\Lập trình trực quan\LTTQ\Lap_Trinh_Truc_Quan-main\ChatBox\ChatBox\obj\Debug\net7.0-windows\Login.baml
+D:\Năm 2\Lập trình trực quan\LTTQ\Lap_Trinh_Truc_Quan-main\ChatBox\ChatBox\obj\Debug\net7.0-windows\Styles\Button.baml
+D:\Năm 2\Lập trình trực quan\LTTQ\Lap_Trinh_Truc_Quan-main\ChatBox\ChatBox\obj\Debug\net7.0-windows\Styles\Image.baml
+D:\Năm 2\Lập trình trực quan\LTTQ\Lap_Trinh_Truc_Quan-main\ChatBox\ChatBox\obj\Debug\net7.0-windows\Styles\Page.baml
+D:\Năm 2\Lập trình trực quan\LTTQ\Lap_Trinh_Truc_Quan-main\ChatBox\ChatBox\obj\Debug\net7.0-windows\Styles\Text.baml
+D:\Năm 2\Lập trình trực quan\LTTQ\Lap_Trinh_Truc_Quan-main\ChatBox\ChatBox\obj\Debug\net7.0-windows\Login.g.cs
+D:\Năm 2\Lập trình trực quan\LTTQ\Lap_Trinh_Truc_Quan-main\ChatBox\ChatBox\obj\Debug\net7.0-windows\MainWindow.g.cs
+D:\Năm 2\Lập trình trực quan\LTTQ\Lap_Trinh_Truc_Quan-main\ChatBox\ChatBox\obj\Debug\net7.0-windows\SignUp.g.cs
+D:\Năm 2\Lập trình trực quan\LTTQ\Lap_Trinh_Truc_Quan-main\ChatBox\ChatBox\obj\Debug\net7.0-windows\View\Calendar.g.cs
+D:\Năm 2\Lập trình trực quan\LTTQ\Lap_Trinh_Truc_Quan-main\ChatBox\ChatBox\obj\Debug\net7.0-windows\View\Components\Input.g.cs
+D:\Năm 2\Lập trình trực quan\LTTQ\Lap_Trinh_Truc_Quan-main\ChatBox\ChatBox\obj\Debug\net7.0-windows\View\Components\Output.g.cs
+D:\Năm 2\Lập trình trực quan\LTTQ\Lap_Trinh_Truc_Quan-main\ChatBox\ChatBox\obj\Debug\net7.0-windows\View\Dashboard.g.cs
+D:\Năm 2\Lập trình trực quan\LTTQ\Lap_Trinh_Truc_Quan-main\ChatBox\ChatBox\obj\Debug\net7.0-windows\View\Home.g.cs
+D:\Năm 2\Lập trình trực quan\LTTQ\Lap_Trinh_Truc_Quan-main\ChatBox\ChatBox\obj\Debug\net7.0-windows\View\Page1.g.cs
+D:\Năm 2\Lập trình trực quan\LTTQ\Lap_Trinh_Truc_Quan-main\ChatBox\ChatBox\obj\Debug\net7.0-windows\View\Page2.g.cs
+D:\Năm 2\Lập trình trực quan\LTTQ\Lap_Trinh_Truc_Quan-main\ChatBox\ChatBox\obj\Debug\net7.0-windows\View\Page3.g.cs
+D:\Năm 2\Lập trình trực quan\LTTQ\Lap_Trinh_Truc_Quan-main\ChatBox\ChatBox\obj\Debug\net7.0-windows\View\User.g.cs
+D:\Năm 2\Lập trình trực quan\LTTQ\Lap_Trinh_Truc_Quan-main\ChatBox\ChatBox\obj\Debug\net7.0-windows\App.g.cs
+D:\Năm 2\Lập trình trực quan\LTTQ\Lap_Trinh_Truc_Quan-main\ChatBox\ChatBox\obj\Debug\net7.0-windows\ChatBox_Content.g.cs
+D:\Năm 2\Lập trình trực quan\LTTQ\Lap_Trinh_Truc_Quan-main\ChatBox\ChatBox\obj\Debug\net7.0-windows\GeneratedInternalTypeHelper.g.cs
+D:\Năm 2\Lập trình trực quan\LTTQ\Lap_Trinh_Truc_Quan-main\ChatBox\ChatBox\obj\Debug\net7.0-windows\ChatBox_MarkupCompile.cache
+D:\Năm 2\Lập trình trực quan\LTTQ\Lap_Trinh_Truc_Quan-main\ChatBox\ChatBox\obj\Debug\net7.0-windows\ChatBox_MarkupCompile.lref
+D:\Năm 2\Lập trình trực quan\LTTQ\Lap_Trinh_Truc_Quan-main\ChatBox\ChatBox\obj\Debug\net7.0-windows\App.baml
+D:\Năm 2\Lập trình trực quan\LTTQ\Lap_Trinh_Truc_Quan-main\ChatBox\ChatBox\obj\Debug\net7.0-windows\MainWindow.baml
+D:\Năm 2\Lập trình trực quan\LTTQ\Lap_Trinh_Truc_Quan-main\ChatBox\ChatBox\obj\Debug\net7.0-windows\SignUp.baml
+D:\Năm 2\Lập trình trực quan\LTTQ\Lap_Trinh_Truc_Quan-main\ChatBox\ChatBox\obj\Debug\net7.0-windows\Ultilities\DataTemplate.baml
+D:\Năm 2\Lập trình trực quan\LTTQ\Lap_Trinh_Truc_Quan-main\ChatBox\ChatBox\obj\Debug\net7.0-windows\View\Calendar.baml
+D:\Năm 2\Lập trình trực quan\LTTQ\Lap_Trinh_Truc_Quan-main\ChatBox\ChatBox\obj\Debug\net7.0-windows\View\Components\Input.baml
+D:\Năm 2\Lập trình trực quan\LTTQ\Lap_Trinh_Truc_Quan-main\ChatBox\ChatBox\obj\Debug\net7.0-windows\View\Components\Output.baml
+D:\Năm 2\Lập trình trực quan\LTTQ\Lap_Trinh_Truc_Quan-main\ChatBox\ChatBox\obj\Debug\net7.0-windows\View\Dashboard.baml
+D:\Năm 2\Lập trình trực quan\LTTQ\Lap_Trinh_Truc_Quan-main\ChatBox\ChatBox\obj\Debug\net7.0-windows\View\Home.baml
+D:\Năm 2\Lập trình trực quan\LTTQ\Lap_Trinh_Truc_Quan-main\ChatBox\ChatBox\obj\Debug\net7.0-windows\View\Page1.baml
+D:\Năm 2\Lập trình trực quan\LTTQ\Lap_Trinh_Truc_Quan-main\ChatBox\ChatBox\obj\Debug\net7.0-windows\View\Page2.baml
+D:\Năm 2\Lập trình trực quan\LTTQ\Lap_Trinh_Truc_Quan-main\ChatBox\ChatBox\obj\Debug\net7.0-windows\View\Page3.baml
+D:\Năm 2\Lập trình trực quan\LTTQ\Lap_Trinh_Truc_Quan-main\ChatBox\ChatBox\obj\Debug\net7.0-windows\View\User.baml
+D:\Năm 2\Lập trình trực quan\LTTQ\Lap_Trinh_Truc_Quan-main\ChatBox\ChatBox\obj\Debug\net7.0-windows\ChatBox.g.resources
+D:\Năm 2\Lập trình trực quan\LTTQ\Lap_Trinh_Truc_Quan-main\ChatBox\ChatBox\obj\Debug\net7.0-windows\ChatBox.GeneratedMSBuildEditorConfig.editorconfig
+D:\Năm 2\Lập trình trực quan\LTTQ\Lap_Trinh_Truc_Quan-main\ChatBox\ChatBox\obj\Debug\net7.0-windows\ChatBox.AssemblyInfoInputs.cache
+D:\Năm 2\Lập trình trực quan\LTTQ\Lap_Trinh_Truc_Quan-main\ChatBox\ChatBox\obj\Debug\net7.0-windows\ChatBox.AssemblyInfo.cs
+D:\Năm 2\Lập trình trực quan\LTTQ\Lap_Trinh_Truc_Quan-main\ChatBox\ChatBox\obj\Debug\net7.0-windows\ChatBox.csproj.CoreCompileInputs.cache
+D:\Năm 2\Lập trình trực quan\LTTQ\Lap_Trinh_Truc_Quan-main\ChatBox\ChatBox\obj\Debug\net7.0-windows\ChatBox.csproj.CopyComplete
+D:\Năm 2\Lập trình trực quan\LTTQ\Lap_Trinh_Truc_Quan-main\ChatBox\ChatBox\obj\Debug\net7.0-windows\ChatBox.dll
+D:\Năm 2\Lập trình trực quan\LTTQ\Lap_Trinh_Truc_Quan-main\ChatBox\ChatBox\obj\Debug\net7.0-windows\refint\ChatBox.dll
+D:\Năm 2\Lập trình trực quan\LTTQ\Lap_Trinh_Truc_Quan-main\ChatBox\ChatBox\obj\Debug\net7.0-windows\ChatBox.pdb
+D:\Năm 2\Lập trình trực quan\LTTQ\Lap_Trinh_Truc_Quan-main\ChatBox\ChatBox\obj\Debug\net7.0-windows\ChatBox.genruntimeconfig.cache
+D:\Năm 2\Lập trình trực quan\LTTQ\Lap_Trinh_Truc_Quan-main\ChatBox\ChatBox\obj\Debug\net7.0-windows\ref\ChatBox.dll
+C:\Users\Admin\Downloads\App\ChatBox\bin\Debug\net7.0-windows\ChatBox.exe
+C:\Users\Admin\Downloads\App\ChatBox\bin\Debug\net7.0-windows\Images\icons8-mic-100.png
+C:\Users\Admin\Downloads\App\ChatBox\bin\Debug\net7.0-windows\Images\Image.png
+C:\Users\Admin\Downloads\App\ChatBox\bin\Debug\net7.0-windows\Images\logout.png
+C:\Users\Admin\Downloads\App\ChatBox\bin\Debug\net7.0-windows\Images\openai.jpg
+C:\Users\Admin\Downloads\App\ChatBox\bin\Debug\net7.0-windows\Images\shutdown_def.png
+C:\Users\Admin\Downloads\App\ChatBox\bin\Debug\net7.0-windows\Images\shutdown_mo.png
+C:\Users\Admin\Downloads\App\ChatBox\bin\Debug\net7.0-windows\Images\img_customer.png
+C:\Users\Admin\Downloads\App\ChatBox\bin\Debug\net7.0-windows\ChatBox.deps.json
+C:\Users\Admin\Downloads\App\ChatBox\bin\Debug\net7.0-windows\ChatBox.runtimeconfig.json
+C:\Users\Admin\Downloads\App\ChatBox\bin\Debug\net7.0-windows\ChatBox.dll
+C:\Users\Admin\Downloads\App\ChatBox\bin\Debug\net7.0-windows\ChatBox.pdb
+C:\Users\Admin\Downloads\App\ChatBox\bin\Debug\net7.0-windows\AWSSDK.Core.dll
+C:\Users\Admin\Downloads\App\ChatBox\bin\Debug\net7.0-windows\AWSSDK.SecurityToken.dll
+C:\Users\Admin\Downloads\App\ChatBox\bin\Debug\net7.0-windows\CommunityToolkit.Mvvm.dll
+C:\Users\Admin\Downloads\App\ChatBox\bin\Debug\net7.0-windows\DnsClient.dll
+C:\Users\Admin\Downloads\App\ChatBox\bin\Debug\net7.0-windows\Json.Net.dll
+C:\Users\Admin\Downloads\App\ChatBox\bin\Debug\net7.0-windows\MahApps.Metro.IconPacks.Core.dll
+C:\Users\Admin\Downloads\App\ChatBox\bin\Debug\net7.0-windows\MahApps.Metro.IconPacks.Material.dll
+C:\Users\Admin\Downloads\App\ChatBox\bin\Debug\net7.0-windows\Microsoft.Azure.CognitiveServices.Vision.ComputerVision.dll
+C:\Users\Admin\Downloads\App\ChatBox\bin\Debug\net7.0-windows\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\Admin\Downloads\App\ChatBox\bin\Debug\net7.0-windows\Microsoft.Rest.ClientRuntime.dll
+C:\Users\Admin\Downloads\App\ChatBox\bin\Debug\net7.0-windows\Microsoft.Rest.ClientRuntime.Azure.dll
+C:\Users\Admin\Downloads\App\ChatBox\bin\Debug\net7.0-windows\MongoDB.Bson.dll
+C:\Users\Admin\Downloads\App\ChatBox\bin\Debug\net7.0-windows\MongoDB.Driver.dll
+C:\Users\Admin\Downloads\App\ChatBox\bin\Debug\net7.0-windows\MongoDB.Driver.Core.dll
+C:\Users\Admin\Downloads\App\ChatBox\bin\Debug\net7.0-windows\MongoDB.Libmongocrypt.dll
+C:\Users\Admin\Downloads\App\ChatBox\bin\Debug\net7.0-windows\NAudio.dll
+C:\Users\Admin\Downloads\App\ChatBox\bin\Debug\net7.0-windows\NAudio.Asio.dll
+C:\Users\Admin\Downloads\App\ChatBox\bin\Debug\net7.0-windows\NAudio.Core.dll
+C:\Users\Admin\Downloads\App\ChatBox\bin\Debug\net7.0-windows\NAudio.Midi.dll
+C:\Users\Admin\Downloads\App\ChatBox\bin\Debug\net7.0-windows\NAudio.Wasapi.dll
+C:\Users\Admin\Downloads\App\ChatBox\bin\Debug\net7.0-windows\NAudio.WinForms.dll
+C:\Users\Admin\Downloads\App\ChatBox\bin\Debug\net7.0-windows\NAudio.WinMM.dll
+C:\Users\Admin\Downloads\App\ChatBox\bin\Debug\net7.0-windows\Newtonsoft.Json.dll
+C:\Users\Admin\Downloads\App\ChatBox\bin\Debug\net7.0-windows\SharpCompress.dll
+C:\Users\Admin\Downloads\App\ChatBox\bin\Debug\net7.0-windows\Snappier.dll
+C:\Users\Admin\Downloads\App\ChatBox\bin\Debug\net7.0-windows\ZstdSharp.dll
+C:\Users\Admin\Downloads\App\ChatBox\bin\Debug\net7.0-windows\runtimes\linux\native\libmongocrypt.so
+C:\Users\Admin\Downloads\App\ChatBox\bin\Debug\net7.0-windows\runtimes\osx\native\libmongocrypt.dylib
+C:\Users\Admin\Downloads\App\ChatBox\bin\Debug\net7.0-windows\runtimes\win\native\mongocrypt.dll
+C:\Users\Admin\Downloads\App\ChatBox\obj\Debug\net7.0-windows\ChatBox.csproj.AssemblyReference.cache
+C:\Users\Admin\Downloads\App\ChatBox\obj\Debug\net7.0-windows\Login.baml
+C:\Users\Admin\Downloads\App\ChatBox\obj\Debug\net7.0-windows\Styles\Button.baml
+C:\Users\Admin\Downloads\App\ChatBox\obj\Debug\net7.0-windows\Styles\Image.baml
+C:\Users\Admin\Downloads\App\ChatBox\obj\Debug\net7.0-windows\Styles\Page.baml
+C:\Users\Admin\Downloads\App\ChatBox\obj\Debug\net7.0-windows\Styles\Text.baml
+C:\Users\Admin\Downloads\App\ChatBox\obj\Debug\net7.0-windows\Login.g.cs
+C:\Users\Admin\Downloads\App\ChatBox\obj\Debug\net7.0-windows\MainWindow.g.cs
+C:\Users\Admin\Downloads\App\ChatBox\obj\Debug\net7.0-windows\SignUp.g.cs
+C:\Users\Admin\Downloads\App\ChatBox\obj\Debug\net7.0-windows\View\Calendar.g.cs
+C:\Users\Admin\Downloads\App\ChatBox\obj\Debug\net7.0-windows\View\Components\Input.g.cs
+C:\Users\Admin\Downloads\App\ChatBox\obj\Debug\net7.0-windows\View\Components\Output.g.cs
+C:\Users\Admin\Downloads\App\ChatBox\obj\Debug\net7.0-windows\View\Home.g.cs
+C:\Users\Admin\Downloads\App\ChatBox\obj\Debug\net7.0-windows\View\User.g.cs
+C:\Users\Admin\Downloads\App\ChatBox\obj\Debug\net7.0-windows\App.g.cs
+C:\Users\Admin\Downloads\App\ChatBox\obj\Debug\net7.0-windows\ChatBox_Content.g.cs
+C:\Users\Admin\Downloads\App\ChatBox\obj\Debug\net7.0-windows\GeneratedInternalTypeHelper.g.cs
+C:\Users\Admin\Downloads\App\ChatBox\obj\Debug\net7.0-windows\ChatBox_MarkupCompile.cache
+C:\Users\Admin\Downloads\App\ChatBox\obj\Debug\net7.0-windows\ChatBox_MarkupCompile.lref
+C:\Users\Admin\Downloads\App\ChatBox\obj\Debug\net7.0-windows\App.baml
+C:\Users\Admin\Downloads\App\ChatBox\obj\Debug\net7.0-windows\MainWindow.baml
+C:\Users\Admin\Downloads\App\ChatBox\obj\Debug\net7.0-windows\SignUp.baml
+C:\Users\Admin\Downloads\App\ChatBox\obj\Debug\net7.0-windows\Ultilities\DataTemplate.baml
+C:\Users\Admin\Downloads\App\ChatBox\obj\Debug\net7.0-windows\View\Calendar.baml
+C:\Users\Admin\Downloads\App\ChatBox\obj\Debug\net7.0-windows\View\Components\Input.baml
+C:\Users\Admin\Downloads\App\ChatBox\obj\Debug\net7.0-windows\View\Components\Output.baml
+C:\Users\Admin\Downloads\App\ChatBox\obj\Debug\net7.0-windows\View\Home.baml
+C:\Users\Admin\Downloads\App\ChatBox\obj\Debug\net7.0-windows\View\User.baml
+C:\Users\Admin\Downloads\App\ChatBox\obj\Debug\net7.0-windows\ChatBox.g.resources
+C:\Users\Admin\Downloads\App\ChatBox\obj\Debug\net7.0-windows\ChatBox.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Admin\Downloads\App\ChatBox\obj\Debug\net7.0-windows\ChatBox.AssemblyInfoInputs.cache
+C:\Users\Admin\Downloads\App\ChatBox\obj\Debug\net7.0-windows\ChatBox.AssemblyInfo.cs
+C:\Users\Admin\Downloads\App\ChatBox\obj\Debug\net7.0-windows\ChatBox.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Downloads\App\ChatBox\obj\Debug\net7.0-windows\ChatBox.csproj.CopyComplete
+C:\Users\Admin\Downloads\App\ChatBox\obj\Debug\net7.0-windows\ChatBox.dll
+C:\Users\Admin\Downloads\App\ChatBox\obj\Debug\net7.0-windows\refint\ChatBox.dll
+C:\Users\Admin\Downloads\App\ChatBox\obj\Debug\net7.0-windows\ChatBox.pdb
+C:\Users\Admin\Downloads\App\ChatBox\obj\Debug\net7.0-windows\ChatBox.genruntimeconfig.cache
+C:\Users\Admin\Downloads\App\ChatBox\obj\Debug\net7.0-windows\ref\ChatBox.dll
+C:\Users\Admin\Downloads\App\ChatBox\obj\Debug\net7.0-windows\View\GPTChat.g.cs
+C:\Users\Admin\Downloads\App\ChatBox\obj\Debug\net7.0-windows\View\GPTChat.baml
+C:\Users\Admin\Downloads\App\ChatBox\obj\Debug\net7.0-windows\View\GeminiChat.g.cs
+C:\Users\Admin\Downloads\App\ChatBox\obj\Debug\net7.0-windows\View\ImageRecognition.g.cs
+C:\Users\Admin\Downloads\App\ChatBox\obj\Debug\net7.0-windows\View\GeminiChat.baml
+C:\Users\Admin\Downloads\App\ChatBox\obj\Debug\net7.0-windows\View\ImageRecognition.baml
+C:\Users\Admin\Downloads\App\App\ChatBox\bin\Debug\net7.0-windows\ChatBox.exe
+C:\Users\Admin\Downloads\App\App\ChatBox\bin\Debug\net7.0-windows\Images\icons8-mic-100.png
+C:\Users\Admin\Downloads\App\App\ChatBox\bin\Debug\net7.0-windows\Images\Image.png
+C:\Users\Admin\Downloads\App\App\ChatBox\bin\Debug\net7.0-windows\Images\logout.png
+C:\Users\Admin\Downloads\App\App\ChatBox\bin\Debug\net7.0-windows\Images\openai.jpg
+C:\Users\Admin\Downloads\App\App\ChatBox\bin\Debug\net7.0-windows\Images\shutdown_def.png
+C:\Users\Admin\Downloads\App\App\ChatBox\bin\Debug\net7.0-windows\Images\shutdown_mo.png
+C:\Users\Admin\Downloads\App\App\ChatBox\bin\Debug\net7.0-windows\Images\img_customer.png
+C:\Users\Admin\Downloads\App\App\ChatBox\bin\Debug\net7.0-windows\ChatBox.deps.json
+C:\Users\Admin\Downloads\App\App\ChatBox\bin\Debug\net7.0-windows\ChatBox.runtimeconfig.json
+C:\Users\Admin\Downloads\App\App\ChatBox\bin\Debug\net7.0-windows\ChatBox.dll
+C:\Users\Admin\Downloads\App\App\ChatBox\bin\Debug\net7.0-windows\ChatBox.pdb
+C:\Users\Admin\Downloads\App\App\ChatBox\bin\Debug\net7.0-windows\AWSSDK.Core.dll
+C:\Users\Admin\Downloads\App\App\ChatBox\bin\Debug\net7.0-windows\AWSSDK.SecurityToken.dll
+C:\Users\Admin\Downloads\App\App\ChatBox\bin\Debug\net7.0-windows\CommunityToolkit.Mvvm.dll
+C:\Users\Admin\Downloads\App\App\ChatBox\bin\Debug\net7.0-windows\DnsClient.dll
+C:\Users\Admin\Downloads\App\App\ChatBox\bin\Debug\net7.0-windows\Json.Net.dll
+C:\Users\Admin\Downloads\App\App\ChatBox\bin\Debug\net7.0-windows\MahApps.Metro.IconPacks.Core.dll
+C:\Users\Admin\Downloads\App\App\ChatBox\bin\Debug\net7.0-windows\MahApps.Metro.IconPacks.Material.dll
+C:\Users\Admin\Downloads\App\App\ChatBox\bin\Debug\net7.0-windows\Microsoft.Azure.CognitiveServices.Vision.ComputerVision.dll
+C:\Users\Admin\Downloads\App\App\ChatBox\bin\Debug\net7.0-windows\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\Admin\Downloads\App\App\ChatBox\bin\Debug\net7.0-windows\Microsoft.Rest.ClientRuntime.dll
+C:\Users\Admin\Downloads\App\App\ChatBox\bin\Debug\net7.0-windows\Microsoft.Rest.ClientRuntime.Azure.dll
+C:\Users\Admin\Downloads\App\App\ChatBox\bin\Debug\net7.0-windows\MongoDB.Bson.dll
+C:\Users\Admin\Downloads\App\App\ChatBox\bin\Debug\net7.0-windows\MongoDB.Driver.dll
+C:\Users\Admin\Downloads\App\App\ChatBox\bin\Debug\net7.0-windows\MongoDB.Driver.Core.dll
+C:\Users\Admin\Downloads\App\App\ChatBox\bin\Debug\net7.0-windows\MongoDB.Libmongocrypt.dll
+C:\Users\Admin\Downloads\App\App\ChatBox\bin\Debug\net7.0-windows\NAudio.dll
+C:\Users\Admin\Downloads\App\App\ChatBox\bin\Debug\net7.0-windows\NAudio.Asio.dll
+C:\Users\Admin\Downloads\App\App\ChatBox\bin\Debug\net7.0-windows\NAudio.Core.dll
+C:\Users\Admin\Downloads\App\App\ChatBox\bin\Debug\net7.0-windows\NAudio.Midi.dll
+C:\Users\Admin\Downloads\App\App\ChatBox\bin\Debug\net7.0-windows\NAudio.Wasapi.dll
+C:\Users\Admin\Downloads\App\App\ChatBox\bin\Debug\net7.0-windows\NAudio.WinForms.dll
+C:\Users\Admin\Downloads\App\App\ChatBox\bin\Debug\net7.0-windows\NAudio.WinMM.dll
+C:\Users\Admin\Downloads\App\App\ChatBox\bin\Debug\net7.0-windows\Newtonsoft.Json.dll
+C:\Users\Admin\Downloads\App\App\ChatBox\bin\Debug\net7.0-windows\SharpCompress.dll
+C:\Users\Admin\Downloads\App\App\ChatBox\bin\Debug\net7.0-windows\Snappier.dll
+C:\Users\Admin\Downloads\App\App\ChatBox\bin\Debug\net7.0-windows\ZstdSharp.dll
+C:\Users\Admin\Downloads\App\App\ChatBox\bin\Debug\net7.0-windows\runtimes\linux\native\libmongocrypt.so
+C:\Users\Admin\Downloads\App\App\ChatBox\bin\Debug\net7.0-windows\runtimes\osx\native\libmongocrypt.dylib
+C:\Users\Admin\Downloads\App\App\ChatBox\bin\Debug\net7.0-windows\runtimes\win\native\mongocrypt.dll
+C:\Users\Admin\Downloads\App\App\ChatBox\obj\Debug\net7.0-windows\ChatBox.csproj.AssemblyReference.cache
+C:\Users\Admin\Downloads\App\App\ChatBox\obj\Debug\net7.0-windows\Login.baml
+C:\Users\Admin\Downloads\App\App\ChatBox\obj\Debug\net7.0-windows\Styles\Button.baml
+C:\Users\Admin\Downloads\App\App\ChatBox\obj\Debug\net7.0-windows\Styles\Image.baml
+C:\Users\Admin\Downloads\App\App\ChatBox\obj\Debug\net7.0-windows\Styles\Page.baml
+C:\Users\Admin\Downloads\App\App\ChatBox\obj\Debug\net7.0-windows\Styles\Text.baml
+C:\Users\Admin\Downloads\App\App\ChatBox\obj\Debug\net7.0-windows\Login.g.cs
+C:\Users\Admin\Downloads\App\App\ChatBox\obj\Debug\net7.0-windows\MainWindow.g.cs
+C:\Users\Admin\Downloads\App\App\ChatBox\obj\Debug\net7.0-windows\SignUp.g.cs
+C:\Users\Admin\Downloads\App\App\ChatBox\obj\Debug\net7.0-windows\View\Calendar.g.cs
+C:\Users\Admin\Downloads\App\App\ChatBox\obj\Debug\net7.0-windows\View\Components\Input.g.cs
+C:\Users\Admin\Downloads\App\App\ChatBox\obj\Debug\net7.0-windows\View\Components\Output.g.cs
+C:\Users\Admin\Downloads\App\App\ChatBox\obj\Debug\net7.0-windows\View\GeminiChat.g.cs
+C:\Users\Admin\Downloads\App\App\ChatBox\obj\Debug\net7.0-windows\View\GPTChat.g.cs
+C:\Users\Admin\Downloads\App\App\ChatBox\obj\Debug\net7.0-windows\View\Home.g.cs
+C:\Users\Admin\Downloads\App\App\ChatBox\obj\Debug\net7.0-windows\View\ImageRecognition.g.cs
+C:\Users\Admin\Downloads\App\App\ChatBox\obj\Debug\net7.0-windows\View\User.g.cs
+C:\Users\Admin\Downloads\App\App\ChatBox\obj\Debug\net7.0-windows\App.g.cs
+C:\Users\Admin\Downloads\App\App\ChatBox\obj\Debug\net7.0-windows\ChatBox_Content.g.cs
+C:\Users\Admin\Downloads\App\App\ChatBox\obj\Debug\net7.0-windows\GeneratedInternalTypeHelper.g.cs
+C:\Users\Admin\Downloads\App\App\ChatBox\obj\Debug\net7.0-windows\ChatBox_MarkupCompile.cache
+C:\Users\Admin\Downloads\App\App\ChatBox\obj\Debug\net7.0-windows\ChatBox_MarkupCompile.lref
+C:\Users\Admin\Downloads\App\App\ChatBox\obj\Debug\net7.0-windows\App.baml
+C:\Users\Admin\Downloads\App\App\ChatBox\obj\Debug\net7.0-windows\MainWindow.baml
+C:\Users\Admin\Downloads\App\App\ChatBox\obj\Debug\net7.0-windows\SignUp.baml
+C:\Users\Admin\Downloads\App\App\ChatBox\obj\Debug\net7.0-windows\Ultilities\DataTemplate.baml
+C:\Users\Admin\Downloads\App\App\ChatBox\obj\Debug\net7.0-windows\View\Calendar.baml
+C:\Users\Admin\Downloads\App\App\ChatBox\obj\Debug\net7.0-windows\View\Components\Input.baml
+C:\Users\Admin\Downloads\App\App\ChatBox\obj\Debug\net7.0-windows\View\Components\Output.baml
+C:\Users\Admin\Downloads\App\App\ChatBox\obj\Debug\net7.0-windows\View\GeminiChat.baml
+C:\Users\Admin\Downloads\App\App\ChatBox\obj\Debug\net7.0-windows\View\GPTChat.baml
+C:\Users\Admin\Downloads\App\App\ChatBox\obj\Debug\net7.0-windows\View\Home.baml
+C:\Users\Admin\Downloads\App\App\ChatBox\obj\Debug\net7.0-windows\View\ImageRecognition.baml
+C:\Users\Admin\Downloads\App\App\ChatBox\obj\Debug\net7.0-windows\View\User.baml
+C:\Users\Admin\Downloads\App\App\ChatBox\obj\Debug\net7.0-windows\ChatBox.g.resources
+C:\Users\Admin\Downloads\App\App\ChatBox\obj\Debug\net7.0-windows\ChatBox.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Admin\Downloads\App\App\ChatBox\obj\Debug\net7.0-windows\ChatBox.AssemblyInfoInputs.cache
+C:\Users\Admin\Downloads\App\App\ChatBox\obj\Debug\net7.0-windows\ChatBox.AssemblyInfo.cs
+C:\Users\Admin\Downloads\App\App\ChatBox\obj\Debug\net7.0-windows\ChatBox.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Downloads\App\App\ChatBox\obj\Debug\net7.0-windows\ChatBox.csproj.CopyComplete
+C:\Users\Admin\Downloads\App\App\ChatBox\obj\Debug\net7.0-windows\ChatBox.dll
+C:\Users\Admin\Downloads\App\App\ChatBox\obj\Debug\net7.0-windows\refint\ChatBox.dll
+C:\Users\Admin\Downloads\App\App\ChatBox\obj\Debug\net7.0-windows\ChatBox.pdb
+C:\Users\Admin\Downloads\App\App\ChatBox\obj\Debug\net7.0-windows\ChatBox.genruntimeconfig.cache
+C:\Users\Admin\Downloads\App\App\ChatBox\obj\Debug\net7.0-windows\ref\ChatBox.dll

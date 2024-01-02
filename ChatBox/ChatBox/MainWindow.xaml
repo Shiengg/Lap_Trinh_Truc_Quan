@@ -49,12 +49,16 @@
             <!-- // Navigation Panel // -->
             <Grid HorizontalAlignment="Right"
                   Width="220">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="509*"/>
+                    <RowDefinition Height="211*"/>
+                </Grid.RowDefinitions>
 
                 <Border Background="#FFB9A1FA" 
-                        CornerRadius="0 20 20 0"/>
+                        CornerRadius="0 20 20 0" Grid.RowSpan="2"/>
 
                 <StackPanel Height="500"
-                            Width="220" >
+                            Width="220" Margin="0,110,0,110" Grid.RowSpan="2" >
 
                     <!-- Home -->
                     <Menu:Btn Style="{StaticResource BtnStyle}"
@@ -79,26 +83,27 @@
                         </Grid>
                     </Menu:Btn>
 
-                    <!-- Page 1-->
+                    <!-- Calendar -->
                     <Menu:Btn Style="{StaticResource BtnStyle}"
-                              Command="{Binding Page1Command}">
+                              Command="{Binding CalendarCommand}">
                         <Grid>
                             <Image Source="Images/calendar2.jpg" Style="{StaticResource Image_Style}"/>
                             <TextBlock Text="Calendar" Style="{StaticResource Text_Style}"/>
                         </Grid>
                     </Menu:Btn>
 
-                    <!-- Page 2-->
+                    <!-- Gemini Chat-->
                     <Menu:Btn Style="{StaticResource BtnStyle}"
-                              Command="{Binding Page2Command}">
+                              Command="{Binding GeminiChatCommand}">
                         <Grid>
                             <Image Source="Images/chat.png" Style="{StaticResource Image_Style}"/>
                             <TextBlock Text="Gemini Chat" Style="{StaticResource Text_Style}"/>
                         </Grid>
                     </Menu:Btn>
-
+    
+                    <!-- GPT Chat -->
                     <Menu:Btn Style="{StaticResource BtnStyle}"
-                              Command="{Binding DashboardCommand}">
+                              Command="{Binding GPTChatCommand}">
                         <Grid>
                             <Image Source="Images/chat.png" Style="{StaticResource Image_Style}"/>
                             <TextBlock Text="GPT Chat" Style="{StaticResource Text_Style}"/>
@@ -106,23 +111,24 @@
 
                     </Menu:Btn>
 
-                    <!-- Page 3-->
+                    <!-- Image Recognition -->
                     <Menu:Btn Style="{StaticResource BtnStyle}"
-                              Command="{Binding Page3Command}">
+                              Command="{Binding ImageRecognitionCommand}">
                         <Grid>
                             <Image Source="Images/Image.png" Style="{StaticResource Image_Style}"/>
                             <TextBlock Text="Recognition" Style="{StaticResource Text_Style}"/>
                         </Grid>
                     </Menu:Btn>
 
+
                 </StackPanel>
 
-                <Button x:Name="LogOut" Background="Transparent" Height="50" Margin="0,624,0,46" BorderThickness="0" Click="LogOut_Click">
+                <Menu:Btn Style="{StaticResource BtnStyle}" Margin="0,102,0,0" VerticalAlignment="Top" Checked="Btn_Checked" Grid.Row="1">
                     <Grid>
                         <Image Source="Images/logout.png" Style="{StaticResource Image_Style}"/>
                         <TextBlock Text="Log Out" Style="{StaticResource Text_Style}"/>
                     </Grid>
-                </Button>
+                </Menu:Btn>
 
             </Grid>
 
