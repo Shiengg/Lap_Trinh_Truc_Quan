@@ -8,6 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
+[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("images/chatbox-logo.png")]
 [assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("images/icons8-mic-100.png")]
 [assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("images/image.png")]
 [assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("images/logout.png")]

@@ -741,3 +741,5 @@ D:\Github\Lap_Trinh_Truc_Quan\ChatBox\ChatBox\obj\Debug\net7.0-windows\View\Imag
 D:\Github\Lap_Trinh_Truc_Quan\ChatBox\ChatBox\obj\Debug\net7.0-windows\View\GeminiChat.baml
 D:\Github\Lap_Trinh_Truc_Quan\ChatBox\ChatBox\obj\Debug\net7.0-windows\View\GPTChat.baml
 D:\Github\Lap_Trinh_Truc_Quan\ChatBox\ChatBox\obj\Debug\net7.0-windows\View\ImageRecognition.baml
+F:\Git\Lap_Trinh_Truc_Quan\ChatBox\ChatBox\bin\Debug\net7.0-windows\Images\return.png
+F:\Git\Lap_Trinh_Truc_Quan\ChatBox\ChatBox\bin\Debug\net7.0-windows\Images\chatbox-logo.png
